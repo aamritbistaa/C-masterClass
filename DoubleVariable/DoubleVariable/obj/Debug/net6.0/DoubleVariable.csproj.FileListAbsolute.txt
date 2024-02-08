@@ -1,0 +1,14 @@
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\bin\Debug\net6.0\DoubleVariable.exe
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\bin\Debug\net6.0\DoubleVariable.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\bin\Debug\net6.0\DoubleVariable.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\bin\Debug\net6.0\DoubleVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\bin\Debug\net6.0\DoubleVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\refint\DoubleVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\DoubleVariable.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\DoubleVariable\DoubleVariable\obj\Debug\net6.0\ref\DoubleVariable.dll

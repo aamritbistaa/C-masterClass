@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecimalVariable", "DecimalVariable\DecimalVariable.csproj", "{A4F0488E-C836-4532-BB53-B845B4F658A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4F0488E-C836-4532-BB53-B845B4F658A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F0488E-C836-4532-BB53-B845B4F658A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F0488E-C836-4532-BB53-B845B4F658A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F0488E-C836-4532-BB53-B845B4F658A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06030D4A-6355-459F-8266-90B739696B08}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\bin\Debug\net6.0\BoolVariables.exe
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\bin\Debug\net6.0\BoolVariables.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\bin\Debug\net6.0\BoolVariables.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\bin\Debug\net6.0\BoolVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\bin\Debug\net6.0\BoolVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\refint\BoolVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\BoolVariables.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\BoolVariables\BoolVariables\obj\Debug\net6.0\ref\BoolVariables.dll

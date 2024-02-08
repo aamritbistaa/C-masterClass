@@ -1,0 +1,14 @@
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\bin\Debug\net6.0\DecimalVariable.exe
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\bin\Debug\net6.0\DecimalVariable.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\bin\Debug\net6.0\DecimalVariable.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\bin\Debug\net6.0\DecimalVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\bin\Debug\net6.0\DecimalVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\refint\DecimalVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\DecimalVariable.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\DecimalVariable\DecimalVariable\obj\Debug\net6.0\ref\DecimalVariable.dll

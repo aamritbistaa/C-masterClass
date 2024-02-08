@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BoolVariables/1.0.0": {
+        "runtime": {
+          "BoolVariables.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BoolVariables/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

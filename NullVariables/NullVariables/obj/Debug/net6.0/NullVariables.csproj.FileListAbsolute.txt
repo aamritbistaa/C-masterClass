@@ -1,0 +1,14 @@
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\bin\Debug\net6.0\NullVariables.exe
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\bin\Debug\net6.0\NullVariables.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\bin\Debug\net6.0\NullVariables.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\bin\Debug\net6.0\NullVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\bin\Debug\net6.0\NullVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\refint\NullVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\NullVariables.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\NullVariables\NullVariables\obj\Debug\net6.0\ref\NullVariables.dll

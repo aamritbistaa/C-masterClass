@@ -1,0 +1,14 @@
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\bin\Debug\net6.0\IntegerVariables.exe
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\bin\Debug\net6.0\IntegerVariables.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\bin\Debug\net6.0\IntegerVariables.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\bin\Debug\net6.0\IntegerVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\bin\Debug\net6.0\IntegerVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\refint\IntegerVariables.dll
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.pdb
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\IntegerVariables.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\IntegerVariables\IntegerVariables\obj\Debug\net6.0\ref\IntegerVariables.dll
