@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\bin\Debug\net6.0\DateTimeVaribale.exe
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\bin\Debug\net6.0\DateTimeVaribale.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\bin\Debug\net6.0\DateTimeVaribale.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\bin\Debug\net6.0\DateTimeVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\bin\Debug\net6.0\DateTimeVaribale.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\refint\DateTimeVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\DateTimeVaribale.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateTimeVaribale\DateTimeVaribale\obj\Debug\net6.0\ref\DateTimeVaribale.dll

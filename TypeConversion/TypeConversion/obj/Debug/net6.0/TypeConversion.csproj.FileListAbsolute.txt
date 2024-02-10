@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\bin\Debug\net6.0\TypeConversion.exe
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\bin\Debug\net6.0\TypeConversion.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\bin\Debug\net6.0\TypeConversion.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\bin\Debug\net6.0\TypeConversion.dll
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\bin\Debug\net6.0\TypeConversion.pdb
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.dll
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\refint\TypeConversion.dll
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.pdb
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\TypeConversion.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\TypeConversion\TypeConversion\obj\Debug\net6.0\ref\TypeConversion.dll

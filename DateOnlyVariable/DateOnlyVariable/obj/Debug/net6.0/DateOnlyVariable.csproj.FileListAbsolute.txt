@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\bin\Debug\net6.0\DateOnlyVariable.exe
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\bin\Debug\net6.0\DateOnlyVariable.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\bin\Debug\net6.0\DateOnlyVariable.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\bin\Debug\net6.0\DateOnlyVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\bin\Debug\net6.0\DateOnlyVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\refint\DateOnlyVariable.dll
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.pdb
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\DateOnlyVariable.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\DateOnlyVariable\DateOnlyVariable\obj\Debug\net6.0\ref\DateOnlyVariable.dll

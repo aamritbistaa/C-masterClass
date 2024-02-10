@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\bin\Debug\net6.0\TimeOnlyVaribale.exe
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\bin\Debug\net6.0\TimeOnlyVaribale.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\bin\Debug\net6.0\TimeOnlyVaribale.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\bin\Debug\net6.0\TimeOnlyVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\bin\Debug\net6.0\TimeOnlyVaribale.pdb
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\refint\TimeOnlyVaribale.dll
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.pdb
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\TimeOnlyVaribale.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\TimeOnlyVaribale\TimeOnlyVaribale\obj\Debug\net6.0\ref\TimeOnlyVaribale.dll
