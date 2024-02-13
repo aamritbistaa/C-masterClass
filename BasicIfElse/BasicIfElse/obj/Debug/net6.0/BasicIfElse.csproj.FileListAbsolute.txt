@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\bin\Debug\net6.0\BasicIfElse.exe
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\bin\Debug\net6.0\BasicIfElse.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\bin\Debug\net6.0\BasicIfElse.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\bin\Debug\net6.0\BasicIfElse.dll
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\bin\Debug\net6.0\BasicIfElse.pdb
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.dll
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\refint\BasicIfElse.dll
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.pdb
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\BasicIfElse.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\BasicIfElse\BasicIfElse\obj\Debug\net6.0\ref\BasicIfElse.dll

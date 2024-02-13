@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\bin\Debug\net6.0\AdvancedIf.exe
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\bin\Debug\net6.0\AdvancedIf.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\bin\Debug\net6.0\AdvancedIf.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\bin\Debug\net6.0\AdvancedIf.dll
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\bin\Debug\net6.0\AdvancedIf.pdb
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.dll
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\refint\AdvancedIf.dll
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.pdb
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\AdvancedIf.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\AdvancedIf\AdvancedIf\obj\Debug\net6.0\ref\AdvancedIf.dll

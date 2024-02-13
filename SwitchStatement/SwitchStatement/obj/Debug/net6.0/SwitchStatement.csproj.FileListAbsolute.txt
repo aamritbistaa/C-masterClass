@@ -1,0 +1,15 @@
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\bin\Debug\net6.0\SwitchStatement.exe
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\bin\Debug\net6.0\SwitchStatement.deps.json
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\bin\Debug\net6.0\SwitchStatement.runtimeconfig.json
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\bin\Debug\net6.0\SwitchStatement.dll
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\bin\Debug\net6.0\SwitchStatement.pdb
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.AssemblyInfoInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.AssemblyInfo.cs
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.csproj.CoreCompileInputs.cache
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.sourcelink.json
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.dll
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\refint\SwitchStatement.dll
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.pdb
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\SwitchStatement.genruntimeconfig.cache
+C:\Users\amritbista\source\repos\C#masterClass\SwitchStatement\SwitchStatement\obj\Debug\net6.0\ref\SwitchStatement.dll
