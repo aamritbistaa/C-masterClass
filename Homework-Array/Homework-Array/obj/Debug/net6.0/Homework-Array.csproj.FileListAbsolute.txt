@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\bin\Debug\net6.0\Homework-Array.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\bin\Debug\net6.0\Homework-Array.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\bin\Debug\net6.0\Homework-Array.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\bin\Debug\net6.0\Homework-Array.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\bin\Debug\net6.0\Homework-Array.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\refint\Homework-Array.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\Homework-Array.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Array\Homework-Array\obj\Debug\net6.0\ref\Homework-Array.dll

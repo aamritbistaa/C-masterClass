@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\bin\Debug\net6.0\Homework-Do-While.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\bin\Debug\net6.0\Homework-Do-While.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\bin\Debug\net6.0\Homework-Do-While.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\bin\Debug\net6.0\Homework-Do-While.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\bin\Debug\net6.0\Homework-Do-While.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\refint\Homework-Do-While.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\Homework-Do-While.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Do-While\Homework-Do-While\obj\Debug\net6.0\ref\Homework-Do-While.dll

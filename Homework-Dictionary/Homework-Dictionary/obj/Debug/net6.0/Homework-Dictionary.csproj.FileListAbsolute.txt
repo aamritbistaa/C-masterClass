@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\bin\Debug\net6.0\Homework-Dictionary.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\bin\Debug\net6.0\Homework-Dictionary.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\bin\Debug\net6.0\Homework-Dictionary.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\bin\Debug\net6.0\Homework-Dictionary.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\bin\Debug\net6.0\Homework-Dictionary.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\refint\Homework-Dictionary.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\Homework-Dictionary.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-Dictionary\Homework-Dictionary\obj\Debug\net6.0\ref\Homework-Dictionary.dll

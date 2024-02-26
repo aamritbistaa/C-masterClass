@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\bin\Debug\net6.0\Homework-List.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\bin\Debug\net6.0\Homework-List.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\bin\Debug\net6.0\Homework-List.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\bin\Debug\net6.0\Homework-List.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\bin\Debug\net6.0\Homework-List.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\refint\Homework-List.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\Homework-List.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework-List\Homework-List\obj\Debug\net6.0\ref\Homework-List.dll
