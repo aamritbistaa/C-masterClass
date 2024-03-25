@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\bin\Debug\net6.0\Homework - ForEach Loop.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\bin\Debug\net6.0\Homework - ForEach Loop.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\bin\Debug\net6.0\Homework - ForEach Loop.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\bin\Debug\net6.0\Homework - ForEach Loop.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\bin\Debug\net6.0\Homework - ForEach Loop.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\refint\Homework - ForEach Loop.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\Homework - ForEach Loop.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework - ForEach Loop\Homework - ForEach Loop\obj\Debug\net6.0\ref\Homework - ForEach Loop.dll

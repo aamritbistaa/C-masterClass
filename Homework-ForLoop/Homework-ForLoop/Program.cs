@@ -16,7 +16,14 @@ List<String> nameArray = inputText.Split(',').ToList();
 
 Console.WriteLine($"input Text is {inputText} ");
 
-foreach (string name in nameArray)
+for(int i = 0; i < nameArray.Count; i++)
 {
-    Console.WriteLine($"Hello {name.Trim()}");
+      Console.WriteLine($"Hello {nameArray[i].Trim()}");
+
 }
+
+
+//foreach (string name in nameArray)
+//{
+//    Console.WriteLine($"Hello {name.Trim()}");
+//}
