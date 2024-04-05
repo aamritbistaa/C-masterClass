@@ -1,0 +1,7 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\bin\Debug\Calculator4.exe.config
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\bin\Debug\Calculator4.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\bin\Debug\Calculator4.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\obj\Debug\Calculator4.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Calculator\Calculator4\obj\Debug\Calculator4.pdb

@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\bin\Debug\net6.0\Method.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\bin\Debug\net6.0\Method.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\bin\Debug\net6.0\Method.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\bin\Debug\net6.0\Method.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\bin\Debug\net6.0\Method.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\refint\Method.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\Method.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Method\Method\obj\Debug\net6.0\ref\Method.dll
