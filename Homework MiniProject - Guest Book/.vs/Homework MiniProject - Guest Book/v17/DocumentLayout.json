@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework MiniProject - Guest Book\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A62D8B2-14B9-44AC-BCED-1F9F162643E1}|Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\homework miniproject - guest book\\homework miniproject - guest book\\guestlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A62D8B2-14B9-44AC-BCED-1F9F162643E1}|Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book.csproj|solutionrelative:homework miniproject - guest book\\guestlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A62D8B2-14B9-44AC-BCED-1F9F162643E1}|Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\homework miniproject - guest book\\homework miniproject - guest book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A62D8B2-14B9-44AC-BCED-1F9F162643E1}|Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book.csproj|solutionrelative:homework miniproject - guest book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GuestLogic.cs",
+              "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book\\GuestLogic.cs",
+              "RelativeDocumentMoniker": "Homework MiniProject - Guest Book\\GuestLogic.cs",
+              "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book\\GuestLogic.cs*",
+              "RelativeToolTip": "Homework MiniProject - Guest Book\\GuestLogic.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:54:07.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book\\Program.cs",
+              "RelativeDocumentMoniker": "Homework MiniProject - Guest Book\\Program.cs",
+              "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework MiniProject - Guest Book\\Homework MiniProject - Guest Book\\Program.cs",
+              "RelativeToolTip": "Homework MiniProject - Guest Book\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T06:41:53.855Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

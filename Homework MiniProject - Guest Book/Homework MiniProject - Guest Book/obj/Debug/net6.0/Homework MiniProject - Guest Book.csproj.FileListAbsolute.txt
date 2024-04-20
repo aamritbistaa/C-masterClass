@@ -1,0 +1,15 @@
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\bin\Debug\net6.0\Homework MiniProject - Guest Book.exe
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\bin\Debug\net6.0\Homework MiniProject - Guest Book.deps.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\bin\Debug\net6.0\Homework MiniProject - Guest Book.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\bin\Debug\net6.0\Homework MiniProject - Guest Book.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\bin\Debug\net6.0\Homework MiniProject - Guest Book.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.sourcelink.json
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\refint\Homework MiniProject - Guest Book.dll
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.pdb
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\Homework MiniProject - Guest Book.genruntimeconfig.cache
+C:\Users\aamritbistaa\source\repos\C-masterClass\Homework MiniProject - Guest Book\Homework MiniProject - Guest Book\obj\Debug\net6.0\ref\Homework MiniProject - Guest Book.dll

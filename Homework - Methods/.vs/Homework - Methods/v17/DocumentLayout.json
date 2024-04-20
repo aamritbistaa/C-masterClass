@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6DB68E90-F04A-4907-8CEB-70229FC41935}|Homework - Methods\\Homework - Methods.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\homework - methods\\homework - methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DB68E90-F04A-4907-8CEB-70229FC41935}|Homework - Methods\\Homework - Methods.csproj|solutionrelative:homework - methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DB68E90-F04A-4907-8CEB-70229FC41935}|Homework - Methods\\Homework - Methods.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\homework - methods\\homework - methods\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DB68E90-F04A-4907-8CEB-70229FC41935}|Homework - Methods\\Homework - Methods.csproj|solutionrelative:homework - methods\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework - Methods\\Homework - Methods\\User.cs",
+              "RelativeDocumentMoniker": "Homework - Methods\\User.cs",
+              "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework - Methods\\Homework - Methods\\User.cs",
+              "RelativeToolTip": "Homework - Methods\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T04:16:53.294Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Homework - Methods\\Program.cs",
               "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Homework - Methods\\Homework - Methods\\Program.cs",
               "RelativeToolTip": "Homework - Methods\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T18:32:27.285Z",
               "EditorCaption": ""
