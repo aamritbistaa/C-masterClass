@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Instantiated Class\obj\Debug\Homework - Instantiated Class.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Instantiated Class\obj\Debug\Homework - Instantiated Class.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Instantiated Class\bin\Debug\Homework - Instantiated Class.exe.config
+D:\source\repos\C-masterClass\Homework - Instantiated Class\bin\Debug\Homework - Instantiated Class.exe
+D:\source\repos\C-masterClass\Homework - Instantiated Class\bin\Debug\Homework - Instantiated Class.pdb
+D:\source\repos\C-masterClass\Homework - Instantiated Class\obj\Debug\Homework - Instantiated Class.exe
+D:\source\repos\C-masterClass\Homework - Instantiated Class\obj\Debug\Homework - Instantiated Class.pdb

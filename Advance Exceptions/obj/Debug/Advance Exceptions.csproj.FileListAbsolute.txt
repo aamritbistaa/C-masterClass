@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Advance Exceptions\bin\Debug\Advance Exceptions.exe.config
+D:\source\repos\C-masterClass\Advance Exceptions\bin\Debug\Advance Exceptions.exe
+D:\source\repos\C-masterClass\Advance Exceptions\bin\Debug\Advance Exceptions.pdb
+D:\source\repos\C-masterClass\Advance Exceptions\obj\Debug\Advance Exceptions.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Advance Exceptions\obj\Debug\Advance Exceptions.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Advance Exceptions\obj\Debug\Advance Exceptions.exe
+D:\source\repos\C-masterClass\Advance Exceptions\obj\Debug\Advance Exceptions.pdb

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Homework - ForEach Loop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e15c88bc013c9a265befaae81dea81177beb20f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c450ba2231bd84e3d21e91012f67aa536b4f548")]
 [assembly: System.Reflection.AssemblyProductAttribute("Homework - ForEach Loop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Homework - ForEach Loop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

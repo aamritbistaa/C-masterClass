@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Instantiated Class\obj\Debug\Instantiated Class.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Instantiated Class\obj\Debug\Instantiated Class.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Instantiated Class\bin\Debug\Instantiated Class.exe.config
+D:\source\repos\C-masterClass\Instantiated Class\bin\Debug\Instantiated Class.exe
+D:\source\repos\C-masterClass\Instantiated Class\bin\Debug\Instantiated Class.pdb
+D:\source\repos\C-masterClass\Instantiated Class\obj\Debug\Instantiated Class.exe
+D:\source\repos\C-masterClass\Instantiated Class\obj\Debug\Instantiated Class.pdb

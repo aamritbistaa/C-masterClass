@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Handling Exception\bin\Debug\Handling Exception.exe.config
+D:\source\repos\C-masterClass\Handling Exception\bin\Debug\Handling Exception.exe
+D:\source\repos\C-masterClass\Handling Exception\bin\Debug\Handling Exception.pdb
+D:\source\repos\C-masterClass\Handling Exception\obj\Debug\Handling Exception.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Handling Exception\obj\Debug\Handling Exception.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Handling Exception\obj\Debug\Handling Exception.exe
+D:\source\repos\C-masterClass\Handling Exception\obj\Debug\Handling Exception.pdb

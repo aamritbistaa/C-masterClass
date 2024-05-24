@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|d:\\source\\repos\\c-masterclass\\instantiated class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|d:\\source\\repos\\c-masterclass\\instantiated class\\processperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|solutionrelative:processperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|d:\\source\\repos\\c-masterclass\\instantiated class\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{650D570C-EA90-4EE8-B204-1BBCFB360DA3}|Instantiated Class.csproj|solutionrelative:personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessPerson.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\ProcessPerson.cs",
+              "RelativeDocumentMoniker": "ProcessPerson.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\ProcessPerson.cs",
+              "RelativeToolTip": "ProcessPerson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T04:19:02.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAwFYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:14:21.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonModel.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\PersonModel.cs",
+              "RelativeDocumentMoniker": "PersonModel.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Instantiated Class\\PersonModel.cs",
+              "RelativeToolTip": "PersonModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:16:21.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

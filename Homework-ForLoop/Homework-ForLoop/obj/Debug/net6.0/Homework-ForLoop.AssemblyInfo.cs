@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Homework-ForLoop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c002a137324d60296c57fdb155a5af417197c92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c450ba2231bd84e3d21e91012f67aa536b4f548")]
 [assembly: System.Reflection.AssemblyProductAttribute("Homework-ForLoop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Homework-ForLoop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

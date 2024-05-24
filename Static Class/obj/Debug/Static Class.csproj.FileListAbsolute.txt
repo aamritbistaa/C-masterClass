@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Static Class\bin\Debug\Static Class.exe.config
+D:\source\repos\C-masterClass\Static Class\bin\Debug\Static Class.exe
+D:\source\repos\C-masterClass\Static Class\bin\Debug\Static Class.pdb
+D:\source\repos\C-masterClass\Static Class\obj\Debug\Static Class.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Static Class\obj\Debug\Static Class.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Static Class\obj\Debug\Static Class.exe
+D:\source\repos\C-masterClass\Static Class\obj\Debug\Static Class.pdb

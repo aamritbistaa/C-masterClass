@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Advanced BreakPoints\bin\Debug\Advanced BreakPoints.exe.config
+D:\source\repos\C-masterClass\Advanced BreakPoints\bin\Debug\Advanced BreakPoints.exe
+D:\source\repos\C-masterClass\Advanced BreakPoints\bin\Debug\Advanced BreakPoints.pdb
+D:\source\repos\C-masterClass\Advanced BreakPoints\obj\Debug\Advanced BreakPoints.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Advanced BreakPoints\obj\Debug\Advanced BreakPoints.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Advanced BreakPoints\obj\Debug\Advanced BreakPoints.exe
+D:\source\repos\C-masterClass\Advanced BreakPoints\obj\Debug\Advanced BreakPoints.pdb

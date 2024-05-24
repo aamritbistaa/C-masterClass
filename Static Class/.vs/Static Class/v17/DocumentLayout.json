@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Static Class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|d:\\source\\repos\\c-masterclass\\static class\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|d:\\source\\repos\\c-masterclass\\static class\\usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|solutionrelative:usermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|d:\\source\\repos\\c-masterclass\\static class\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|solutionrelative:request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|d:\\source\\repos\\c-masterclass\\static class\\calculatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880E52FD-4512-417D-ABCB-12C101E66CDB}|Static Class.csproj|solutionrelative:calculatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculateData.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Static Class\\CalculateData.cs",
+              "RelativeDocumentMoniker": "CalculateData.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Static Class\\CalculateData.cs",
+              "RelativeToolTip": "CalculateData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:59:38.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Static Class\\Request.cs",
+              "RelativeDocumentMoniker": "Request.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Static Class\\Request.cs",
+              "RelativeToolTip": "Request.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:56:04.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMessage.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Static Class\\UserMessage.cs",
+              "RelativeDocumentMoniker": "UserMessage.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Static Class\\UserMessage.cs",
+              "RelativeToolTip": "UserMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:38:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Static Class\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Static Class\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:36:51.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
