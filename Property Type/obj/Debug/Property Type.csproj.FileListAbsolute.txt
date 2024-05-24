@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Property Type\bin\Debug\Property Type.exe.config
+D:\source\repos\C-masterClass\Property Type\bin\Debug\Property Type.exe
+D:\source\repos\C-masterClass\Property Type\bin\Debug\Property Type.pdb
+D:\source\repos\C-masterClass\Property Type\obj\Debug\Property Type.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Property Type\obj\Debug\Property Type.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Property Type\obj\Debug\Property Type.exe
+D:\source\repos\C-masterClass\Property Type\obj\Debug\Property Type.pdb

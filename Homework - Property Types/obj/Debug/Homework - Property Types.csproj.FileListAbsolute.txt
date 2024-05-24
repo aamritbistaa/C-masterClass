@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Property Types\bin\Debug\Homework - Property Types.exe.config
+D:\source\repos\C-masterClass\Homework - Property Types\bin\Debug\Homework - Property Types.exe
+D:\source\repos\C-masterClass\Homework - Property Types\bin\Debug\Homework - Property Types.pdb
+D:\source\repos\C-masterClass\Homework - Property Types\obj\Debug\Homework - Property Types.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Property Types\obj\Debug\Homework - Property Types.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Property Types\obj\Debug\Homework - Property Types.exe
+D:\source\repos\C-masterClass\Homework - Property Types\obj\Debug\Homework - Property Types.pdb
