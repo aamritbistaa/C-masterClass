@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Class Library\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FEC22E6-E257-44B9-B0D9-14B596ECFC2F}|UI\\UI.csproj|d:\\source\\repos\\c-masterclass\\class library\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FEC22E6-E257-44B9-B0D9-14B596ECFC2F}|UI\\UI.csproj|solutionrelative:ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF5AB-FEA0-4FFC-B954-6DDD8C5C54D9}|TestLibrary\\TestLibrary.csproj|d:\\source\\repos\\c-masterclass\\class library\\testlibrary\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF5AB-FEA0-4FFC-B954-6DDD8C5C54D9}|TestLibrary\\TestLibrary.csproj|solutionrelative:testlibrary\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{976EF5AB-FEA0-4FFC-B954-6DDD8C5C54D9}|TestLibrary\\TestLibrary.csproj|d:\\source\\repos\\c-masterclass\\class library\\testlibrary\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{976EF5AB-FEA0-4FFC-B954-6DDD8C5C54D9}|TestLibrary\\TestLibrary.csproj|solutionrelative:testlibrary\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculation.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Class Library\\TestLibrary\\Calculation.cs",
+              "RelativeDocumentMoniker": "TestLibrary\\Calculation.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Class Library\\TestLibrary\\Calculation.cs",
+              "RelativeToolTip": "TestLibrary\\Calculation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:53:25.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonModel.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Class Library\\TestLibrary\\Models\\PersonModel.cs",
+              "RelativeDocumentMoniker": "TestLibrary\\Models\\PersonModel.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Class Library\\TestLibrary\\Models\\PersonModel.cs",
+              "RelativeToolTip": "TestLibrary\\Models\\PersonModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:51:12.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Class Library\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "UI\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Class Library\\UI\\Program.cs",
+              "RelativeToolTip": "UI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T10:50:05.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

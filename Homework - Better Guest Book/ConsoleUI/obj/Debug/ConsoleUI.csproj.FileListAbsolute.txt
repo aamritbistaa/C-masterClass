@@ -1,0 +1,10 @@
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\bin\Debug\GuestBookClassLibrary.dll
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\bin\Debug\GuestBookClassLibrary.pdb
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\obj\Debug\ConsoleUI.csproj.Up2Date
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\obj\Debug\ConsoleUI.exe
+D:\source\repos\C-masterClass\Homework - Better Guest Book\ConsoleUI\obj\Debug\ConsoleUI.pdb

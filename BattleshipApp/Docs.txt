@@ -1,0 +1,110 @@
+Problem:
+
+To build a small, two-player console game that has its rots in the game Battleship from Mattel. There will be a 25-spot grid (A1-E5). Each player will lace 5 pegs on the board to represent their five ships. Players will then take turns firing on their opponent's ships. The first person to sink all five ships wins.
+
+Walk Through
+-------------
+
+
+General Flow
+----
+1. Two user open up the console
+2. User1 places their ships
+3. User2 places their ships
+4. Ask User1 for a shot
+	Determine hit or miss
+	Determine if thee game is over
+5. Ask User2 for a shot
+	Determine hit or miss
+	Determine if thee game is over
+6. Repeat until someone wins
+7. Identify who the winner is
+
+
+
+Additional Question/Requirement
+----
+1. Is the same console for both player? or two different console working together? -Same Console
+2. Does the other player get one last chance after being sunk? -No
+3. Do we want to capture/ display statistics such as hit/miss ratio? -Just the no of shots to win
+4. Only one ship per spot.
+5. Do we allow a player to shoot the same spot twice? -No
+6. Do we show a visual of the grid? -Yes
+7. Do we store game data? -No
+8. Are we ever going to change the number of player? -Maybe
+9. Will we add a computer player? -Maybe
+
+
+
+Full Requirement
+----
+1. 2-player game
+2. 25 spot grid(A1-E5)
+3. Each player gets 5 ship
+4. Each ship takes one shot before it sinks
+5. Player take turns firing
+6. First person to sink all 5 wins
+7. One console for everyone
+8. SHow a grid with hits and misses
+9. Do not allow user to shoot the same spot twice
+10. Hault the program after 5 ships sunk
+
+
+UserInterface Design
+----
+Welcome message
+Ask User1 for the name
+Ask user1 for their ship placement(5)
+	Ask for placement
+	Determine if it is a valid spot
+	Store
+	Clear Screen
+Ask User2 for the name
+Ask user2 for their ship placement(5)
+	Ask for placement
+	Determine if it is a valid spot
+	Store
+	Clear Screen
+Display grid of where user1 has fired
+Ask User1: Where would you like to fire?
+	Verify a valid spot
+	Check Result
+	Store shot
+	Clear
+Display the score (user1:2ships left, user2:3ships left)
+Repeat with user2
+Loop until someone wins
+Print out winner name and number of shots taken
+Wait for user to say they are done
+Exit
+
+--
+A1 A2 A3 O A5
+B1 B2 B3 O B5
+C1 C2 C3 X C5
+D1 D2 D3 O D5
+E1 E2 E3 O E5
+
+
+Logic Design
+----
+Clear Display
+Method: Ask for name
+Method: Get ship placement
+Method: Determine if valid spot for ship
+Storing ship information: List per User?
+Storing shot information: List per User?
+Method: Create grid for each user
+Method: determine if a shot can be taken and outcome
+Method: display score
+Method: display winner and shot taken
+
+
+Data Design
+----
+PlayerInfo
+	Users Name - string
+	Users 5 ship location - List<GridSpot>
+	Users shot grid - List<GridSpot>
+
+GridSpot(SpotLetter- string, SpotNumber- int, Status-string or enum)

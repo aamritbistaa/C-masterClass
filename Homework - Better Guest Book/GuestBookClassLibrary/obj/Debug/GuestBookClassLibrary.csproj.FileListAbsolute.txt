@@ -1,0 +1,6 @@
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\bin\Debug\GuestBookClassLibrary.dll
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\bin\Debug\GuestBookClassLibrary.pdb
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\obj\Debug\GuestBookClassLibrary.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\obj\Debug\GuestBookClassLibrary.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\obj\Debug\GuestBookClassLibrary.dll
+D:\source\repos\C-masterClass\Homework - Better Guest Book\GuestBookClassLibrary\obj\Debug\GuestBookClassLibrary.pdb

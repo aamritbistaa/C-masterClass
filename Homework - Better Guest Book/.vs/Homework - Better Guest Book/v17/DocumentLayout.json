@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Homework - Better Guest Book\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A799774-753A-4C59-B81A-15A92C313A22}|ConsoleUI\\ConsoleUI.csproj|d:\\source\\repos\\c-masterclass\\homework - better guest book\\consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A799774-753A-4C59-B81A-15A92C313A22}|ConsoleUI\\ConsoleUI.csproj|solutionrelative:consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{142BDB6B-95E6-44F5-9584-FE7419AA11F2}|GuestBookClassLibrary\\GuestBookClassLibrary.csproj|d:\\source\\repos\\c-masterclass\\homework - better guest book\\guestbookclasslibrary\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{142BDB6B-95E6-44F5-9584-FE7419AA11F2}|GuestBookClassLibrary\\GuestBookClassLibrary.csproj|solutionrelative:guestbookclasslibrary\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuestModel.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Homework - Better Guest Book\\GuestBookClassLibrary\\Models\\GuestModel.cs",
+              "RelativeDocumentMoniker": "GuestBookClassLibrary\\Models\\GuestModel.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Homework - Better Guest Book\\GuestBookClassLibrary\\Models\\GuestModel.cs",
+              "RelativeToolTip": "GuestBookClassLibrary\\Models\\GuestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:23:18.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Homework - Better Guest Book\\ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleUI\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Homework - Better Guest Book\\ConsoleUI\\Program.cs",
+              "RelativeToolTip": "ConsoleUI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwC4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:21:05.717Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

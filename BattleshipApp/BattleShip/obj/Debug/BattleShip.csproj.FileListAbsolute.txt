@@ -1,0 +1,10 @@
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\bin\Debug\BattleShip.exe.config
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\bin\Debug\BattleShip.exe
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\bin\Debug\BattleShip.pdb
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\bin\Debug\BattleshipLibrary.dll
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\bin\Debug\BattleshipLibrary.pdb
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\obj\Debug\BattleShip.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\obj\Debug\BattleShip.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\obj\Debug\BattleShip.csproj.Up2Date
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\obj\Debug\BattleShip.exe
+D:\source\repos\C-masterClass\BattleshipApp\BattleShip\obj\Debug\BattleShip.pdb

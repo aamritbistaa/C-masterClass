@@ -1,0 +1,10 @@
+D:\source\repos\C-masterClass\Class Library\UI\bin\Debug\UI.exe.config
+D:\source\repos\C-masterClass\Class Library\UI\bin\Debug\UI.exe
+D:\source\repos\C-masterClass\Class Library\UI\bin\Debug\UI.pdb
+D:\source\repos\C-masterClass\Class Library\UI\bin\Debug\TestLibrary.dll
+D:\source\repos\C-masterClass\Class Library\UI\bin\Debug\TestLibrary.pdb
+D:\source\repos\C-masterClass\Class Library\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Class Library\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Class Library\UI\obj\Debug\UI.csproj.Up2Date
+D:\source\repos\C-masterClass\Class Library\UI\obj\Debug\UI.exe
+D:\source\repos\C-masterClass\Class Library\UI\obj\Debug\UI.pdb
