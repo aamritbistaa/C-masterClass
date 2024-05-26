@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Homework - Interface\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5896D30-04DA-40AB-9629-80D4A41C2D67}|Homework - Interface\\Homework - Interface.csproj|d:\\source\\repos\\c-masterclass\\homework - interface\\homework - interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5896D30-04DA-40AB-9629-80D4A41C2D67}|Homework - Interface\\Homework - Interface.csproj|solutionrelative:homework - interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Homework - Interface\\Homework - Interface\\Program.cs",
+              "RelativeDocumentMoniker": "Homework - Interface\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Homework - Interface\\Homework - Interface\\Program.cs",
+              "RelativeToolTip": "Homework - Interface\\Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwEUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:02:31.123Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

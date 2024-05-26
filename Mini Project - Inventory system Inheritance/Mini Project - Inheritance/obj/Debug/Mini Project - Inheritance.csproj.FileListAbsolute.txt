@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\bin\Debug\Mini Project - Inheritance.exe.config
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\bin\Debug\Mini Project - Inheritance.exe
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\bin\Debug\Mini Project - Inheritance.pdb
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\obj\Debug\Mini Project - Inheritance.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\obj\Debug\Mini Project - Inheritance.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\obj\Debug\Mini Project - Inheritance.exe
+D:\source\repos\C-masterClass\Mini Project - Inheritance\Mini Project - Inheritance\obj\Debug\Mini Project - Inheritance.pdb

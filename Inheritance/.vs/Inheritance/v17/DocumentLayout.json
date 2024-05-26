@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|d:\\source\\repos\\c-masterclass\\inheritance\\inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|d:\\source\\repos\\c-masterclass\\inheritance\\inheritance\\corolla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\corolla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|d:\\source\\repos\\c-masterclass\\inheritance\\inheritance\\navara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D09218-5293-4812-8FC1-F9E7E3CF98FA}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\navara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Corolla.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Corolla.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Corolla.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Corolla.cs",
+              "RelativeToolTip": "Inheritance\\Corolla.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:01:06.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Navara.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Navara.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Navara.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Navara.cs",
+              "RelativeToolTip": "Inheritance\\Navara.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:01:00.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Program.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Inheritance\\Inheritance\\Program.cs",
+              "RelativeToolTip": "Inheritance\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T17:56:28.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

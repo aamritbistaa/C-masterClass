@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\bin\Debug\Homework - Interface.exe.config
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\bin\Debug\Homework - Interface.exe
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\bin\Debug\Homework - Interface.pdb
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\obj\Debug\Homework - Interface.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\obj\Debug\Homework - Interface.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\obj\Debug\Homework - Interface.exe
+D:\source\repos\C-masterClass\Homework - Interface\Homework - Interface\obj\Debug\Homework - Interface.pdb
