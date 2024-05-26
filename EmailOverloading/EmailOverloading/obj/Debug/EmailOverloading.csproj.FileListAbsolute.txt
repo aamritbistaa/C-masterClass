@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\bin\Debug\EmailOverloading.exe.config
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\bin\Debug\EmailOverloading.exe
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\bin\Debug\EmailOverloading.pdb
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\obj\Debug\EmailOverloading.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\obj\Debug\EmailOverloading.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\obj\Debug\EmailOverloading.exe
+D:\source\repos\C-masterClass\EmailOverloading\EmailOverloading\obj\Debug\EmailOverloading.pdb

@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\bin\Debug\Homework - Abstract Class.exe.config
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\bin\Debug\Homework - Abstract Class.exe
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\bin\Debug\Homework - Abstract Class.pdb
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\obj\Debug\Homework - Abstract Class.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\obj\Debug\Homework - Abstract Class.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\obj\Debug\Homework - Abstract Class.exe
+D:\source\repos\C-masterClass\Homework - Abstract Class\Homework - Abstract Class\obj\Debug\Homework - Abstract Class.pdb

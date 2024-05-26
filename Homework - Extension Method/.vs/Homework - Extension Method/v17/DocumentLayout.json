@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Homework - Extension Method\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F632997-5F18-4D4D-9749-6A87889C8170}|Homework - Extension Method\\Homework - Extension Method.csproj|d:\\source\\repos\\c-masterclass\\homework - extension method\\homework - extension method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F632997-5F18-4D4D-9749-6A87889C8170}|Homework - Extension Method\\Homework - Extension Method.csproj|solutionrelative:homework - extension method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Homework - Extension Method\\Homework - Extension Method\\Program.cs",
+              "RelativeDocumentMoniker": "Homework - Extension Method\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Homework - Extension Method\\Homework - Extension Method\\Program.cs",
+              "RelativeToolTip": "Homework - Extension Method\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA4wBIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:30:22.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

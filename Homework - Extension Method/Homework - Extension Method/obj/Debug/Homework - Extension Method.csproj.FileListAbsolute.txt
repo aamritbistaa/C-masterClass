@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\bin\Debug\Homework - Extension Method.exe.config
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\bin\Debug\Homework - Extension Method.exe
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\bin\Debug\Homework - Extension Method.pdb
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\obj\Debug\Homework - Extension Method.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\obj\Debug\Homework - Extension Method.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\obj\Debug\Homework - Extension Method.exe
+D:\source\repos\C-masterClass\Homework - Extension Method\Homework - Extension Method\obj\Debug\Homework - Extension Method.pdb

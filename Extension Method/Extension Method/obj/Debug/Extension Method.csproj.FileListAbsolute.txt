@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Extension Method\Extension Method\bin\Debug\Extension Method.exe.config
+D:\source\repos\C-masterClass\Extension Method\Extension Method\bin\Debug\Extension Method.exe
+D:\source\repos\C-masterClass\Extension Method\Extension Method\bin\Debug\Extension Method.pdb
+D:\source\repos\C-masterClass\Extension Method\Extension Method\obj\Debug\Extension Method.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Extension Method\Extension Method\obj\Debug\Extension Method.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Extension Method\Extension Method\obj\Debug\Extension Method.exe
+D:\source\repos\C-masterClass\Extension Method\Extension Method\obj\Debug\Extension Method.pdb

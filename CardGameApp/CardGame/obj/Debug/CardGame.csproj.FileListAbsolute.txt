@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\CardGameApp\CardGame\bin\Debug\CardGame.exe.config
+D:\source\repos\C-masterClass\CardGameApp\CardGame\bin\Debug\CardGame.exe
+D:\source\repos\C-masterClass\CardGameApp\CardGame\bin\Debug\CardGame.pdb
+D:\source\repos\C-masterClass\CardGameApp\CardGame\obj\Debug\CardGame.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\CardGameApp\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\CardGameApp\CardGame\obj\Debug\CardGame.exe
+D:\source\repos\C-masterClass\CardGameApp\CardGame\obj\Debug\CardGame.pdb
