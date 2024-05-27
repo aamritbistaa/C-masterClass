@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\bin\Debug\Mini Project - Extension Method.exe.config
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\bin\Debug\Mini Project - Extension Method.exe
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\bin\Debug\Mini Project - Extension Method.pdb
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\obj\Debug\Mini Project - Extension Method.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\obj\Debug\Mini Project - Extension Method.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\obj\Debug\Mini Project - Extension Method.exe
+D:\source\repos\C-masterClass\Mini Project - Extension Method\Mini Project - Extension Method\obj\Debug\Mini Project - Extension Method.pdb

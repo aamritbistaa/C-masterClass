@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Event\Event\bin\Debug\Event.exe.config
+D:\source\repos\C-masterClass\Event\Event\bin\Debug\Event.exe
+D:\source\repos\C-masterClass\Event\Event\bin\Debug\Event.pdb
+D:\source\repos\C-masterClass\Event\Event\obj\Debug\Event.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Event\Event\obj\Debug\Event.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Event\Event\obj\Debug\Event.exe
+D:\source\repos\C-masterClass\Event\Event\obj\Debug\Event.pdb

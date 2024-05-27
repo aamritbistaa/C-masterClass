@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Mini Project - Extension Method\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65D82C98-141F-4260-A777-F5543D7136A4}|Mini Project - Extension Method\\Mini Project - Extension Method.csproj|d:\\source\\repos\\c-masterclass\\mini project - extension method\\mini project - extension method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65D82C98-141F-4260-A777-F5543D7136A4}|Mini Project - Extension Method\\Mini Project - Extension Method.csproj|solutionrelative:mini project - extension method\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Mini Project - Extension Method\\Mini Project - Extension Method\\Program.cs",
+              "RelativeDocumentMoniker": "Mini Project - Extension Method\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\Mini Project - Extension Method\\Mini Project - Extension Method\\Program.cs",
+              "RelativeToolTip": "Mini Project - Extension Method\\Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAE0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T02:08:33.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
