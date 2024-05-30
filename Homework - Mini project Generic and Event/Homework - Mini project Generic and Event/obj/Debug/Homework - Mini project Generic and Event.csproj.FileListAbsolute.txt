@@ -1,0 +1,7 @@
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\bin\Debug\Homework - Mini project Generic and Event.exe.config
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\bin\Debug\Homework - Mini project Generic and Event.exe
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\bin\Debug\Homework - Mini project Generic and Event.pdb
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\obj\Debug\Homework - Mini project Generic and Event.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\obj\Debug\Homework - Mini project Generic and Event.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\obj\Debug\Homework - Mini project Generic and Event.exe
+D:\source\repos\C-masterClass\Homework - Mini project Generic and Event\Homework - Mini project Generic and Event\obj\Debug\Homework - Mini project Generic and Event.pdb
