@@ -26,16 +26,11 @@ namespace ClassLibrary.Tests
         [Theory]
         [InlineData("Amrit", 2,"Go to bed Amrit")]
         [InlineData("Amrit", 6, "Good morning Amrit")]
-
         [InlineData("Amrit", 12, "Good afternoon Amrit")]
-
         [InlineData("Amrit", 17, "Good afternoon Amrit")]
         [InlineData("Amrit", 18, "Good evening Amrit")]
         [InlineData("Amrit", 20, "Good evening Amrit")]
         [InlineData("Amrit", 23, "Good evening Amrit")]
-
-
-
 
         public void MethodShouldReturnTrue(string name, int hourOfDay,string Expected)
         {
