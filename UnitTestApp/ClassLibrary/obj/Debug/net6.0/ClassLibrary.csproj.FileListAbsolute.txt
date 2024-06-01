@@ -1,0 +1,12 @@
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.sourcelink.json
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+D:\source\repos\C-masterClass\UnitTestApp\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll

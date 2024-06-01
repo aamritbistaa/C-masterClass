@@ -1,0 +1,6 @@
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\bin\Debug\ClassLibraryFramework.dll
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\bin\Debug\ClassLibraryFramework.pdb
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\obj\Debug\ClassLibraryFramework.csproj.AssemblyReference.cache
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\obj\Debug\ClassLibraryFramework.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\obj\Debug\ClassLibraryFramework.dll
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryFramework\obj\Debug\ClassLibraryFramework.pdb

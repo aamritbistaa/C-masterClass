@@ -1,0 +1,12 @@
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\bin\Debug\net6.0\ClassLibraryCore.deps.json
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\bin\Debug\net6.0\ClassLibraryCore.dll
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\bin\Debug\net6.0\ClassLibraryCore.pdb
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.AssemblyInfoInputs.cache
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.AssemblyInfo.cs
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.sourcelink.json
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.dll
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\refint\ClassLibraryCore.dll
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ClassLibraryCore.pdb
+D:\source\repos\C-masterClass\ClassLibraryDotnetCore\ClassLibraryCore\obj\Debug\net6.0\ref\ClassLibraryCore.dll
