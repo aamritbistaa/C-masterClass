@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AdrxWJCeF0YieFMSiig7suN+iiaX4TjXC05wcnXO/Go=",
+  "Source": "WebApiContactBookList",
+  "BasePath": "_content/WebApiContactBookList",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
