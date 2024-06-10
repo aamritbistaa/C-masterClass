@@ -1,0 +1,6 @@
+@CRUD_with_auth_HostAddress = http://localhost:5103
+
+GET {{CRUD_with_auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.DriversController",
+    "Method": "Get",
+    "RelativePath": "api/Drivers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.DriversController",
+    "Method": "AddDriver",
+    "RelativePath": "api/Drivers/Add Driver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "driver",
+        "Type": "CRUD_with_auth.Models.CreateDriver",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.DriversController",
+    "Method": "DeleteDriver",
+    "RelativePath": "api/Drivers/Delete Driver",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.DriversController",
+    "Method": "GetAll",
+    "RelativePath": "api/Drivers/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.DriversController",
+    "Method": "UpdateDriver",
+    "RelativePath": "api/Drivers/Update Driver",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "driver",
+        "Type": "CRUD_with_auth.Models.Driver",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

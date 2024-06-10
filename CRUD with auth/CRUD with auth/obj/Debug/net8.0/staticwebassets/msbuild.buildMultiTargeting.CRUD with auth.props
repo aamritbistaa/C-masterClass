@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CRUD with auth.props" />
+</Project>
