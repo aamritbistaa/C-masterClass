@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240611100035_InitialCreate2.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:00:41.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240611095528_InitialCreate.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:55:52.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Model\\User.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Model\\User.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Model\\User.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Model\\User.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:21:14.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAIwFEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:10:20.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Services\\AuthService.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Services\\AuthService.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Services\\AuthService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T08:06:45.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Program.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:10:55.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
