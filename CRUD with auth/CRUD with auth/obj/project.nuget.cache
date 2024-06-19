@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nIiwiJpHbqwG4VYo7R5IGtJ0wKxwNRDxcwNe2VzPobTiVcmFrJyw6yJc8QGwJy4FF7qOrkggcisBIHDIOZPcFw==",
+  "dgSpecHash": "98jMfHJi2c3utEtkZFlSDRK06lXtMr+XUOXAuBICHqhQUHkQwK2IiMhOno7n/AQ0m3A/8w2lvMUMrJNkKeS/nA==",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\FintechSolution\\CRUD with auth\\CRUD with auth\\CRUD with auth.csproj",
+  "projectFilePath": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\CRUD with auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

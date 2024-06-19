@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\FintechSolution\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj": {}
+    "D:\\source\\repos\\C-masterClass\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\FintechSolution\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj": {
+    "D:\\source\\repos\\C-masterClass\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\FintechSolution\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj",
+        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj",
         "projectName": "WebApiContactBookList",
-        "projectPath": "D:\\source\\repos\\FintechSolution\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj",
+        "projectPath": "D:\\source\\repos\\C-masterClass\\WebApiContactBookList\\WebApiContactBookList\\WebApiContactBookList.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\FintechSolution\\WebApiContactBookList\\WebApiContactBookList\\obj\\",
+        "outputPath": "D:\\source\\repos\\C-masterClass\\WebApiContactBookList\\WebApiContactBookList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

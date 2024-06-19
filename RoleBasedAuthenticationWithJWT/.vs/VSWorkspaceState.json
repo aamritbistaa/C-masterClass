@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RoleBasedAuthentication",
+    "\\RoleBasedAuthentication\\Controllers",
+    "\\RoleBasedAuthentication\\Data",
+    "\\RoleBasedAuthentication\\Model",
+    "\\RoleBasedAuthentication\\Services"
+  ],
+  "SelectedNode": "\\RoleBasedAuthentication\\Model\\User.cs",
+  "PreviewInSolutionExplorer": false
+}

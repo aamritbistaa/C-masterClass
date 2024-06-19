@@ -1,30 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\",
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\fintechsolution\\rolebasedauthentication\\rolebasedauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\migrations\\userdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\userdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\migrations\\20240611100035_initialcreate2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611100035_initialcreate2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\migrations\\20240611095528_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611095528_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611095528_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|d:\\source\\repos\\c-masterclass\\rolebasedauthenticationwithjwt\\rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{230945D3-986C-4507-90BD-B6A6D90A28DC}|RoleBasedAuthentication\\RoleBasedAuthentication.csproj|solutionrelative:rolebasedauthentication\\migrations\\20240611100035_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +54,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\appsettings.json",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\appsettings.json",
+              "RelativeToolTip": "RoleBasedAuthentication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-13T09:37:05.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\UserDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\UserDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\UserDbContextModelSnapshot.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\UserDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:10:04.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "readme.md",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\readme.md",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\readme.md",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\readme.md",
+              "RelativeToolTip": "RoleBasedAuthentication\\readme.md",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-06-13T09:10:01.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240611100035_InitialCreate2.Designer.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.Designer.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.Designer.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.Designer.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.Designer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:09:56.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240611095528_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.Designer.cs",
+              "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:09:54.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "20240611100035_InitialCreate2.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611100035_InitialCreate2.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "20240611095528_InitialCreate.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Migrations\\20240611095528_InitialCreate.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T09:55:52.15Z",
               "EditorCaption": ""
@@ -66,11 +151,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Model\\User.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Model\\User.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Model\\User.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Model\\User.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Model\\User.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Model\\User.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA5wAwAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T09:21:14.067Z",
               "EditorCaption": ""
@@ -79,37 +164,37 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Controllers\\AuthController.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAIwFEAAAA5AAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAIwF0AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T09:10:20.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Services\\AuthService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Services\\AuthService.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Services\\AuthService.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Services\\AuthService.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Services\\AuthService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wBUAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T08:06:45.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Program.cs",
               "RelativeDocumentMoniker": "RoleBasedAuthentication\\Program.cs",
-              "ToolTip": "D:\\source\\repos\\FintechSolution\\RoleBasedAuthentication\\RoleBasedAuthentication\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RoleBasedAuthenticationWithJWT\\RoleBasedAuthentication\\Program.cs",
               "RelativeToolTip": "RoleBasedAuthentication\\Program.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAYwCYAAAAeAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T06:10:55.15Z",
               "EditorCaption": ""

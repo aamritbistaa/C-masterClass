@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\Image Upload\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\repositories\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\repositories\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\repositories\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\repositories\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|d:\\source\\repos\\image upload\\image upload\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FA5139-981A-424A-9B45-43B53568D725}|Image Upload\\Image Upload.csproj|solutionrelative:image upload\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Image Upload\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAnwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:02:32.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\IFileService.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Repositories\\IFileService.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\IFileService.cs",
+              "RelativeToolTip": "Image Upload\\Repositories\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:56:16.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Program.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Program.cs",
+              "RelativeToolTip": "Image Upload\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAUwCsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:31:38.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Repositories\\ProductRepo.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\ProductRepo.cs",
+              "RelativeToolTip": "Image Upload\\Repositories\\ProductRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:45:30.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Repositories\\IProductRepo.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\IProductRepo.cs",
+              "RelativeToolTip": "Image Upload\\Repositories\\IProductRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:39:07.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\appsettings.json",
+              "RelativeDocumentMoniker": "Image Upload\\appsettings.json",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\appsettings.json",
+              "RelativeToolTip": "Image Upload\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T04:30:03.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\FileService.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Repositories\\FileService.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Repositories\\FileService.cs",
+              "RelativeToolTip": "Image Upload\\Repositories\\FileService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:57:50.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Model\\Product.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Model\\Product.cs",
+              "RelativeToolTip": "Image Upload\\Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:18:11.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\source\\repos\\Image Upload\\Image Upload\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Image Upload\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\source\\repos\\Image Upload\\Image Upload\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Image Upload\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:23:20.753Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

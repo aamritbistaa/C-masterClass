@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "CRUD_with_auth.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_with_auth.Models.Dtos.UserLoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_with_auth.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/Authentication/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "CRUD_with_auth.Models.Dtos.UserRegistrationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CRUD_with_auth.Controllers.DriversController",
     "Method": "Get",
     "RelativePath": "api/Drivers/{id}",
