@@ -1,0 +1,15 @@
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\bin\Debug\net8.0\EmployeeMS-LINQ-List.exe
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\bin\Debug\net8.0\EmployeeMS-LINQ-List.deps.json
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\bin\Debug\net8.0\EmployeeMS-LINQ-List.runtimeconfig.json
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\bin\Debug\net8.0\EmployeeMS-LINQ-List.dll
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\bin\Debug\net8.0\EmployeeMS-LINQ-List.pdb
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.GeneratedMSBuildEditorConfig.editorconfig
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.AssemblyInfoInputs.cache
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.AssemblyInfo.cs
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.csproj.CoreCompileInputs.cache
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.sourcelink.json
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.dll
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\refint\EmployeeMS-LINQ-List.dll
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.pdb
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\EmployeeMS-LINQ-List.genruntimeconfig.cache
+d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\obj\Debug\net8.0\ref\EmployeeMS-LINQ-List.dll
