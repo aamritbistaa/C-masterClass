@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Threading.Tasks;
 using EmployeeMS_LINQ_List.Models;
 
@@ -589,6 +590,7 @@ namespace EmployeeMS_LINQ_List
                         on people.AddressId equals add.Id into address
                         join dept in DepartmentList
                         on people.DeptId equals dept.Id into departments
+
                         from addressitem in address.DefaultIfEmpty()
                         from deptitem in departments.DefaultIfEmpty()
                         select new
@@ -599,20 +601,91 @@ namespace EmployeeMS_LINQ_List
                             people.DateOfBirth,
                             addressitem?.City,
                             people.Position,
-                            deptitem?.DeptName
+                            deptitem?.DeptName,
                         };
 
 
-            foreach (var item in items)
-            {
-                System.Console.WriteLine($"{item.Id} {item.Name} {item?.DeptName} {item?.Position} {item.DateOfBirth} {item?.City}");
-            }
+            // foreach (var item in items)
+            // {
+            //     System.Console.WriteLine($"ID: {item.Id} Name:{item.Name} {item?.DeptName} {item?.Position} {item.DateOfBirth} {item?.City} ");
+            // }
 
 
 
             //* InnerJoin
+            var EmployeeWithSupervisor = from people in EmployeeList
+                                         join people1 in EmployeeList
+                                         on people.Id equals people1.SupervisorId
+                                         select new
+                                         {
+                                             people.Name,
+                                             people.Salary,
+                                             people.Nickname,
+                                             SupervisorName = people1.Name
+                                         };
+
+
+
             //* OuterJoin
             //* LeftOuterJoin
+
+            var AllEmployee = from people in EmployeeList
+                              join people1 in EmployeeList
+                              on people.Id equals people1.SupervisorId into Supervisors
+                              from super in Supervisors.DefaultIfEmpty()
+                              select new
+                              {
+                                  people.Name,
+                                  people.Salary,
+                                  people.Nickname,
+                                  SupervisorName = super?.Name
+                              };
+            foreach (var item in AllEmployee)
+            {
+                System.Console.WriteLine($"Name: {item.Name} salary : {item.Salary} supervisor : {item.SupervisorName}");
+            }
+
+            //* CrossJoin
+
+            var allEmployee = from people in EmployeeList
+                              join people1 in EmployeeList
+                              on people.SupervisorId equals people1.Id into peopleDetails
+                              from peop in peopleDetails.DefaultIfEmpty()
+                              select new
+                              {
+                                  people.Name,
+                                  people.Salary,
+                                  people.Nickname,
+                                  SupervisorName = peop?.Name
+                              };
+
+            //* To get all the details
+
+            var allDetails = from people in EmployeeList
+                             join address in AddressesList
+                             on people.AddressId equals address.Id into addresses
+                             join department in DepartmentList
+                             on people.DeptId equals department.Id into departments
+                             join people1 in EmployeeList
+                             on people.Id equals people1.SupervisorId into supervisors
+                             from add in addresses.DefaultIfEmpty()
+                             from dept in departments.DefaultIfEmpty()
+                             from super in supervisors.DefaultIfEmpty()
+                             select new
+                             {
+                                 EmployeeName = people.Name,
+                                 EmployeeDepartment = dept?.DeptName,
+                                 EmployeeAddress = add?.City,
+                                 SupervisorName = super?.Name
+
+                             };
+
+            // foreach (var item in allDetails)
+            // {
+            //     System.Console.WriteLine($"Name : {item.EmployeeName} Department : {item.EmployeeDepartment}  Address : {item.EmployeeAddress} Reporting to : {item.SupervisorName}");
+            // }
+
+
 
 
             //* IntersectBy

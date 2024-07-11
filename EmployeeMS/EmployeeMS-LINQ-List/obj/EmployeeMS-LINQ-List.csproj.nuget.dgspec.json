@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj": {}
+    "d:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj": {
+    "d:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj",
+        "projectUniqueName": "d:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj",
         "projectName": "EmployeeMS-LINQ-List",
-        "projectPath": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj",
+        "projectPath": "d:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\EmployeeMS-LINQ-List.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\obj\\",
+        "outputPath": "d:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -275,7 +275,8 @@ namespace EmployeeMS_LINQ_List
                 Salary = 10000,
                 DeptId = 0,
                 AddressId = 2,
-                Features = new List<string> { "feature5", "feature6", "feature2" }
+                Features = new List<string> { "feature5", "feature6", "feature2" },
+                SupervisorId = 10
             });
             employeeList.Add(new Employees
             {

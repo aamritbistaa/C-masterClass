@@ -10,6 +10,7 @@ namespace EmployeeMS_LINQ_List.Models
         public float Salary { get; set; }
         public int? DeptId { get; set; }
         public int? AddressId { get; set; }
+        public int? SupervisorId { get; set; }
         public List<string> Features = new List<string>();
     }
 }

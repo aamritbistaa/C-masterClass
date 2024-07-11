@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeMS_LINQ_List
-build_property.ProjectDir = D:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\
+build_property.ProjectDir = d:\source\repos\C-masterClass\EmployeeMS\EmployeeMS-LINQ-List\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeMS-LINQ-List")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc942baa6e7913a0500097e457a3fb106438d50e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+183f2f44cb43f70cdac9e8232d2341f4aa16e048")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeMS-LINQ-List")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeMS-LINQ-List")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
