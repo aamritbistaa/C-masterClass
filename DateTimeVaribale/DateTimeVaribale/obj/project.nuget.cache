@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "CXC6zwqX1fJiA78fDPSAtxmcSzG3aNOFu4+jl/rC0UWjFBX+Tj2GzMuCbK6F9Zih+j0k5gyT4qHn+EoyrJjrLg==",
+  "dgSpecHash": "syqeMI38sNE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }

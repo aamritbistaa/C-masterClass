@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\EmployeeMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\dto\\request\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\dto\\request\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\validation\\customemailvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\validation\\customemailvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\validation\\customphonenumbervalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\validation\\customphonenumbervalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\appdbcontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\appdbcontext\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\appdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\appdbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\dto\\response\\addressresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\dto\\response\\addressresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\validation\\customtimevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\validation\\customtimevalidatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\controllers\\viewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\controllers\\viewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|d:\\source\\repos\\employeems\\employeems\\dto\\response\\getallemployeerecordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{458CF595-D8A4-43E6-A40B-ECD31BC75746}|EmployeeMS\\EmployeeMS.csproj|solutionrelative:employeems\\dto\\response\\getallemployeerecordresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 33,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Readme.md",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Readme.md",
+              "RelativeDocumentMoniker": "EmployeeMS\\Readme.md",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Readme.md",
+              "RelativeToolTip": "EmployeeMS\\Readme.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-07-24T16:51:54.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\AppDbContext\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EmployeeMS\\AppDbContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:47:02.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomEmailValidationAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomEmailValidationAttribute.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Validation\\CustomEmailValidationAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomEmailValidationAttribute.cs",
+              "RelativeToolTip": "EmployeeMS\\Validation\\CustomEmailValidationAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:39:05.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomPhoneNumberValidationAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "RelativeToolTip": "EmployeeMS\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:10:22.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Request\\UserRequest.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Dto\\Request\\UserRequest.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Request\\UserRequest.cs",
+              "RelativeToolTip": "EmployeeMS\\Dto\\Request\\UserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:57:35.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddressResponse.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Response\\AddressResponse.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Dto\\Response\\AddressResponse.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Response\\AddressResponse.cs",
+              "RelativeToolTip": "EmployeeMS\\Dto\\Response\\AddressResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:57:26.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Model\\Attendance.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Model\\Attendance.cs",
+              "RelativeToolTip": "EmployeeMS\\Model\\Attendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:35:40.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomTimeValidatorAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomTimeValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Validation\\CustomTimeValidatorAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Validation\\CustomTimeValidatorAttribute.cs",
+              "RelativeToolTip": "EmployeeMS\\Validation\\CustomTimeValidatorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T08:27:49.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EmployeeMS\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAApwHQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:59:08.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Helpers\\Utils.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Helpers\\Utils.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Helpers\\Utils.cs",
+              "RelativeToolTip": "EmployeeMS\\Helpers\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:16:19.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Program.cs",
+              "RelativeToolTip": "EmployeeMS\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T10:57:35.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\AppDbContext\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\AppDbContext\\DataSeeder.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\AppDbContext\\DataSeeder.cs",
+              "RelativeToolTip": "EmployeeMS\\AppDbContext\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:40:18.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "EmployeeMS\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwFEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:26:11.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeMS\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:26:08.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAllEmployeeRecordResponse.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Response\\GetAllEmployeeRecordResponse.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Dto\\Response\\GetAllEmployeeRecordResponse.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Dto\\Response\\GetAllEmployeeRecordResponse.cs",
+              "RelativeToolTip": "EmployeeMS\\Dto\\Response\\GetAllEmployeeRecordResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:03:34.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "EmployeeMS\\Controllers\\AttendanceController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:29:08.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewController.cs",
+              "DocumentMoniker": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\ViewController.cs",
+              "RelativeDocumentMoniker": "EmployeeMS\\Controllers\\ViewController.cs",
+              "ToolTip": "D:\\source\\repos\\EmployeeMS\\EmployeeMS\\Controllers\\ViewController.cs",
+              "RelativeToolTip": "EmployeeMS\\Controllers\\ViewController.cs",
+              "ViewState": "AQIAANoAAAAAAAAAAAAcwKYAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:59:09.923Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\UnitTestApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2461F379-461D-4C13-B017-56C2E45F9F48}|ClassLibrary.Tests\\ClassLibrary.Tests.csproj|d:\\source\\repos\\c-masterclass\\unittestapp\\classlibrary.tests\\displaymessagestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2461F379-461D-4C13-B017-56C2E45F9F48}|ClassLibrary.Tests\\ClassLibrary.Tests.csproj|solutionrelative:classlibrary.tests\\displaymessagestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2275C275-C9EE-4FC5-B240-D16BCBAE3503}|ClassLibrary\\ClassLibrary.csproj|d:\\source\\repos\\c-masterclass\\unittestapp\\classlibrary\\displaymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2275C275-C9EE-4FC5-B240-D16BCBAE3503}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\displaymessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2461F379-461D-4C13-B017-56C2E45F9F48}|ClassLibrary.Tests\\ClassLibrary.Tests.csproj|d:\\source\\repos\\c-masterclass\\unittestapp\\classlibrary.tests\\displaymessagestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2461F379-461D-4C13-B017-56C2E45F9F48}|ClassLibrary.Tests\\ClassLibrary.Tests.csproj|solutionrelative:classlibrary.tests\\displaymessagestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2461F379-461D-4C13-B017-56C2E45F9F48}|ClassLibrary.Tests\\ClassLibrary.Tests.csproj|d:\\source\\repos\\c-masterclass\\unittestapp\\classlibrary.tests\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -34,34 +34,36 @@
               "RelativeToolTip": "ClassLibrary.Tests\\HomeWork.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T02:06:17.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T02:06:17.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DisplayMessagesTests.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\UnitTestApp\\ClassLibrary.Tests\\DisplayMessagesTests.cs",
               "RelativeDocumentMoniker": "ClassLibrary.Tests\\DisplayMessagesTests.cs",
               "ToolTip": "D:\\source\\repos\\C-masterClass\\UnitTestApp\\ClassLibrary.Tests\\DisplayMessagesTests.cs",
               "RelativeToolTip": "ClassLibrary.Tests\\DisplayMessagesTests.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAgwBQAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T01:36:37.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T01:36:37.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DisplayMessage.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\UnitTestApp\\ClassLibrary\\DisplayMessage.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\DisplayMessage.cs",
               "ToolTip": "D:\\source\\repos\\C-masterClass\\UnitTestApp\\ClassLibrary\\DisplayMessage.cs",
               "RelativeToolTip": "ClassLibrary\\DisplayMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T01:30:11.469Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

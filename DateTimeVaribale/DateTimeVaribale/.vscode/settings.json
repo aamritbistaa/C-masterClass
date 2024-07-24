@@ -1,0 +1,5 @@
+{
+  "csharp.inlayHints.enableInlayHintsForTypes": true,
+  "dotnet.inlayHints.enableInlayHintsForParameters": true,
+  "editor.experimentalInlineEdit.backgroundColoring": false
+}

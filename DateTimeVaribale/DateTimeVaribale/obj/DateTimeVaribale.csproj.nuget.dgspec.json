@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj": {}
+    "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj": {
+    "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
+        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
         "projectName": "DateTimeVaribale",
-        "projectPath": "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
-        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amritbista\\source\\repos\\C#masterClass\\DateTimeVaribale\\DateTimeVaribale\\obj\\",
+        "projectPath": "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\DateTimeVaribale.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\C-masterClass\\DateTimeVaribale\\DateTimeVaribale\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,12 +56,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
