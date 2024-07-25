@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Image Upload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3570572ae81b635c2d6f768d2a5669a7204774cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Image Upload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Image Upload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.exe
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.deps.json
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.runtimeconfig.json
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.dll
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\bin\Debug\net8.0\DesignPattern.pdb
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfoInputs.cache
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.AssemblyInfo.cs
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.sourcelink.json
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.dll
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\refint\DesignPattern.dll
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.pdb
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\DesignPattern.genruntimeconfig.cache
+D:\source\repos\C-masterClass\DesignPattern\DesignPattern\obj\Debug\net8.0\ref\DesignPattern.dll

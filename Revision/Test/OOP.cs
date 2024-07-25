@@ -6,6 +6,8 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
+// Enum are sealed class
+
 namespace Test
 {
     public static class OOPHelpers
