@@ -1,0 +1,14 @@
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.deps.json
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.AssemblyReference.cache
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfo.cs
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.dll
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.runtimeconfig.json
+C:\Users\aamritbistaa\source\repos\CleanArchitectureTestProject\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.genruntimeconfig.cache
