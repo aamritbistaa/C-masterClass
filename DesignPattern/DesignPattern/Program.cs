@@ -1,12 +1,15 @@
 ﻿
 using DesignPattern.FactoryPattern;
 using DesignPattern.SingletonPattern;
+using DesignPattern.FacadePattern;
 
-BottleFactory obj = new BottleFactory("Metal", 200);
 
 
+#region Singleton
 var obj1 = ThreadSafeLazySingletonClass.Instance();
 obj1.CacheInformation();
 
 var obj2 = ThreadSafeLazySingletonClass.Instance();
 Console.WriteLine(obj1 == obj2);
+#endregion
+

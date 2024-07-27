@@ -20,7 +20,6 @@ namespace DesignPattern.SingletonPattern
                 {
                     if (instance == null)
                     {
-
                         instance = new ThreadSafeLazySingletonClass();
                     }
                 }
