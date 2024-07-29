@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Domain.Entity;
+using static CleanArchitecture.Application.Common.CommonUtils;
 
 namespace CleanArchitecture.Application.Repository
 {
@@ -7,7 +8,7 @@ namespace CleanArchitecture.Application.Repository
         Task<t> FindAsync(int id);
         Task<List<t>> ListAsync();
         Task<t> AddAsync(t model);
-        Task<t> UpdateAsync(t model);
+        Task<bool> UpdateAsync(t model);
         Task<int> RemoveAsync(t model);
         Task<bool> AddRangeAsync(List<t> model);
         Task<bool> RemoveRangeAsync(List<t> model);

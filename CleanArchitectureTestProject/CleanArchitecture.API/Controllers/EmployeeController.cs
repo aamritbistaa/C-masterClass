@@ -2,48 +2,48 @@
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
+using static CleanArchitecture.Application.Common.CommonUtils;
 
 namespace CleanArchitecture.API.Controllers
 {
     [ApiController]
-    [Route("api/v1/Employee")]
+    [Route("api/v1/[controller]")]
     public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeService _employeeService;
-        public EmployeeController(IEmployeeService employeeService)
+        private readonly IEmployeeManager _employeeManager;
+        public EmployeeController(IEmployeeManager employeeManager)
         {
-            _employeeService = employeeService;
+            _employeeManager = employeeManager;
         }
         [HttpGet("GetAllEmployee")]
-        public async Task<List<Employee>> GetAllEmployee()
+        public async Task<ServiceResult<List<Employee>>> GetAllEmployee()
         {
-            var result =await _employeeService.GetAllEmployees();
+            var result =await _employeeManager.GetAllEmployees();
             return result;
         }
         [HttpGet("GetEmployeeById")]
-        public async Task<Employee> GetEmployeeById(int id)
+        public async Task<ServiceResult<Employee>> GetEmployeeById(int id)
         {
-            var result = await _employeeService.GetEmployeeById(id);
+            var result = await _employeeManager.GetEmployeeById(id);
             return result;
         }
         [HttpPost("AddEmployee")]
-        public async Task<Employee> AddEmployee(CreateEmployeeRequest request)
+        public async Task<ServiceResult<Employee>> AddEmployee(CreateEmployeeRequest request)
         {
-            var result = await _employeeService.AddEmployee(request);
+            var result = await _employeeManager.AddEmployee(request);
             return result;
         }
         [HttpPut("UpdateEmployee")]
-        public async Task<Employee> UpdateEmployee(UpdateEmployeeRequest request)
+        public async Task<ServiceResult<Employee>> UpdateEmployee(UpdateEmployeeRequest request)
         {
-            var result = await _employeeService.UpdateEmployee(request);
+            var result = await _employeeManager.UpdateEmployee(request);
             return result;
         }
         [HttpDelete("DeleteEmployee")]
-        public async Task<Employee> DeleteEmployee(int id)
+        public async Task<ServiceResult<bool>> DeleteEmployee(int id)
         {
-            var result = await _employeeService.DeleteEmployee(id);
+            var result = await _employeeManager.DeleteEmployee(id);
             return result;
         }
-
     }
 }

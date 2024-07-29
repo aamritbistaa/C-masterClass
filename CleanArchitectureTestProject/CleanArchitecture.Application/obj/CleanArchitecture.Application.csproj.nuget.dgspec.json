@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {}
+    "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+    "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "projectName": "CleanArchitecture.Application",
-        "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+        "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\obj\\",
+        "outputPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+              "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+                "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -91,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+    "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "projectName": "CleanArchitecture.Domain",
-        "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+        "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\obj\\",
+        "outputPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

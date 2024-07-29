@@ -35,6 +35,8 @@ namespace CleanArchitecture.Infrastructure.Context
         }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Address> Addressses { get; set; }
+        public DbSet<Department> Departments { get; set; }
         public override int SaveChanges()
         {
             return base.SaveChanges();

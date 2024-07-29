@@ -2609,11 +2609,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+      "projectUniqueName": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
       "projectName": "CleanArchitecture.Domain",
-      "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
+      "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj",
       "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\obj\\",
+      "outputPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

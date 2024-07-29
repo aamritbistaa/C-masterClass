@@ -3,8 +3,11 @@ using CleanArchitecture.Application.Manager.Implementation;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Repository;
 using CleanArchitecture.Domain.Entity;
+using CleanArchitecture.Domain.Service.Interface;
+using CleanArchitecture.Infrastructure;
 using CleanArchitecture.Infrastructure.Context;
 using CleanArchitecture.Infrastructure.Repository;
+using CleanArchitecture.Infrastructure.Service.Implementation;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -20,9 +23,10 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(connectionString));
+
 builder.Services.AddApplication();
-builder.Services.AddScoped<IEmployeeService,EmployeeService>();
-builder.Services.AddScoped(typeof(IEmployeeRepository<>), typeof(EmployeeRepository<>)); // Register the generic repository
+builder.Services.AddInfrastructure();
+
 
 var app = builder.Build();
 

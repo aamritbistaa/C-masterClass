@@ -7,6 +7,8 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft;
+using Newtonsoft.Json;
 
 namespace CleanArchitecture.Application.Common
 {
@@ -21,6 +23,7 @@ namespace CleanArchitecture.Application.Common
         public async static Task<T> DeserializeObject<T>(string obj)
         {
             var items = Newtonsoft.Json.JsonConvert.DeserializeObject<T>(obj);
+
             return items;
         }
 
@@ -201,14 +204,14 @@ namespace CleanArchitecture.Application.Common
 
             return dictionary;
         }
-        public class ResponseClass<T>
+        public class ServiceResult<T>
         {
-            public int ResponseNumber { get; set; }
-            public ResponseType ResponseType { get; set; }
+            public ResultStatus Result { get; set; }
             public string Message { get; set; }
-            public T data { get; set; }
+            public T Data { get; set; }
+            
         }
-        public enum ResponseType
+        public enum ResultStatus
         {
             Ok,
             InvalidToken,

@@ -696,6 +696,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Npgsql/8.0.3": {
         "type": "package",
         "dependencies": {
@@ -2147,6 +2160,36 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Npgsql/8.0.3": {
       "sha512": "6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
       "type": "package",
@@ -2620,6 +2663,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.Extensions.Configuration.Json >= 8.0.0",
+      "Newtonsoft.Json >= 13.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4"
     ]
   },
@@ -2629,11 +2673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+      "projectUniqueName": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
       "projectName": "CleanArchitecture.Application",
-      "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
+      "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
       "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Application\\obj\\",
+      "outputPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2651,8 +2695,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-              "projectPath": "C:\\Users\\aamritbistaa\\source\\repos\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+            "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+              "projectPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
             }
           }
         }
@@ -2687,6 +2731,10 @@
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",

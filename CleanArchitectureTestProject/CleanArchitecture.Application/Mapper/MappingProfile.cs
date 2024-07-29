@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Common
+namespace CleanArchitecture.Application.Mapper
 {
-    internal class DateHelper
+    public class MappingProfile
     {
     }
 }

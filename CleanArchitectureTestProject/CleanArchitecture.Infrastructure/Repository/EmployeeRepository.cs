@@ -23,7 +23,32 @@ namespace CleanArchitecture.Infrastructure.Repository
         {
             return await entity.AsNoTracking().ToListAsync();
         }
-        public async Task<t> UpdateAsync(t model)
+        public async Task<t> FindAsync(int id)
+        {
+            var newEntity = await entity.FindAsync(id);
+            return newEntity;
+        }
+        public async Task<t> AddAsync(t model)
+        {
+            if (model == null)
+                throw new ArgumentNullException(nameof(model));
+
+            try
+            {
+                db.ChangeTracker.Clear();
+                var newEntity = await entity.AddAsync(model);
+                var newEntityToRet = newEntity.Entity;
+                db.SaveChanges();
+
+                return newEntityToRet;
+            }
+            catch (DbUpdateException exception)
+            {
+                //ensure that the detailed error text is saved in the Log
+                throw;
+            }
+        }
+        public async Task<bool> UpdateAsync(t model)
         {
             if (model == null)
                 throw new ArgumentNullException(nameof(model));
@@ -33,19 +58,22 @@ namespace CleanArchitecture.Infrastructure.Repository
                 var newEntity = entity.Update(model);
                 var newEntityToRet = newEntity.Entity;
                 db.SaveChanges();
-                return newEntityToRet;
+                return true;
             }
             catch (DbUpdateException exception)
             {
+                return false;
                 //ensure that the detailed error text is saved in the Log
                 throw;
             }
         }
-        public async Task<t> FindAsync(int id)
+        public async Task<int> RemoveAsync(t model)
         {
-            var newEntity = await entity.FindAsync(id);
-            return newEntity;
+            db.ChangeTracker.Clear();
+            entity.Remove(model);
+            return await db.SaveChangesAsync();
         }
+
         public async Task<bool> AddRangeAsync(List<t> model)
         {
             try
@@ -73,33 +101,9 @@ namespace CleanArchitecture.Infrastructure.Repository
             }
         }
 
-        public async Task<t> AddAsync(t model)
-        {
-            if (model == null)
-                throw new ArgumentNullException(nameof(model));
+        
 
-            try
-            {
-                db.ChangeTracker.Clear();
-                var newEntity = await entity.AddAsync(model);
-                var newEntityToRet = newEntity.Entity;
-                db.SaveChanges();
-
-                return newEntityToRet;
-            }
-            catch (DbUpdateException exception)
-            {
-                //ensure that the detailed error text is saved in the Log
-                throw;
-            }
-        }
-
-        public async Task<int> RemoveAsync(t model)
-        {
-            db.ChangeTracker.Clear();
-            entity.Remove(model);
-            return await db.SaveChangesAsync();
-        }
+        
         public void Dispose()
         {
             //your memory
