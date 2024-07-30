@@ -1,114 +1,144 @@
-﻿using CleanArchitecture.Application.Repository;
+﻿using CleanArchitecture.Domain.Repository;
+using CleanArchitecture.Domain.Service.Interface;
 using CleanArchitecture.Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Metrics;
+using System;
 
 namespace CleanArchitecture.Infrastructure.Repository
 {
     public class EmployeeRepository<t> : IEmployeeRepository<t>, IDisposable where t : class
     {
-        AppDbContext db;
-        DbSet<t> entity;
+        private readonly AppDbContext db;
+        private readonly DbSet<t> entity;
         public EmployeeRepository()
         {
             db = new AppDbContext();
             entity = db.Set<t>();
-
         }
         public EmployeeRepository(AppDbContext db)
         {
             this.db = db;
             entity = db.Set<t>();
         }
+
         public async Task<List<t>> ListAsync()
         {
-            return await entity.AsNoTracking().ToListAsync();
+            //AsNoTracking, the change tracking mechanism is disabled, resulting in better
+            //performance and reduced memory usage, especially in read - only scenarios
+            var result =  await db.Set<t>().AsNoTracking().ToListAsync();
+            return result;
         }
+
         public async Task<t> FindAsync(int id)
         {
-            var newEntity = await entity.FindAsync(id);
-            return newEntity;
+            var result = await db.Set<t>().FindAsync(id);
+            return result;
         }
         public async Task<t> AddAsync(t model)
-        {
-            if (model == null)
-                throw new ArgumentNullException(nameof(model));
 
+        {
+            if(model is null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
             try
             {
+                // all the tracked entities are detached, and their state is reset.
+                // This can be useful in certain scenarios where you want to start fresh without any tracked entities
                 db.ChangeTracker.Clear();
-                var newEntity = await entity.AddAsync(model);
-                var newEntityToRet = newEntity.Entity;
-                db.SaveChanges();
 
-                return newEntityToRet;
+                var output = db.Set<t>().Add(model);
+                var result = output.Entity;
+                await db.SaveChangesAsync();
+                return result;
             }
-            catch (DbUpdateException exception)
+            catch (Exception)
             {
-                //ensure that the detailed error text is saved in the Log
+                return null;
                 throw;
             }
         }
         public async Task<bool> UpdateAsync(t model)
         {
-            if (model == null)
+            if (model is null)
+            {
                 throw new ArgumentNullException(nameof(model));
+            }
             try
             {
                 db.ChangeTracker.Clear();
-                var newEntity = entity.Update(model);
-                var newEntityToRet = newEntity.Entity;
-                db.SaveChanges();
+                var output = db.Set<t>().Update(model);
+                var result = output.Entity;
+                await db.SaveChangesAsync();
                 return true;
             }
-            catch (DbUpdateException exception)
+            catch (Exception)
             {
                 return false;
-                //ensure that the detailed error text is saved in the Log
-                throw;
+                //throw;
             }
         }
         public async Task<int> RemoveAsync(t model)
         {
-            db.ChangeTracker.Clear();
-            entity.Remove(model);
-            return await db.SaveChangesAsync();
-        }
-
-        public async Task<bool> AddRangeAsync(List<t> model)
-        {
+            if (model is null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
             try
             {
-                await entity.AddRangeAsync(model);
-                db.SaveChanges();
+                db.ChangeTracker.Clear();
+                var output = db.Set<t>().Remove(model);
+                var result = output.Entity;
+                //returns PrimaryKey
+                return await db.SaveChangesAsync();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        public async Task<bool> AddRangeAsync(List<t> model)
+        {
+            if (model is null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+            try
+            {
+                db.ChangeTracker.Clear();
+                var output =  db.Set<t>().AddRangeAsync(model);
+                await db.SaveChangesAsync();
                 return true;
             }
-            catch (Exception wx)
+            catch (Exception)
             {
                 return false;
+                //throw;
             }
         }
         public async Task<bool> RemoveRangeAsync(List<t> model)
         {
+            if (model is null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
             try
             {
-                entity.RemoveRange(model);
+                db.ChangeTracker.Clear();
+                db.Set<t>().RemoveRange(model);
                 await db.SaveChangesAsync();
                 return true;
             }
-            catch (Exception wx)
+            catch (Exception)
             {
                 return false;
+                //throw;
             }
         }
-
-        
-
-        
         public void Dispose()
         {
-            //your memory
-            //your connection
-            //place to clean
-        }
+            //throw new NotImplementedException();
+        }        
     }
 }

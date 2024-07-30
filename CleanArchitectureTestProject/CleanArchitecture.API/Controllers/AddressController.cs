@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
 using Microsoft.AspNetCore.Http;
@@ -19,21 +20,21 @@ namespace CleanArchitecture.API.Controllers
         }
 
         [HttpGet("GetAllAddress")]
-        public async Task<ServiceResult<List<Address>>> GetAllAddress()
+        public async Task<ServiceResult<List<AddressResponse>>> GetAllAddress()
         {
             var result = await _addressManager.GetAllAddress();
             return result;
         }
 
         [HttpGet("GetAddressById")]
-        public async Task<ServiceResult<Address>> GetAddressById(int id)
+        public async Task<ServiceResult<AddressResponse>> GetAddressById(int id)
         {
             var result = await _addressManager.GetAddressById(id);
             return result;
         }
 
         [HttpPost("AddAddress")]
-        public async Task<ServiceResult<Address>> AddAddress(CreateAddressRequest request)
+        public async Task<ServiceResult<AddressResponse>> AddAddress(CreateAddressRequest request)
         {
             var result = await _addressManager.AddAddress(request);
             return result;

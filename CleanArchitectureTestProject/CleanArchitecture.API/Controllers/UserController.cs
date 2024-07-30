@@ -1,5 +1,6 @@
 ﻿using CleanArchitecture.Application.Common;
 using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
@@ -20,19 +21,19 @@ namespace CleanArchitecture.API.Controllers
             _userManager = userManager;
         }
         [HttpGet("GetAllUser")]
-        public async Task<ServiceResult<List<User>>> GetAllUser()
+        public async Task<ServiceResult<List<UserResponse>>> GetAllUser()
         {
             var result = await _userManager.GetAllUser();
             return result;
         }
         [HttpGet("GetUserById")]
-        public async Task<ServiceResult<User>> GetUserById(int id)
+        public async Task<ServiceResult<UserResponse>> GetUserById(int id)
         {
             var result = await _userManager.GetUserById(id);
             return result;
         }
         [HttpPost("AddUser")]
-        public async Task<ServiceResult<User>> AddUser(CreateUserRequest request)
+        public async Task<ServiceResult<UserResponse>> AddUser(CreateUserRequest request)
         {
             var result = await _userManager.AddUser(request);
             return result;

@@ -16,7 +16,7 @@ namespace CleanArchitecture.API.Controllers
             _viewManager = viewManager;
         }
         [HttpGet("DetailedListOfEmployees")]
-        public async Task<ServiceResult<List<EmployeeResponse>>> GetAllEmployeeDetails()
+        public async Task<ServiceResult<List<ViewEmployeeResponse>>> GetAllEmployeeDetails()
         {
             var result = await _viewManager.GetAllEmployeeDetails();
             return result;

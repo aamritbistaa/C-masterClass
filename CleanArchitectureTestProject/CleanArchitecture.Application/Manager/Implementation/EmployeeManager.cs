@@ -1,4 +1,6 @@
-﻿using CleanArchitecture.Application.DTO.Request;
+﻿using AutoMapper;
+using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Mapper;
 using CleanArchitecture.Domain.Entity;
@@ -17,108 +19,141 @@ namespace CleanArchitecture.Application.Manager.Implementation
 
 
         private readonly IEmployeeService _employeeService;
-        public EmployeeManager(IEmployeeService employeeService)
+        private readonly IMapper _mapper;
+        private readonly IEmployeeServiceFactory _factory;
+        public EmployeeManager(IEmployeeService employeeService, IMapper mapper, IEmployeeServiceFactory factory)
         {
             _employeeService = employeeService;
+            _mapper = mapper;
+            _factory = factory;
         }
-        public async Task<ServiceResult<List<Employee>>> GetAllEmployees()
+        public async Task<ServiceResult<List<EmployeeResponse>>> GetAllEmployees()
         {
-            var result = await _employeeService.GetAllEmployee();
+            var response = await _employeeService.GetAllEmployee();
+            var result =
+                (
+                from item in response
+                select _mapper.Map<EmployeeResponse>(item)
+                 ).ToList();
+
             if (result == null)
             {
-                return new ServiceResult<List<Employee>>
+                return new ServiceResult<List<EmployeeResponse>>
                 {
                     Result = ResultStatus.Error,
                     Message = "Employee records is empty",
-                    Data = new List<Employee>(),
+                    Data = new List<EmployeeResponse>(),
                 };
             }
-            return new ServiceResult<List<Employee>>
+            return new ServiceResult<List<EmployeeResponse>>
             {
                 Result = ResultStatus.Ok,
                 Message = "Employee records",
                 Data = result,
             };
         }
-        public async Task<ServiceResult<Employee>> GetEmployeeById(int id)
+        public async Task<ServiceResult<EmployeeResponse>> GetEmployeeById(int id)
         {
             var item = await _employeeService.GetEmployeeById(id);
-            if (item == null)
+            var result = _mapper.Map<EmployeeResponse>(item);
+            if (result == null)
             {
-                return new ServiceResult<Employee>
+                return new ServiceResult<EmployeeResponse>
                 {
                     Result = ResultStatus.Error,
                     Message = "Cannot find the employee with the specified Id.",
-                    Data = new Employee()
+                    Data = new EmployeeResponse()
                 };
             }
-            return new ServiceResult<Employee>
+            return new ServiceResult<EmployeeResponse>
             {
                 Result = ResultStatus.Ok,
                 Message = "Employee with the specified Id.",
-                Data = item
-            };
-        }
-
-        public async Task<ServiceResult<Employee>> AddEmployee(CreateEmployeeRequest request)
-        {
-            var item = EmployeeMapper.CreateEmployeeRequestToEmployeeMapper(request);
-
-            var result = await _employeeService.AddEmployee(item);
-            if (result == null)
-            {
-                return new ServiceResult<Employee>
-                {
-                    Result = ResultStatus.Error,
-                    Message = "Employee cannot be added",
-                    Data = null
-                };
-            }
-
-            return new ServiceResult<Employee>
-            {
-                Result = ResultStatus.Error,
-                Message = "Employee has been added",
                 Data = result
             };
+        }
+
+        public async Task<ServiceResult<EmployeeResponse>> AddEmployee(CreateEmployeeRequest request)
+        {
+            //var item = EmployeeMapper.CreateEmployeeRequestToEmployeeMapper(request);
+            var item = _mapper.Map<Employee>(request);
+            try
+            {
+                _factory.BeginTransaction();
+                var response = await _employeeService.AddEmployee(item);
+                var result = _mapper.Map<EmployeeResponse>(response);
+                if (result == null)
+                {
+                    _factory.RollBack();
+                    return new ServiceResult<EmployeeResponse>
+                    {
+                        Result = ResultStatus.Error,
+                        Message = "Employee cannot be added",
+                        Data = null
+                    };
+                }
+                _factory.CommitTransaction();
+                return new ServiceResult<EmployeeResponse>
+                {
+                    Result = ResultStatus.Error,
+                    Message = "Employee has been added",
+                    Data = result
+                };
+            }
+            catch (Exception ex)
+            {
+                _factory.RollBack();
+                throw new Exception(ex.Message);
+            }
+
 
         }
-        public async Task<ServiceResult<Employee>> UpdateEmployee(UpdateEmployeeRequest request)
+        public async Task<ServiceResult<bool>> UpdateEmployee(UpdateEmployeeRequest request)
         {
             var item = await _employeeService.GetEmployeeById(request.Id);
 
             if (item == null)
             {
-                return new ServiceResult<Employee>
+                return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
                     Message = "Cannot find the employee with the specified Id.",
-                    Data = null
+                    Data = false
                 };
             }
-            item.Position = request.Position;
-            item.Salary = request.Salary;
-            if(request.DepartmentId != null)
+            try
             {
-                item.DepartmentId = request.DepartmentId;
-            }
-
-            var result = await _employeeService.UpdateEmployee(item);
-            if (result == false)
-            {
-                return new ServiceResult<Employee>
+                _factory.BeginTransaction();
+                item.Position = request.Position;
+                item.Salary = request.Salary;
+                if (request.DepartmentId != null)
                 {
-                    Result = ResultStatus.Error,
-                    Message = "Cannot update the employee.",
-                    Data = item
+                    item.DepartmentId = request.DepartmentId;
+                }
+                var result = await _employeeService.UpdateEmployee(item);
+                if (result == false)
+                {
+                    _factory.RollBack();
+                    return new ServiceResult<bool>
+                    {
+                        Result = ResultStatus.Error,
+                        Message = "Cannot update the employee.",
+                        Data = result
+                    };
+                }
+                _factory.CommitTransaction();
+                return new ServiceResult<bool>
+                {
+                    Result = ResultStatus.Ok,
+                    Message = "Employee updated successfully.",
+                    Data = result
                 };
             }
-            return new ServiceResult<Employee>
+            catch(Exception ex) 
             {
-                Result = ResultStatus.Ok,
-                Message = "Employee updated successfully.",
-                Data = item
-            };
+                _factory.RollBack();
+                throw new Exception(ex.Message);
+            }
         }
 
         public async Task<ServiceResult<bool>> DeleteEmployee(int id)
@@ -133,23 +168,34 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     Data = false
                 };
             }
-            item.IsDeleted = true;
-            var result = await _employeeService.UpdateEmployee(item);
-            if (!result)
+            try
             {
+                _factory.BeginTransaction();
+                item.IsDeleted = true;
+                var result = await _employeeService.UpdateEmployee(item);
+                if (!result)
+                {
+                    _factory.RollBack();
+                    return new ServiceResult<bool>
+                    {
+                        Result = ResultStatus.Error,
+                        Message = "Cannot delete employee",
+                        Data = false
+                    };
+                }
+                _factory.CommitTransaction();
                 return new ServiceResult<bool>
                 {
-                    Result = ResultStatus.Error,
-                    Message = "Cannot delete employee",
+                    Result = ResultStatus.Ok,
+                    Message = "Employee has been deleted",
                     Data = false
                 };
             }
-            return new ServiceResult<bool>
+            catch (Exception ex)
             {
-                Result = ResultStatus.Ok,
-                Message = "Employee has been deleted",
-                Data = false
-            };
+                _factory.RollBack();
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

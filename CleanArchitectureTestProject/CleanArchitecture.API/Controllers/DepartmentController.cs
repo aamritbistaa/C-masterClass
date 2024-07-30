@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
 using Microsoft.AspNetCore.Http;
@@ -17,19 +18,19 @@ namespace CleanArchitecture.API.Controllers
             _departmentManager = departmentManager;
         }
         [HttpGet("GetAllDepartment")]
-        public async Task<ServiceResult<List<Department>>> GetAllDepartment()
+        public async Task<ServiceResult<List<DepartmentResponse>>> GetAllDepartment()
         {
             var result = await _departmentManager.GetAllDepartment();
             return result;
         }
         [HttpGet("GetDepartmentById")]
-        public async Task<ServiceResult<Department>> GetDepartmentById(int id)
+        public async Task<ServiceResult<DepartmentResponse>> GetDepartmentById(int id)
         {
             var result = await _departmentManager.GetDepartmentById(id);
             return result;
         }
         [HttpPost("AddDepartment")]
-        public async Task<ServiceResult<Department>> AddDepartment(CreateDepartmentRequest request)
+        public async Task<ServiceResult<DepartmentResponse>> AddDepartment(CreateDepartmentRequest request)
         {
             var result = await _departmentManager.AddDepartment(request);
             return result;

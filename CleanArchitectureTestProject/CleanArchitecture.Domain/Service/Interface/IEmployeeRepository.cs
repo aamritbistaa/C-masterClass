@@ -1,7 +1,6 @@
 ﻿using CleanArchitecture.Domain.Entity;
-using static CleanArchitecture.Application.Common.CommonUtils;
 
-namespace CleanArchitecture.Application.Repository
+namespace CleanArchitecture.Domain.Repository
 {
     public interface IEmployeeRepository<t>
     {

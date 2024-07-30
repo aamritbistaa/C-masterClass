@@ -10,6 +10,6 @@ namespace CleanArchitecture.Application.Manager.Interface
 {
     public interface IViewManager
     {
-        Task<ServiceResult<List<EmployeeResponse>>> GetAllEmployeeDetails();
+        Task<ServiceResult<List<ViewEmployeeResponse>>> GetAllEmployeeDetails();
     }
 }

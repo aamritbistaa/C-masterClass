@@ -27,7 +27,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
             _departmentService = departmentService;
         }
 
-        public async Task<ServiceResult<List<EmployeeResponse>>> GetAllEmployeeDetails()
+        public async Task<ServiceResult<List<ViewEmployeeResponse>>> GetAllEmployeeDetails()
         {
             var addressList = await _addressService.GetAllAddress();
             var userList = await _userService.GetAllUser();
@@ -44,7 +44,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                           join d in departmentList
                           on e.DepartmentId equals d.Id into departmentGroup
                           from dG in departmentGroup.DefaultIfEmpty()
-                          select new EmployeeResponse
+                          select new ViewEmployeeResponse
                           {
                               EmployeeId = e.Id,
                               Name = uG?.Name,
@@ -62,15 +62,15 @@ namespace CleanArchitecture.Application.Manager.Implementation
                           }).ToList();
             if (record.Count < 1)
             {
-                return new ServiceResult<List<EmployeeResponse>>
+                return new ServiceResult<List<ViewEmployeeResponse>>
                 {
                     Result = ResultStatus.Error,
                     Message = "Employee table is empty",
-                    Data = new List<EmployeeResponse>()
+                    Data = new List<ViewEmployeeResponse>()
                 };
             }
 
-            return new ServiceResult<List<EmployeeResponse>>
+            return new ServiceResult<List<ViewEmployeeResponse>>
                 {
                 Result= ResultStatus.Ok,
                 Message = "Displaying all the employee record",

@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Domain.Entity;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace CleanArchitecture.Application.Manager.Interface
 {
     public interface IDepartmentManager
     {
-        Task<ServiceResult<List<Department>>> GetAllDepartment();
-        Task<ServiceResult<Department>> GetDepartmentById(int id);
-        Task<ServiceResult<Department>> AddDepartment(CreateDepartmentRequest request);
+        Task<ServiceResult<List<DepartmentResponse>>> GetAllDepartment();
+        Task<ServiceResult<DepartmentResponse>> GetDepartmentById(int id);
+        Task<ServiceResult<DepartmentResponse>> AddDepartment(CreateDepartmentRequest request);
         Task<ServiceResult<bool>> UpdateDepartment(UpdateDepartmentRequest request);
         Task<ServiceResult<bool>> DeleteDepartment(int id);
     }

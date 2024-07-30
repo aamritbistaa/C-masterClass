@@ -1,15 +1,6 @@
 using CleanArchitecture.Application;
-using CleanArchitecture.Application.Manager.Implementation;
-using CleanArchitecture.Application.Manager.Interface;
-using CleanArchitecture.Application.Repository;
-using CleanArchitecture.Domain.Entity;
-using CleanArchitecture.Domain.Service.Interface;
 using CleanArchitecture.Infrastructure;
-using CleanArchitecture.Infrastructure.Context;
 using CleanArchitecture.Infrastructure.Repository;
-using CleanArchitecture.Infrastructure.Service.Implementation;
-using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,11 +12,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(connectionString));
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//builder.Services.AddDbContext<AppDbContext>(opt=> opt.UseNpgsql(connectionString));
 
-builder.Services.AddApplication();
-builder.Services.AddInfrastructure();
+builder.Services.AddApplication(builder.Configuration);
+builder.Services.AddInfrastructure(builder.Configuration);
 
 
 var app = builder.Build();

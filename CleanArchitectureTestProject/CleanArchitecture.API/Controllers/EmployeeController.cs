@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,25 +17,25 @@ namespace CleanArchitecture.API.Controllers
             _employeeManager = employeeManager;
         }
         [HttpGet("GetAllEmployee")]
-        public async Task<ServiceResult<List<Employee>>> GetAllEmployee()
+        public async Task<ServiceResult<List<EmployeeResponse>>> GetAllEmployee()
         {
             var result =await _employeeManager.GetAllEmployees();
             return result;
         }
         [HttpGet("GetEmployeeById")]
-        public async Task<ServiceResult<Employee>> GetEmployeeById(int id)
+        public async Task<ServiceResult<EmployeeResponse>> GetEmployeeById(int id)
         {
             var result = await _employeeManager.GetEmployeeById(id);
             return result;
         }
         [HttpPost("AddEmployee")]
-        public async Task<ServiceResult<Employee>> AddEmployee(CreateEmployeeRequest request)
+        public async Task<ServiceResult<EmployeeResponse>> AddEmployee(CreateEmployeeRequest request)
         {
             var result = await _employeeManager.AddEmployee(request);
             return result;
         }
         [HttpPut("UpdateEmployee")]
-        public async Task<ServiceResult<Employee>> UpdateEmployee(UpdateEmployeeRequest request)
+        public async Task<ServiceResult<bool>> UpdateEmployee(UpdateEmployeeRequest request)
         {
             var result = await _employeeManager.UpdateEmployee(request);
             return result;

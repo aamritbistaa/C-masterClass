@@ -222,3 +222,5 @@ D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API
 D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API\obj\Debug\net8.0\CleanArc.BEB50964.Up2Date
 D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API\obj\Debug\net8.0\CleanArchitecture.API.genruntimeconfig.cache
 D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API\obj\Debug\net8.0\ref\CleanArchitecture.API.dll
+D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API\bin\Debug\net8.0\AutoMapper.dll
+D:\source\repos\C-masterClass\CleanArchitectureTestProject\CleanArchitecture.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

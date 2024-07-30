@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArchitecture.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace CleanArchitecture.Domain.Validation
             DateOnly requestDate = DateOnly.Parse(value.ToString());
             if (requestDate is DateOnly)
             {
-                if (requestDate <= DateTimeHelpers.ReturnTodayDate)
+                if (requestDate <= DateTimeHelper.ReturnTodayDate)
                 {
                     return ValidationResult.Success;
                 }

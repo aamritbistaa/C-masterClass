@@ -1,5 +1,5 @@
-﻿using CleanArchitecture.Application.Repository;
-using CleanArchitecture.Domain.Entity;
+﻿using CleanArchitecture.Domain.Entity;
+using CleanArchitecture.Domain.Repository;
 using CleanArchitecture.Domain.Service.Interface;
 using System;
 using System.Collections.Generic;
@@ -11,31 +11,30 @@ namespace CleanArchitecture.Infrastructure.Service.Implementation
 {
     public class EmployeeService : IEmployeeService
     {
-        private readonly IEmployeeRepository<Employee> _employeeRepository;
+        private readonly IEmployeeServiceFactory _factory;
 
-        public EmployeeService(IEmployeeRepository<Employee> employeeRepository)
+        public EmployeeService(IEmployeeServiceFactory factory)
         {
-            _employeeRepository = employeeRepository;
+            _factory = factory;
         }
-
         public async Task<List<Employee>> GetAllEmployee()
         {
-            var result = await _employeeRepository.ListAsync();
+            var result = await _factory.GetInstance<Employee>().ListAsync();
             return result;
         }
         public async Task<Employee> GetEmployeeById(int id)
         {
-            var result = await _employeeRepository.FindAsync(id);
+            var result = await _factory.GetInstance<Employee>().FindAsync(id);
             return result;
         }
         public async Task<Employee> AddEmployee(Employee request)
         {
-            var result = await _employeeRepository.AddAsync(request);
+            var result = await _factory.GetInstance<Employee>().AddAsync(request);
             return result;
         }
         public async Task<bool> UpdateEmployee(Employee request)
         {
-            var result = await _employeeRepository.UpdateAsync(request);
+            var result = await _factory.GetInstance<Employee>().UpdateAsync(request);
             return result;
         }
     }
