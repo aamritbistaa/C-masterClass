@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Domain.Entity;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,17 @@ namespace CleanArchitecture.Application.Mapper
                 City = request.City,
                 Country = request.Country,
                 StreetAddress = request.StreetAddress,
+            };
+        }
+        public static AddressResponse AddressToAddressResponseMapper(Address request)
+        {
+            return new AddressResponse
+            {
+                Id = request.Id,
+                City = request.City,
+                Country = request.Country,
+                StreetAddress = request.StreetAddress,
+                IsDeleted = request.IsDeleted,
             };
         }
     }

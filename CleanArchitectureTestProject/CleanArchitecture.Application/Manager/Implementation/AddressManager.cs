@@ -3,7 +3,6 @@ using CleanArchitecture.Application.DTO.Request;
 using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Mapper;
-using CleanArchitecture.Domain.Entity;
 using CleanArchitecture.Domain.Service.Interface;
 using static CleanArchitecture.Application.Common.CommonUtils;
 
@@ -24,10 +23,16 @@ namespace CleanArchitecture.Application.Manager.Implementation
         public async Task<ServiceResult<List<AddressResponse>>> GetAllAddress()
         {
             var response = await _addressService.GetAllAddress();
+            //var result = (
+            //    from item in response
+            //    select _mapper.Map<AddressResponse>(item)
+            //    ).ToList();
             var result = (
                 from item in response
-                select _mapper.Map<AddressResponse>(item)
+                select AddressMapper.AddressToAddressResponseMapper(item)
                 ).ToList();
+
+
             if (result.Any())
             {
                 return new ServiceResult<List<AddressResponse>>
@@ -47,7 +52,8 @@ namespace CleanArchitecture.Application.Manager.Implementation
         public async Task<ServiceResult<AddressResponse>> GetAddressById(int id)
         {
             var response = await _addressService.GetAddressById(id);
-            var result = _mapper.Map<AddressResponse>(response);
+            //var result = _mapper.Map<AddressResponse>(response);
+            var result = AddressMapper.AddressToAddressResponseMapper(response);
             if (result == null)
             {
                 return new ServiceResult<AddressResponse>
@@ -66,13 +72,15 @@ namespace CleanArchitecture.Application.Manager.Implementation
         }
         public async Task<ServiceResult<AddressResponse>> AddAddress(CreateAddressRequest request)
         {
-            //var item = AddressMapper.CreateAddressRequestToAddressMapper(request);
-            var item = _mapper.Map<Address>(request);
+            //var item = _mapper.Map<Address>(request);
             try
             {
                 _factory.BeginTransaction();
+                var item = AddressMapper.CreateAddressRequestToAddressMapper(request);
+
                 var response = await _addressService.AddAddress(item);
-                var result = _mapper.Map<AddressResponse>(response);
+                //var result = _mapper.Map<AddressResponse>(response);
+                var result = AddressMapper.AddressToAddressResponseMapper(response);
                 if (result == null)
                 {
                     _factory.RollBack();
@@ -183,7 +191,5 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 throw new Exception(ex.Message);
             }
         }
-
-
     }
 }

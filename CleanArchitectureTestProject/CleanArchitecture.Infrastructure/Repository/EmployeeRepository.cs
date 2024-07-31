@@ -36,7 +36,6 @@ namespace CleanArchitecture.Infrastructure.Repository
             return result;
         }
         public async Task<t> AddAsync(t model)
-
         {
             if(model is null)
             {
@@ -48,14 +47,13 @@ namespace CleanArchitecture.Infrastructure.Repository
                 // This can be useful in certain scenarios where you want to start fresh without any tracked entities
                 db.ChangeTracker.Clear();
 
-                var output = db.Set<t>().Add(model);
+                var output = await db.Set<t>().AddAsync(model);
                 var result = output.Entity;
                 await db.SaveChangesAsync();
                 return result;
             }
             catch (Exception)
             {
-                return null;
                 throw;
             }
         }
