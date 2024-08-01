@@ -1,16 +1,10 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Domain.Entity;
-using CleanArchitecture.Domain.Enum;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchitecture.Application.Mapper
 {
-    internal class UserMapper
+    public class UserMapper
     {
         public static User CreateUserRequestToUser(CreateUserRequest request)
         {
@@ -23,6 +17,22 @@ namespace CleanArchitecture.Application.Mapper
                 UniqueId = request.UniqueId,
                 Gender = request.Gender,
                 AddresId = request.AddresId,
+            };
+        }
+
+        public static UserResponse UserToUserResponse(User request)
+        {
+            return new UserResponse
+            {
+                Id = request.Id,
+                Name = request.Name,
+                PhoneNumber = request.PhoneNumber,
+                Email = request.Email,
+                DateOfBirth = request.DateOfBirth,
+                UniqueId = request.UniqueId,
+                Gender = request.Gender,
+                AddresId = request.AddresId,
+                IsDelted = request.IsDeleted
             };
         }
     }

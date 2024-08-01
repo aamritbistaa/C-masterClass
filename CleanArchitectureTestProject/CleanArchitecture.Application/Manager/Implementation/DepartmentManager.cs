@@ -15,7 +15,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
         private readonly IMapper _mapper;
 
         private readonly IEmployeeServiceFactory _factory;
-        public DepartmentManager(IDepartmentService departmentService, IMapper mapper,IEmployeeServiceFactory factory)
+        public DepartmentManager(IDepartmentService departmentService, IMapper mapper, IEmployeeServiceFactory factory)
         {
             _factory = factory;
             _departmentService = departmentService;
@@ -28,6 +28,8 @@ namespace CleanArchitecture.Application.Manager.Implementation
             var result = (from item in response
                           select _mapper.Map<DepartmentResponse>(item))
                           .ToList();
+
+            //var result = _mapper.Map<List<DepartmentResponse>>(response);
             if (result.Count == 0)
             {
                 return new ServiceResult<List<DepartmentResponse>>
@@ -99,7 +101,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
             }
             //mapp the reqeust
             //var item = DepartmentMapper.CreateDepartmentRequestToDepartmentMapper(request);
-            
+
         }
         public async Task<ServiceResult<bool>> UpdateDepartment(UpdateDepartmentRequest request)
         {
@@ -140,7 +142,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
             {
                 _factory.RollBack();
                 throw new Exception(ex.Message);
-            }   
+            }
         }
 
         public async Task<ServiceResult<bool>> DeleteDepartment(int id)

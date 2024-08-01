@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Application.DTO.Request;
+using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Domain.Entity;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,15 @@ namespace CleanArchitecture.Application.Mapper
             return new Department
             {
                 Name = request.Name,
+            };
+        }
+        public static DepartmentResponse DepartmentToDepartmentResponseMapper(Department request)
+        {
+            return new DepartmentResponse
+            {
+                Id = request.Id,
+                Name = request.Name,
+                IsDeleted = request.IsDeleted
             };
         }
     }
