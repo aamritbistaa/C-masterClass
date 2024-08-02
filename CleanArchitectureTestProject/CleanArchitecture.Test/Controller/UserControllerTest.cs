@@ -4,15 +4,8 @@ using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Mapper;
 using CleanArchitecture.Domain.Enum;
-using CleanArchitecture.Domain.Validation;
 using CleanArchitecture.Test.Data;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static CleanArchitecture.Application.Common.CommonUtils;
 
 namespace CleanArchitecture.Test.Controller

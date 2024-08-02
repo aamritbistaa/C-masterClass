@@ -3,6 +3,7 @@ using CleanArchitecture.Application.DTO.Request;
 using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Mapper;
+using CleanArchitecture.Test.Data;
 using Microsoft.EntityFrameworkCore;
 using Moq;
 using NuGet.Frameworks;
@@ -12,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static CleanArchitecture.Application.Common.CommonUtils;
+using static CleanArchitecture.Application.Common.Message;
 
 namespace CleanArchitecture.Test.Controller
 {
@@ -29,13 +31,12 @@ namespace CleanArchitecture.Test.Controller
         [Fact]
         public async void GetAllDepartment_ReturnsListOfDepartmentResponse()
         {
-            var datas = (from item in _fixture.mockDbContext.Departments.ToList()
-                         select DepartmentMapper.DepartmentToDepartmentResponseMapper(item)).ToList();
+            var datas = DepartmentInfo.DepartmentResponseList;
             //Arrange
             var expected = new ServiceResult<List<DepartmentResponse>>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying department records.",
+                Message = DepartmentMessage.Displaying,
                 Data = datas
             };
             _manager.Setup(x => x.GetAllDepartment()).ReturnsAsync(expected);
@@ -44,7 +45,6 @@ namespace CleanArchitecture.Test.Controller
             var result = await _sut.GetAllDepartment();
 
             //Assert
-            Assert.NotNull(result);
             Assert.Equivalent(expected, result);
         }
 
@@ -52,14 +52,15 @@ namespace CleanArchitecture.Test.Controller
         public async void GetDepartmentById_ReturnsDepartmentResponse()
         {
             //Arrange
-            int id = 1;
-            var data = await _fixture.mockDbContext.Departments.FirstAsync(x=>x.Id==id);
+            
+            var data = DepartmentInfo.DepartmentResponseList[0];
+            var id = data.Id;
 
             var expected = new ServiceResult<DepartmentResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying department record.",
-                Data = DepartmentMapper.DepartmentToDepartmentResponseMapper(data)
+                Message = DepartmentMessage.Displaying,
+                Data = data
             };
             _manager.Setup(x => x.GetDepartmentById(id)).ReturnsAsync(expected);
 
@@ -67,7 +68,6 @@ namespace CleanArchitecture.Test.Controller
             var result = await _sut.GetDepartmentById(id);
 
             //Assert
-            Assert.NotNull(result);
             Assert.Equivalent(expected, result);
         }
 
@@ -83,8 +83,8 @@ namespace CleanArchitecture.Test.Controller
             var expected = new ServiceResult<DepartmentResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Deprtment added successfully",
-                Data = new DepartmentResponse { Id = 1, Name = "IT", IsDeleted = false }
+                Message = DepartmentMessage.SuccessAdding,
+                Data = DepartmentInfo.DepartmentResponseList[0]
             };
             _manager.Setup(x => x.AddDepartment(department)).ReturnsAsync(expected);
 
@@ -108,7 +108,7 @@ namespace CleanArchitecture.Test.Controller
             var expected = new ServiceResult<bool>
             {
                 Result = ResultStatus.Ok,
-                Message = "Department updated successfully.",
+                Message = DepartmentMessage.SuccessUpdating,
                 Data = true
             };
             _manager.Setup(x => x.UpdateDepartment(department)).ReturnsAsync(expected);
@@ -129,7 +129,7 @@ namespace CleanArchitecture.Test.Controller
             var expected = new ServiceResult<bool>
             {
                 Result = ResultStatus.Ok,
-                Message = "Department deleted successfully.",
+                Message = DepartmentMessage.SuccessDeleting,
                 Data = true
             };
             _manager.Setup(x => x.DeleteDepartment(id)).ReturnsAsync(expected);

@@ -3,6 +3,7 @@ using CleanArchitecture.Application.DTO.Request;
 using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Domain.Entity;
+using CleanArchitecture.Test.Data;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static CleanArchitecture.Application.Common.CommonUtils;
+using static CleanArchitecture.Application.Common.Message;
 
 namespace CleanArchitecture.Test.Controller
 {
@@ -21,30 +23,18 @@ namespace CleanArchitecture.Test.Controller
         {
             _sut = new AddressController(_manager.Object);
         }
-        private List<AddressResponse> addressList =
-                    new List<AddressResponse> {
-                new AddressResponse {
-                    City = "Kathmandu",
-                    Country = "Nepal",
-                    Id=1,
-                    IsDeleted = false,
-                },
-                new AddressResponse {
-                    City = "Baneshwor",
-                    Country = "Nepal",
-                    Id=1,
-                    IsDeleted = false,
-                }
-            };
+        
         [Fact]
         public async void GetAllAddress_ReturnsListOfAllAddress()
         {
+            AddressInfo.Initialize();
+            var data = AddressInfo.AddressResponseList;
             //Arrange
             var expectedResult = new ServiceResult<List<AddressResponse>>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying all Address",
-                Data = addressList
+                Message = AddressMessage.Displaying,
+                Data = data
             };
             _manager.Setup(x => x.GetAllAddress()).ReturnsAsync(expectedResult);
 
@@ -58,13 +48,17 @@ namespace CleanArchitecture.Test.Controller
         [Fact]
         public async void GetddressById_ReturnsAddress()
         {
+            AddressInfo.Initialize();
+
+            var data = AddressInfo.AddressResponseList[0];
+
             //Arrange
-            int id = addressList[0].Id;
+            int id = data.Id;
             var expectedResult = new ServiceResult<AddressResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying all Address",
-                Data = addressList[0]
+                Message = AddressMessage.Displaying,
+                Data = data
             };
             _manager.Setup(x => x.GetAddressById(id)).ReturnsAsync(expectedResult);
 
@@ -78,26 +72,18 @@ namespace CleanArchitecture.Test.Controller
         [Fact]
         public async void AddAddress_ReturnsAddress()
         {
+            AddressInfo.Initialize();
+
             //Arrange
-            var address = new CreateAddressRequest
-            {
-                StreetAddress = "Kamal Binayak",
-                City = "Bhaktapur",
-                Country = "Nepal",
-            };
+            var address = AddressInfo.CreateAddressRequest;
+
             var expectedResult = new ServiceResult<AddressResponse>
             {
-                Message = "Address has been added",
                 Result = ResultStatus.Ok,
-                Data = new AddressResponse
-                {
-                    Id = 10,
-                    City = address.City,
-                    Country = address.Country,
-                    StreetAddress = address.StreetAddress,
-                    IsDeleted = false,
-                }
+                Message = AddressMessage.SuccessAdding,
+                Data = AddressInfo.CreateAddressResponse
             };
+
             _manager.Setup(x => x.AddAddress(address)).ReturnsAsync(expectedResult);
 
             //Act
@@ -110,18 +96,14 @@ namespace CleanArchitecture.Test.Controller
         [Fact]
         public async void UpdateAddress_ReturnsBoolean()
         {
+            AddressInfo.Initialize();
+
             //Arrange
-            var address = new UpdateAddressRequest
-            {
-                Id = 1,
-                StreetAddress = "Kamal Binayak",
-                City = "Bhaktapur",
-                Country = "Nepal",
-            };
+            var address = AddressInfo.UpdateAddressRequest;
             var expectedResult = new ServiceResult<bool>
             {
                 Result = ResultStatus.Ok,
-                Message = "Address has been updated.",
+                Message = AddressMessage.SuccessUpdating,
                 Data = true
             };
             _manager.Setup(x => x.UpdateAddress(address)).ReturnsAsync(expectedResult);
@@ -141,7 +123,7 @@ namespace CleanArchitecture.Test.Controller
             var expectedResult = new ServiceResult<bool>
             {
                 Result = ResultStatus.Ok,
-                Message = "Address has been deleted",
+                Message = AddressMessage.SuccessDeleting,
                 Data = true
             };
             _manager.Setup(x => x.DeleteAddress(id)).ReturnsAsync(expectedResult);

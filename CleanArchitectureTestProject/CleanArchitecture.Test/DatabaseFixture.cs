@@ -13,7 +13,7 @@ namespace CleanArchitecture.Test
         public AppDbContext mockDbContext = null;
         public DatabaseFixture()
         {
-            MapperHelper._isUnitTest = true;
+            //MapperHelper._isUnitTest = true;
 
             ConfigurationStoreOptions storeOptions = new ConfigurationStoreOptions();
             var serviceCollection = new ServiceCollection();
@@ -32,12 +32,19 @@ namespace CleanArchitecture.Test
             var departmentList = DepartmentInfo.DepartmentList;
 
             UserInfo.Initialize();
-            var userList = UserInfo.userList;
+
+            var userList = UserInfo.UserList;
+
+            EmployeeInfo.Initialize();
+            var employeeList = EmployeeInfo.EmployeeList;
            
+            var addressList = AddressInfo.AddressList;
             try
             {
+                databaseContext.Employees.AddRange(employeeList);
                 databaseContext.Departments.AddRange(departmentList);
-                databaseContext.Users.AddRange(userList);
+                databaseContext.Users.AddRangeAsync(userList);
+                databaseContext.Addressses.AddRange(addressList);
                 databaseContext.SaveChanges();
             }
             catch(Exception ex)
@@ -50,7 +57,8 @@ namespace CleanArchitecture.Test
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            //MapperHelper._isUnitTest = true;
+            mockDbContext.Database.EnsureDeleted();
         }
     }
 }

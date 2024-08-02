@@ -5,6 +5,7 @@ using CleanArchitecture.Application.Manager.Interface;
 using CleanArchitecture.Application.Mapper;
 using CleanArchitecture.Domain.Service.Interface;
 using static CleanArchitecture.Application.Common.CommonUtils;
+using static CleanArchitecture.Application.Common.Message;
 
 namespace CleanArchitecture.Application.Manager.Implementation
 {
@@ -23,29 +24,24 @@ namespace CleanArchitecture.Application.Manager.Implementation
         public async Task<ServiceResult<List<AddressResponse>>> GetAllAddress()
         {
             var response = await _addressService.GetAllAddress();
-            //var result = (
-            //    from item in response
-            //    select _mapper.Map<AddressResponse>(item)
-            //    ).ToList();
-            var result = (
-                from item in response
-                select AddressMapper.AddressToAddressResponseMapper(item)
-                ).ToList();
-
-
-            if (result.Any())
+            
+            if (response.Any())
             {
+                var result = (
+                from item in response
+                select _mapper.Map<AddressResponse>(item)
+                ).ToList();
                 return new ServiceResult<List<AddressResponse>>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Displaying all Address",
+                    Message = AddressMessage.Displaying,
                     Data = result
                 };
             }
             return new ServiceResult<List<AddressResponse>>
             {
                 Result = ResultStatus.Error,
-                Message = "No record found for Address",
+                Message = AddressMessage.Empty,
                 Data = new List<AddressResponse>()
             };
         }
@@ -53,33 +49,32 @@ namespace CleanArchitecture.Application.Manager.Implementation
         {
             var response = await _addressService.GetAddressById(id);
             //var result = _mapper.Map<AddressResponse>(response);
-            var result = AddressMapper.AddressToAddressResponseMapper(response);
-            if (result == null)
+           
+            if (response == null)
             {
                 return new ServiceResult<AddressResponse>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Address not found",
+                    Message = AddressMessage.ItemNotFound,
                     Data = new AddressResponse()
                 };
             }
+            var result = AddressMapper.AddressToAddressResponseMapper(response);
             return new ServiceResult<AddressResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying Address",
+                Message = AddressMessage.Displaying,
                 Data = result
             };
         }
         public async Task<ServiceResult<AddressResponse>> AddAddress(CreateAddressRequest request)
         {
-            //var item = _mapper.Map<Address>(request);
             try
             {
                 _factory.BeginTransaction();
                 var item = AddressMapper.CreateAddressRequestToAddressMapper(request);
 
                 var response = await _addressService.AddAddress(item);
-                //var result = _mapper.Map<AddressResponse>(response);
                 var result = AddressMapper.AddressToAddressResponseMapper(response);
                 if (result == null)
                 {
@@ -87,7 +82,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<AddressResponse>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Address cannot be added",
+                        Message = AddressMessage.ErrorWhileAdding,
                         Data = null
                     };
                 }
@@ -95,7 +90,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<AddressResponse>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Address has been added",
+                    Message = AddressMessage.SuccessAdding,
                     Data = result
                 };
             }
@@ -113,7 +108,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Cannot find address with specified id",
+                    Message = AddressMessage.ItemNotFound,
                     Data = false
                 };
             }
@@ -131,7 +126,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<bool>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Cannot update the address.",
+                        Message = AddressMessage.ErrorWhileUpdating,
                         Data = result
                     };
                 }
@@ -139,7 +134,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Address has been updated.",
+                    Message = AddressMessage.SuccessUpdating,
                     Data = result
                 };
             }
@@ -158,7 +153,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Cannot find Address",
+                    Message = AddressMessage.ItemNotFound,
                     Data = false
                 };
             }
@@ -173,7 +168,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<bool>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Cannot delete address",
+                        Message = AddressMessage.ErrorWhileDeleting,
                         Data = false
                     };
                 }
@@ -181,7 +176,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Address has been deleted",
+                    Message = AddressMessage.SuccessDeleting,
                     Data = false
                 };
             }

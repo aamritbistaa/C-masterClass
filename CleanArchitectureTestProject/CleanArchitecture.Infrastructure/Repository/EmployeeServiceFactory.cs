@@ -7,6 +7,7 @@ namespace CleanArchitecture.Infrastructure.Repository
     public class EmployeeServiceFactory : IDisposable, IEmployeeServiceFactory
     {
         public AppDbContext db;
+        public bool _isforTest;
 
         public EmployeeServiceFactory()
         {
@@ -15,6 +16,7 @@ namespace CleanArchitecture.Infrastructure.Repository
         public EmployeeServiceFactory(AppDbContext db)
         {
             this.db = db;
+            //_isforTest = isforTest;
         }
         public void Dispose()
         {

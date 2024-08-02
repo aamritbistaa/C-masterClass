@@ -18,7 +18,6 @@ namespace CleanArchitecture.Infrastructure.Service.Implementation
         //    _departmentRepository = departmentRepository;
         //}
         private readonly IEmployeeServiceFactory _factory;
-
         public DepartmentService(IEmployeeServiceFactory factory)
         {
             _factory = factory;

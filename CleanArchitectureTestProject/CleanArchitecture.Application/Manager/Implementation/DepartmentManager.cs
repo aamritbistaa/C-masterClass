@@ -6,6 +6,7 @@ using CleanArchitecture.Application.Mapper;
 using CleanArchitecture.Domain.Entity;
 using CleanArchitecture.Domain.Service.Interface;
 using static CleanArchitecture.Application.Common.CommonUtils;
+using static CleanArchitecture.Application.Common.Message;
 
 namespace CleanArchitecture.Application.Manager.Implementation
 {
@@ -21,28 +22,28 @@ namespace CleanArchitecture.Application.Manager.Implementation
             _departmentService = departmentService;
             _mapper = mapper;
         }
-
         public async Task<ServiceResult<List<DepartmentResponse>>> GetAllDepartment()
         {
             var response = await _departmentService.GetAllDepartment();
+            if (response.Count == 0)
+            {
+                return new ServiceResult<List<DepartmentResponse>>
+                {
+                    Result = ResultStatus.Error,
+                    Message = DepartmentMessage.Empty,
+                    Data = new List<DepartmentResponse>()
+                };
+            }
             var result = (from item in response
                           select _mapper.Map<DepartmentResponse>(item))
                           .ToList();
 
             //var result = _mapper.Map<List<DepartmentResponse>>(response);
-            if (result.Count == 0)
-            {
-                return new ServiceResult<List<DepartmentResponse>>
-                {
-                    Result = ResultStatus.Error,
-                    Message = "Department table is empty.",
-                    Data = new List<DepartmentResponse>()
-                };
-            }
+            
             return new ServiceResult<List<DepartmentResponse>>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying department records.",
+                Message = DepartmentMessage.Displaying,
                 Data = result
             };
         }
@@ -50,20 +51,20 @@ namespace CleanArchitecture.Application.Manager.Implementation
         public async Task<ServiceResult<DepartmentResponse>> GetDepartmentById(int id)
         {
             var response = await _departmentService.GetDepartmentById(id);
-            var result = _mapper.Map<DepartmentResponse>(response);
-            if (result == null)
+            if (response == null)
             {
                 return new ServiceResult<DepartmentResponse>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Department with specified id does not exist.",
+                    Message = DepartmentMessage.ItemNotFound,
                     Data = new DepartmentResponse()
                 };
             }
+            var result = _mapper.Map<DepartmentResponse>(response);
             return new ServiceResult<DepartmentResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying department record.",
+                Message = DepartmentMessage.Displaying,
                 Data = result
             };
 
@@ -75,22 +76,22 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 _factory.BeginTransaction();
                 var item = _mapper.Map<Department>(request);
                 var response = await _departmentService.AddDepartment(item);
-                var result = _mapper.Map<DepartmentResponse>(response);
-                if (result == null)
+                if (response == null)
                 {
                     _factory.RollBack();
                     return new ServiceResult<DepartmentResponse>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Error adding department",
+                        Message = DepartmentMessage.ErrorWhileAdding,
                         Data = null
                     };
                 }
+                var result = _mapper.Map<DepartmentResponse>(response);
                 _factory.CommitTransaction();
                 return new ServiceResult<DepartmentResponse>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Deprtment added successfully",
+                    Message = DepartmentMessage.SuccessAdding,
                     Data = result
                 };
             }
@@ -99,9 +100,6 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 _factory.RollBack();
                 throw new Exception(ex.Message);
             }
-            //mapp the reqeust
-            //var item = DepartmentMapper.CreateDepartmentRequestToDepartmentMapper(request);
-
         }
         public async Task<ServiceResult<bool>> UpdateDepartment(UpdateDepartmentRequest request)
         {
@@ -111,7 +109,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Unable to find department with specified Id.",
+                    Message = DepartmentMessage.ItemNotFound,
                     Data = false
                 };
             }
@@ -126,7 +124,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<bool>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Error occured while updaing the department.",
+                        Message = DepartmentMessage.ErrorWhileUpdating,
                         Data = result
                     };
                 }
@@ -134,7 +132,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Department updated successfully.",
+                    Message = DepartmentMessage.SuccessUpdating,
                     Data = result
                 };
             }
@@ -153,7 +151,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Unable to find the department with specified Id."
+                    Message = DepartmentMessage.ItemNotFound
                 };
             }
             try
@@ -167,7 +165,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<bool>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Error occured while deleting the department.",
+                        Message = DepartmentMessage.ErrorWhileDeleting,
                         Data = result
                     };
                 }
@@ -175,7 +173,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "Department deleted successfully.",
+                    Message = DepartmentMessage.SuccessDeleting,
                     Data = result
                 };
             }

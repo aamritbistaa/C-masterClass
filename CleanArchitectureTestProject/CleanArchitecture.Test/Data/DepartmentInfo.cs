@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Domain.Entity;
+﻿using CleanArchitecture.Application.DTO.Response;
+using CleanArchitecture.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,12 +12,7 @@ namespace CleanArchitecture.Test.Data
     {
         public static void Init()
         {
-            //Departments = new Department()
-            //{
-            //    Id = 3,
-            //    IsDeleted = false,
-            //    Name = "IT"
-            //};
+
             DepartmentList = new List<Department>()
             {
                 new Department()
@@ -32,8 +28,27 @@ namespace CleanArchitecture.Test.Data
                     Name = "IT"
                 }
             };
+
+            DepartmentResponseList = new List<DepartmentResponse>()
+            {
+                new DepartmentResponse()
+                {
+                    Id = 1,
+                    IsDeleted = false,
+                    Name = "IT"
+                },
+                new DepartmentResponse()
+                {
+                    Id = 2,
+                    IsDeleted = false,
+                    Name = "IT"
+                }
+            };
+
         }
-        //public static Department Departments { get; set; }
         public static List<Department> DepartmentList { get; set; }
+        public static List<DepartmentResponse> DepartmentResponseList { get; set; }
+
+
     }
 }
