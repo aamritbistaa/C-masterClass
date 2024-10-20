@@ -1,0 +1,26 @@
+@host = "http://localhost:5214"
+
+###
+
+GET http://localhost:5214/weatherforecast
+
+###
+GET http://localhost:5214/api/WeatherForecast/HelloWorld
+
+###
+@adminId = 3fa85f64-5717-4562-b3fc-2c963f66afa6
+
+POST {{host}}/api/Subscription
+Content-Type: application/json
+
+{
+    "SubscriptionType" : "Starter",
+    "AdminId" : "{{adminId}}"
+}
+
+
+
+# {
+#   "subscriptionType": "Free",
+#   "adminId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+# }

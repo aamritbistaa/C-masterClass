@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBE2BDC-D15C-4985-8442-8BAB44AD01DB}|GymManagement.Application\\GymManagement.Application.csproj|d:\\source\\repos\\c-masterclass\\dometrain - clean architecture\\gymmanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBBE2BDC-D15C-4985-8442-8BAB44AD01DB}|GymManagement.Application\\GymManagement.Application.csproj|solutionrelative:gymmanagement.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF47C9BF-BACF-4DB2-A6F9-3D5B3DEF68D4}|GymManagement.Api\\GymManagement.Api.csproj|d:\\source\\repos\\c-masterclass\\dometrain - clean architecture\\gymmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF47C9BF-BACF-4DB2-A6F9-3D5B3DEF68D4}|GymManagement.Api\\GymManagement.Api.csproj|solutionrelative:gymmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|d:\\source\\repos\\c-masterclass\\dometrain - clean architecture\\gymmanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|solutionrelative:gymmanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|d:\\source\\repos\\c-masterclass\\dometrain - clean architecture\\gymmanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|solutionrelative:gymmanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|d:\\source\\repos\\c-masterclass\\dometrain - clean architecture\\gymmanagement.infrastructure\\gymmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BBB9AC3-AFC6-4270-94C2-C852DA8D529C}|GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj|solutionrelative:gymmanagement.infrastructure\\gymmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "GymManagement.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "GymManagement.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T09:39:49.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "GymManagement.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "GymManagement.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:37:43.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GymManagement.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+              "RelativeToolTip": "GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T07:37:40.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "GymManagement.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "GymManagement.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:36:53.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GymManagement.Api\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Api\\Program.cs",
+              "RelativeToolTip": "GymManagement.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T07:36:25.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

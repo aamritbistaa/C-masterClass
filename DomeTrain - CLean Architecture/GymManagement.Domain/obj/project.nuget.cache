@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zHcjMostK+Q=",
+  "success": true,
+  "projectFilePath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AmritBista\\.nuget\\packages\\ardalis.smartenum\\8.1.0\\ardalis.smartenum.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
