@@ -6,7 +6,7 @@
     <Name>SQLContactsDB</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{87678d08-6e7a-4d82-a531-db2b580dfc90}</ProjectGuid>
+    <ProjectGuid>{e33c305b-2fc2-4216-8ffb-f42400e2793d}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -61,9 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Contacts.sql" />
-    <Build Include="dbo\Tables\EmailAddress.sql" />
-    <Build Include="dbo\Tables\PhoneNumbers.sql" />
-    <Build Include="dbo\Tables\ContactEmail.sql" />
+    <Build Include="dbo\Tables\EmailAddresses.sql" />
+    <Build Include="dbo\Tables\PhoneNumber.sql" />
+    <Build Include="dbo\Tables\ContactsEmail.sql" />
     <Build Include="dbo\Tables\ContactPhoneNumbers.sql" />
   </ItemGroup>
 </Project>

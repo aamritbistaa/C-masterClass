@@ -1,9 +1,0 @@
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\bin\Debug\LibraryDataAccess.dll
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\bin\Debug\LibraryDataAccess.pdb
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\bin\Debug\Dapper.dll
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\bin\Debug\Dapper.xml
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\obj\Debug\LibraryDataAccess.csproj.AssemblyReference.cache
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\obj\Debug\LibraryDataAccess.csproj.CoreCompileInputs.cache
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\obj\Debug\LibraryD.7A73DF82.Up2Date
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\obj\Debug\LibraryDataAccess.dll
-D:\source\repos\C-masterClass\RelationalDBSolution\LibraryDataAccess\obj\Debug\LibraryDataAccess.pdb

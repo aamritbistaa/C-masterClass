@@ -1,0 +1,13 @@
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.deps.json
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.dll
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\bin\Debug\net8.0\DataAccessLibrary.pdb
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.AssemblyInfo.cs
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.sourcelink.json
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.dll
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\refint\DataAccessLibrary.dll
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.pdb
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\ref\DataAccessLibrary.dll
+D:\source\repos\C-masterClass\RelationalDBSolution\DataAccessLibrary\obj\Debug\net8.0\DataAccessLibrary.csproj.AssemblyReference.cache

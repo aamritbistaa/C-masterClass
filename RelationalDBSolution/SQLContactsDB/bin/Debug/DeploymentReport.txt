@@ -10,10 +10,10 @@
 
 ** User actions
      Create
-       [dbo].[ContactEmail] (Table)
        [dbo].[ContactPhoneNumbers] (Table)
        [dbo].[Contacts] (Table)
-       [dbo].[EmailAddress] (Table)
-       [dbo].[PhoneNumbers] (Table)
+       [dbo].[ContactsEmail] (Table)
+       [dbo].[EmailAddresses] (Table)
+       [dbo].[PhoneNumber] (Table)
 
 ** Supporting actions

@@ -15,8 +15,8 @@ SET NUMERIC_ROUNDABORT OFF;
 GO
 :setvar DatabaseName "SQLContactsDB"
 :setvar DefaultFilePrefix "SQLContactsDB"
-:setvar DefaultDataPath "C:\Users\aamritbistaa\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
-:setvar DefaultLogPath "C:\Users\aamritbistaa\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultDataPath "C:\Users\AmritBista\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
+:setvar DefaultLogPath "C:\Users\AmritBista\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\"
 
 GO
 :on error exit
@@ -254,19 +254,6 @@ IF fulltextserviceproperty(N'IsFulltextInstalled') = 1
 
 
 GO
-PRINT N'Creating Table [dbo].[ContactEmail]...';
-
-
-GO
-CREATE TABLE [dbo].[ContactEmail] (
-    [Id]             INT IDENTITY (1, 1) NOT NULL,
-    [ContactId]      INT NOT NULL,
-    [EmailAddressId] INT NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-
-GO
 PRINT N'Creating Table [dbo].[ContactPhoneNumbers]...';
 
 
@@ -293,11 +280,24 @@ CREATE TABLE [dbo].[Contacts] (
 
 
 GO
-PRINT N'Creating Table [dbo].[EmailAddress]...';
+PRINT N'Creating Table [dbo].[ContactsEmail]...';
 
 
 GO
-CREATE TABLE [dbo].[EmailAddress] (
+CREATE TABLE [dbo].[ContactsEmail] (
+    [Id]             INT IDENTITY (1, 1) NOT NULL,
+    [ContactId]      INT NOT NULL,
+    [EmailAddressId] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+GO
+PRINT N'Creating Table [dbo].[EmailAddresses]...';
+
+
+GO
+CREATE TABLE [dbo].[EmailAddresses] (
     [Id]           INT            IDENTITY (1, 1) NOT NULL,
     [EmailAddress] NVARCHAR (100) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
@@ -305,13 +305,13 @@ CREATE TABLE [dbo].[EmailAddress] (
 
 
 GO
-PRINT N'Creating Table [dbo].[PhoneNumbers]...';
+PRINT N'Creating Table [dbo].[PhoneNumber]...';
 
 
 GO
-CREATE TABLE [dbo].[PhoneNumbers] (
-    [Id]          INT           IDENTITY (1, 1) NOT NULL,
-    [PhoneNumber] NVARCHAR (20) NOT NULL,
+CREATE TABLE [dbo].[PhoneNumber] (
+    [Id]          INT          IDENTITY (1, 1) NOT NULL,
+    [PhoneNumber] VARCHAR (50) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 

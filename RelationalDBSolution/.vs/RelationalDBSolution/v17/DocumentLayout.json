@@ -3,19 +3,44 @@
   "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C37A4B4D-1257-4303-8A42-57119A1EC193}|SQL Server\\SQL Server.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\sql server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C37A4B4D-1257-4303-8A42-57119A1EC193}|SQL Server\\SQL Server.csproj|solutionrelative:sql server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\dataaccesslibrary\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5588F7FB-7BF8-4C49-8EAA-9BE4A450C88A}|LibraryDataAccess\\LibraryDataAccess.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\librarydataaccess\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5588F7FB-7BF8-4C49-8EAA-9BE4A450C88A}|LibraryDataAccess\\LibraryDataAccess.csproj|solutionrelative:librarydataaccess\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\dataaccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5588F7FB-7BF8-4C49-8EAA-9BE4A450C88A}|LibraryDataAccess\\LibraryDataAccess.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\librarydataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5588F7FB-7BF8-4C49-8EAA-9BE4A450C88A}|LibraryDataAccess\\LibraryDataAccess.csproj|solutionrelative:librarydataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9484A679-3688-428E-8338-52498D8B2A0D}|SQLServerUI\\SQLServerUI.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\sqlserverui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9484A679-3688-428E-8338-52498D8B2A0D}|SQLServerUI\\SQLServerUI.csproj|solutionrelative:sqlserverui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDb/True/SqlTable/dbo.Contacts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AmritBista\\AppData\\Local\\Temp\\wkg0hy4o..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.ContactsEmail.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.ContactPhoneNumbers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.PhoneNumber.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.EmailAddresses.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|d:\\source\\repos\\c-masterclass\\relationaldbsolution\\dataaccesslibrary\\models\\fullcontactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F5A128-E03D-4CC3-9231-698B8CD17096}|DataAccessLibrary\\DataAccessLibrary.csproj|solutionrelative:dataaccesslibrary\\models\\fullcontactmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.Contacts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AmritBista\\AppData\\Local\\Temp\\wkg0hy4o..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\AmritBista\\AppData\\Local\\Temp\\wkg0hy4o..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,55 +50,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SqlCRUD.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\LibraryDataAccess\\SqlCRUD.cs",
-              "RelativeDocumentMoniker": "LibraryDataAccess\\SqlCRUD.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\LibraryDataAccess\\SqlCRUD.cs",
-              "RelativeToolTip": "LibraryDataAccess\\SqlCRUD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T09:39:33.882Z",
+              "DocumentIndex": 4,
+              "Title": "dbo.ContactsEmail [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.ContactsEmail.sql",
+              "ToolTip": "dbo.ContactsEmail [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-21T17:28:50.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\SQL Server\\Program.cs",
-              "RelativeDocumentMoniker": "SQL Server\\Program.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\SQL Server\\Program.cs",
-              "RelativeToolTip": "SQL Server\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:54:29.278Z",
+              "DocumentIndex": 9,
+              "Title": "dbo.Contacts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.Contacts.sql",
+              "ToolTip": "dbo.Contacts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-21T17:25:39.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SqlDataAccess.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\LibraryDataAccess\\SqlDataAccess.cs",
-              "RelativeDocumentMoniker": "LibraryDataAccess\\SqlDataAccess.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\LibraryDataAccess\\SqlDataAccess.cs",
-              "RelativeToolTip": "LibraryDataAccess\\SqlDataAccess.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAQAAAA",
+              "DocumentIndex": 8,
+              "Title": "FullContactModel.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\Models\\FullContactModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\Models\\FullContactModel.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\Models\\FullContactModel.cs",
+              "RelativeToolTip": "DataAccessLibrary\\Models\\FullContactModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T09:35:55.018Z",
+              "WhenOpened": "2024-10-21T17:14:49.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.EmailAddresses [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.EmailAddresses.sql",
+              "ToolTip": "dbo.EmailAddresses [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-21T17:11:13.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.PhoneNumber [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.PhoneNumber.sql",
+              "ToolTip": "dbo.PhoneNumber [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-21T17:04:10.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.ContactPhoneNumbers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDB/True/SqlTable/dbo.ContactPhoneNumbers.sql",
+              "ToolTip": "dbo.ContactPhoneNumbers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-21T17:04:03.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "dbo.Contacts [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SQLContactsDb/True/SqlTable/dbo.Contacts.sql",
-              "ToolTip": "dbo.Contacts [Data]",
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\AmritBista\\AppData\\Local\\Temp\\wkg0hy4o..sql",
+              "ToolTip": "SQLQuery1.sql *",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-06-05T09:21:29.937Z",
+              "WhenOpened": "2024-10-21T15:52:23.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlCrud.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\SqlCrud.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\SqlCrud.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\SqlCrud.cs",
+              "RelativeToolTip": "DataAccessLibrary\\SqlCrud.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswEwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:48:09.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessLibrary\\SqlDataAccess.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\DataAccessLibrary\\SqlDataAccess.cs",
+              "RelativeToolTip": "DataAccessLibrary\\SqlDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:40:45.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\SQLServerUI\\Program.cs",
+              "RelativeDocumentMoniker": "SQLServerUI\\Program.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\RelationalDBSolution\\SQLServerUI\\Program.cs",
+              "RelativeToolTip": "SQLServerUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:05:05.049Z",
               "EditorCaption": ""
             }
           ]
