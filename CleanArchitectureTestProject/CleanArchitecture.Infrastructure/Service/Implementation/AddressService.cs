@@ -15,7 +15,6 @@ namespace CleanArchitecture.Infrastructure.Service.Implementation
         //private readonly IEmployeeRepository<Address> _addressRepository;
         private readonly IEmployeeServiceFactory _factory;
 
-
         public AddressService(/*IEmployeeRepository<Address> addressRepository,*/ IEmployeeServiceFactory factory)
         {
             //_addressRepository = addressRepository;

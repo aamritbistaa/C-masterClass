@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\managertest\\addressmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\managertest\\addressmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\manager\\implementation\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\manager\\implementation\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mapperhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\mapperhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\departmentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\departmentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{389ABE9D-E63B-434B-B085-B49BA70B51BF}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.infrastructure\\service\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{389ABE9D-E63B-434B-B085-B49BA70B51BF}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\service\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\servicetest\\addressservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\servicetest\\addressservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\data\\addressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\data\\addressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\controller\\departmentcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\controller\\departmentcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\managertest\\departmentmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\managertest\\departmentmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,73 +58,152 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1391,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddressManagerTest.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\AddressManagerTest.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Test\\ManagerTest\\AddressManagerTest.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\AddressManagerTest.cs",
-              "RelativeToolTip": "CleanArchitecture.Test\\ManagerTest\\AddressManagerTest.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAiwFMAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T11:44:03.537Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "14badc16-bcff-40ab-8169-df42cb4ebeee",
-        "Display": 1,
-        "X": 28,
-        "Y": 128,
-        "Width": 966,
-        "Height": 957,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:07:59.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressMapper.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:12:57.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentMapper.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:12:54.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:12:48.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationServiceExtension.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:10:14.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:13:20.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AddressInfo.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\Data\\AddressInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAvAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwE4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T11:49:37.496Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-08-05T04:02:43.247Z"
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddressManager.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Manager\\Implementation\\AddressManager.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Manager\\Implementation\\AddressManager.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Manager\\Implementation\\AddressManager.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Manager\\Implementation\\AddressManager.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAowDoAAAAjAAAA",
+              "DocumentIndex": 8,
+              "Title": "AddressServiceTest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "RelativeToolTip": "CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T07:57:43.059Z",
+              "WhenOpened": "2024-08-05T03:59:50.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseFixture.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Test\\DatabaseFixture.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
+              "RelativeToolTip": "CleanArchitecture.Test\\DatabaseFixture.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T04:01:35.579Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapperHelper.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:13:15.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentManagerTest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "RelativeToolTip": "CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "ViewState": "AQIAADYBAAAAAAAAAAAgwFEBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:59:50.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentControllerTest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "RelativeToolTip": "CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAgwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T03:59:50.302Z"
             }
           ]
         }

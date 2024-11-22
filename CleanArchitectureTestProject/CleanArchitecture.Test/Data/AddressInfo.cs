@@ -25,13 +25,15 @@ namespace CleanArchitecture.Test.Data
                 new AddressResponse {
                     City = "Kathmandu",
                     Country = "Nepal",
+                    StreetAddress = "test",
                     Id=1,
                     IsDeleted = false,
                 },
                 new AddressResponse {
                     City = "Baneshwor",
                     Country = "Nepal",
-                    Id=1,
+                    StreetAddress = "test",
+                    Id=2,
                     IsDeleted = false,
                 }
             };
@@ -40,20 +42,22 @@ namespace CleanArchitecture.Test.Data
                 new Address {
                     City = "Kathmandu",
                     Country = "Nepal",
+                    StreetAddress = "test",
                     Id=1,
                     IsDeleted = false,
                 },
                 new Address {
                     City = "Baneshwor",
                     Country = "Nepal",
-                    Id=1,
+                    StreetAddress = "test",
+                    Id=2,
                     IsDeleted = false,
                 }
             };
 
             CreateAddressRequest = new CreateAddressRequest
             {
-                StreetAddress = "Kamal Binayak",
+                StreetAddress = "test",
                 City = "Bhaktapur",
                 Country = "Nepal",
             };
@@ -70,12 +74,12 @@ namespace CleanArchitecture.Test.Data
             UpdateAddressRequest = new UpdateAddressRequest
             {
                 Id = 1,
-                StreetAddress = "Kamal Binayak",
+                StreetAddress = "test",
                 City = "Bhaktapur",
                 Country = "Nepal",
             };
 
         }
-        
+
     }
 }

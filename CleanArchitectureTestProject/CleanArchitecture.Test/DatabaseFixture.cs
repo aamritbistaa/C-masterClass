@@ -37,8 +37,9 @@ namespace CleanArchitecture.Test
 
             EmployeeInfo.Initialize();
             var employeeList = EmployeeInfo.EmployeeList;
-           
+            AddressInfo.Initialize();
             var addressList = AddressInfo.AddressList;
+            
             try
             {
                 databaseContext.Employees.AddRange(employeeList);

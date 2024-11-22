@@ -3,8 +3,12 @@
     "",
     "\\AppDbContext",
     "\\Controllers",
-    "\\Model"
+    "\\Dto",
+    "\\Dto\\Request",
+    "\\Dto\\Request\\Helpers",
+    "\\Model",
+    "\\Validation"
   ],
-  "SelectedNode": "\\Model\\Department.cs",
+  "SelectedNode": "\\Validation\\CustomFutureDateValidatorAttribute.cs",
   "PreviewInSolutionExplorer": false
 }

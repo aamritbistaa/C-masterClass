@@ -7,6 +7,7 @@ using CleanArchitecture.Domain.Entity;
 using CleanArchitecture.Domain.Service.Interface;
 using System.Runtime.InteropServices;
 using static CleanArchitecture.Application.Common.CommonUtils;
+using static CleanArchitecture.Application.Common.Message.UserMessage;
 
 namespace CleanArchitecture.Application.Manager.Implementation
 {
@@ -32,14 +33,14 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<List<UserResponse>>
                 {
                     Result = ResultStatus.Error,
-                    Message = "User table is empty",
+                    Message = Empty,
                     Data = new List<UserResponse>()
                 };
             }
             return new ServiceResult<List<UserResponse>>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying user table",
+                Message = Displaying,
                 Data = result
             };
         }
@@ -52,22 +53,20 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<UserResponse>
                 {
                     Result = ResultStatus.Error,
-                    Message = "User table is empty",
+                    Message = ItemNotFound,
                     Data = new UserResponse()
                 };
             }
             return new ServiceResult<UserResponse>
             {
                 Result = ResultStatus.Ok,
-                Message = "Displaying user table",
+                Message = Displaying,
                 Data = result
             };
         }
         public async Task<ServiceResult<UserResponse>> AddUser(CreateUserRequest request)
         {
-            //var item = UserMapper.CreateUserRequestToUser(request);
-            var item = _mapper.Map<User>(request);  
-            //To check if email or phone or unique id is already present in the db
+            var item = _mapper.Map<User>(request);
             var pastRecord = (await _userService.GetAllUser()).Where(x => x.PhoneNumber == request.PhoneNumber || x.Email == request.Email || x.UniqueId == request.UniqueId);
 
             if (pastRecord.Any())
@@ -75,7 +74,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<UserResponse>
                 {
                     Result = ResultStatus.Error,
-                    Message = "User with specified email, phone or unique id is already present",
+                    Message = "A user with the specified email, phone, or unique ID already exists.",
                     Data = new UserResponse()
                 };
             }
@@ -90,7 +89,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                     return new ServiceResult<UserResponse>
                     {
                         Result = ResultStatus.Error,
-                        Message = "Unable to add user User",
+                        Message = ErrorWhileAdding,
                         Data = new UserResponse()
                     };
                 }
@@ -98,7 +97,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<UserResponse>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "User has been added.",
+                    Message = SuccessAdding,
                     Data = result
                 };
             }
@@ -116,11 +115,10 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Unable to find User with the specified Id",
+                    Message = ItemNotFound,
                     Data = false
                 };
             }
-            //Check if requested email, phonenumber or unique id is already there in the db
             var recordsFromDb = (await _userService.GetAllUser()).Where(x => x.Id != request.Id);
             var repeatedItems = (from records in recordsFromDb
                                  where request.UniqueId == records.UniqueId || request.Email == records.Email || request.PhoneNumber == records.PhoneNumber
@@ -131,7 +129,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "User with specified email, phone or unique id is already present",
+                    Message = "A user with the specified email, phone, or unique ID already exists.",
                     Data = false
                 };
             }
@@ -150,7 +148,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "User has be updated",
+                    Message = SuccessUpdating,
                     Data = result
                 };
             }
@@ -168,7 +166,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Error,
-                    Message = "Unable to find User with the specified Id",
+                    Message = ItemNotFound,
                     Data = false
                 };
             }
@@ -181,7 +179,7 @@ namespace CleanArchitecture.Application.Manager.Implementation
                 return new ServiceResult<bool>
                 {
                     Result = ResultStatus.Ok,
-                    Message = "User has be deleted",
+                    Message = SuccessDeleting,
                     Data = result
                 };
             }

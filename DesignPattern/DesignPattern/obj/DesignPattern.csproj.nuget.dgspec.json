@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {}
+    "d:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {
+    "d:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+        "projectUniqueName": "d:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
         "projectName": "DesignPattern",
-        "projectPath": "D:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+        "projectPath": "d:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\obj\\",
+        "outputPath": "d:\\source\\repos\\C-masterClass\\DesignPattern\\DesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

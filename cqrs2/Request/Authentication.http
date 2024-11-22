@@ -1,0 +1,55 @@
+@CQRSApplication_HostAddress = http://localhost:5113/api/Authentication
+
+
+###
+POST {{CQRSApplication_HostAddress}}/Register
+
+accept: application/json
+Content-Type: application/json
+
+{
+  "LastName": "string",
+  "ShippingDetails": {
+    "City": "string",
+    "District": "string",
+    "StreetAddress": "string"
+  },
+  "UserCredentials": {
+    "UserName": "customer1",
+    "Password": "string",
+    "Email": "customer1"
+  },
+  "Address": "string",
+  "PhoneNumber": "string",
+  "FirstName": "Customer",
+  "Image": ""
+}
+###boundary=boundary123--boundary123--boundary123--
+
+
+###
+POST {{CQRSApplication_HostAddress}}/Login
+Content-Type: application/json
+
+{
+    "Email":"admin@admin.com",
+    "Password":"admin@123#"
+}
+
+###
+POST {{CQRSApplication_HostAddress}}/Login
+Content-Type: application/json
+
+{
+    "Email":"customer1",
+    "Password":"string"
+}
+
+###
+POST {{CQRSApplication_HostAddress}}/Login
+Content-Type: application/json
+
+{
+    "Email":"vendor1",
+    "Password":"string"
+}

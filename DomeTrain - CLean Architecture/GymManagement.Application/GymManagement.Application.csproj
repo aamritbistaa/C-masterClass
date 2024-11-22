@@ -10,6 +10,18 @@
     <ProjectReference Include="..\GymManagement.Domain\GymManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Gyms\Commands\AddTrainer\" />
+    <Folder Include="Gyms\Commands\CreateGym\" />
+    <Folder Include="Gyms\Commands\DeleteGym\" />
+    <Folder Include="Gyms\Queries\" />
+    <Folder Include="Gyms\Queries\GetGym\" />
+    <Folder Include="Gyms\Queries\ListGyms\" />
+    <Folder Include="Rooms\Commands\CreateRoom\" />
+    <Folder Include="Rooms\Commands\DeleteRoom\" />
+    <Folder Include="Subscriptions\Commands\DeleteSubscription\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

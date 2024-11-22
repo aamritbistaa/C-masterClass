@@ -1,0 +1,7 @@
+2024-06-28 11:18:34.877 +05:45 [WRN] Invalid Credentials: {"Email":"anishbhusal30@gmail.com","Password":"string123","$type":"LoginUserCommand"}
+2024-06-28 11:18:42.885 +05:45 [WRN] Invalid Credentials: {"Email":"anishbhusal30@gmail.com","Password":"string","$type":"LoginUserCommand"}
+2024-06-28 16:45:40.244 +05:45 [WRN] Invalid Credentials: {"Email":"anishbhusal30@gmail.com","Password":"string","$type":"LoginUserCommand"}
+2024-06-28 16:46:28.379 +05:45 [WRN] Invalid Credentials: {"Email":"yashsnab0@gmail.com","Password":"string","$type":"LoginUserCommand"}
+2024-06-28 16:46:44.388 +05:45 [WRN] Invalid Credentials: {"Email":"yashsnab0@gmail.com","Password":"string","$type":"LoginUserCommand"}
+2024-06-28 16:46:52.029 +05:45 [WRN] Invalid Credentials: {"Email":"yashsnab0@gmail.com","Password":"string23","$type":"LoginUserCommand"}
+2024-06-28 16:47:41.954 +05:45 [WRN] Invalid Credentials: {"Email":"yashsnab0@gmail.com","Password":"string123","$type":"LoginUserCommand"}

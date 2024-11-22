@@ -1,0 +1,8 @@
+2024-07-06 18:24:03.641 +05:45 [ERR] Unable to create user with information {"FirstName":"s","LastName":"string","PhoneNumber":"string","Address":"string","Image":null,"UserCredentials":{"UserName":"string","Password":null,"Email":"string","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"string","City":"string","StreetAddress":"string","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ One or more validaton errors occured
+2024-07-06 19:30:00.795 +05:45 [ERR] Login failed for user with email: asdasd 
+ Object reference not set to an instance of an object.
+2024-07-06 19:31:34.595 +05:45 [ERR] Login failed for user with email: strasding 
+ Object reference not set to an instance of an object.
+2024-07-06 19:36:53.775 +05:45 [ERR] Login failed for user with email: string 
+ User with specified email doesnot exist

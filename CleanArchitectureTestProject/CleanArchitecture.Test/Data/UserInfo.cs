@@ -1,5 +1,6 @@
 ﻿
 
+using CleanArchitecture.Application.DTO.Request;
 using CleanArchitecture.Application.DTO.Response;
 using CleanArchitecture.Domain.Entity;
 using CleanArchitecture.Domain.Enum;
@@ -12,9 +13,31 @@ namespace CleanArchitecture.Test.Data
         public static User user { get; set; }
         public static List<UserResponse> userResponseList { get; set; }
         public static UserResponse userResponse { get; set; }
+        public static CreateUserRequest createUserRequest { get; set; }
+        public static UpdateUserRequest updateUserRequest { get; set; }
 
         public static void Initialize()
         {
+            updateUserRequest = new UpdateUserRequest
+            {   Id=10,
+                Name = "User 1",
+                AddresId = 10,
+                Email = "test123@gmail.com",
+                DateOfBirth = "2001-01-01",
+                PhoneNumber = "+977-9856-23-1256",
+                UniqueId = "012293aksdal-sd2",
+                Gender = GenderEnum.Female,
+            };
+            createUserRequest = new CreateUserRequest
+            {
+                Name = "User 1",
+                AddresId = 10,
+                Email = "test123@gmail.com",
+                DateOfBirth = "2001-01-01",
+                PhoneNumber = "+977-9856-23-1256",
+                UniqueId = "012293aksdal-sd2",
+                Gender = GenderEnum.Female,
+            };
             UserList = new List<User>
             {
                 new User

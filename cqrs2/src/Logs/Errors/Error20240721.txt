@@ -1,0 +1,9 @@
+2024-07-21 09:47:31.017 +05:45 [ERR] An error occured while sending mail
+ The specified string is not in the form required for an e-mail address.
+2024-07-21 09:49:34.323 +05:45 [ERR] Unable to create user with information {"FirstName":"string","LastName":"string","PhoneNumber":"string","Address":"string","Image":null,"UserCredentials":{"UserName":"string","Password":null,"Email":"string","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"string","City":"string","StreetAddress":"string","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ One or more validation error occured
+2024-07-21 10:29:44.600 +05:45 [ERR] Unable to create user with information {"FirstName":"string","LastName":"string","PhoneNumber":"string","Address":"string","Image":null,"UserCredentials":{"UserName":"string","Password":null,"Email":"string","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"string","City":"string","StreetAddress":"string","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ One or more validation error occured
+2024-07-21 10:35:09.317 +05:45 [ERR] Unable to create user with information {"FirstName":"string","LastName":"string","PhoneNumber":"string","Address":"string","Image":null,"UserCredentials":{"UserName":"string","Password":null,"Email":"string","$type":"CreateUserCredentials"},"ShippingDetails":{"District":"string","City":"string","StreetAddress":"string","$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ Validation error:
+Field: Password, Errors: Password must contain at least one uppercase letter, Password must contain at least one number, Password must contain at least one special character

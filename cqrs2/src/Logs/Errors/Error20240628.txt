@@ -1,0 +1,24 @@
+2024-06-28 11:07:24.860 +05:45 [ERR] Unable to create user with information {"FirstName":"Anish","LastName":"Bhusal","PhoneNumber":"string","Address":"string","Image":null,"UserCredentials":{"UserName":"AnishBhusal","Password":"string","Email":"anishbhusal30@gmail.com","$type":"CreateUserCredentials"},"ShippingDetails":{"District":null,"City":null,"StreetAddress":null,"$type":"ShippingDetails"},"$type":"CreateUserCommand"} 
+ An error occurred while saving the entity changes. See the inner exception for details.
+2024-06-28 11:18:34.976 +05:45 [ERR] Login failed for user with email: anishbhusal30@gmail.com 
+ Invalid credentials
+2024-06-28 11:18:42.985 +05:45 [ERR] Login failed for user with email: anishbhusal30@gmail.com 
+ Invalid credentials
+2024-06-28 15:16:46.407 +05:45 [ERR] Unable to find cart information for of "dacd12e1-960b-4ecd-8b78-39e140fa8ab8" 
+System.Exception: Cart is empty
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in D:\source\repos\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 29
+   at CQRSApplication.Controllers.CustomerController.ViewCart(CancellationToken cancellationToken) in D:\source\repos\cqrs2\src\Controllers\CustomerController.cs:line 88
+2024-06-28 15:44:20.907 +05:45 [ERR] Unable to find cart information for of "dacd12e1-960b-4ecd-8b78-39e140fa8ab8" 
+System.Exception: Cart is empty
+   at CQRSApplication.Query.CustomerQuery.GetCartQueryHandler.Handle(GetCartQuery request, CancellationToken cancellationToken) in d:\source\repos\cqrs2\src\Query\CustomerQuery\GetCartQueryHandler.cs:line 29
+   at CQRSApplication.Controllers.CustomerController.ViewCart(CancellationToken cancellationToken) in d:\source\repos\cqrs2\src\Controllers\CustomerController.cs:line 88
+2024-06-28 16:45:40.416 +05:45 [ERR] Login failed for user with email: anishbhusal30@gmail.com 
+ Invalid credentials
+2024-06-28 16:46:28.475 +05:45 [ERR] Login failed for user with email: yashsnab0@gmail.com 
+ Invalid credentials
+2024-06-28 16:46:44.461 +05:45 [ERR] Login failed for user with email: yashsnab0@gmail.com 
+ Invalid credentials
+2024-06-28 16:46:52.102 +05:45 [ERR] Login failed for user with email: yashsnab0@gmail.com 
+ Invalid credentials
+2024-06-28 16:47:42.087 +05:45 [ERR] Login failed for user with email: yashsnab0@gmail.com 
+ Invalid credentials

@@ -1,0 +1,9 @@
+@CQRSApplication_HostAddress = http://localhost:5113/api/User
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluIiwiVXNlcklkIjoiZmE3ZjY0N2MtN2I2MS00YjIyLTg2NjEtNzU1NDQ2YTk4NDVlIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYmYiOjE3MTg5NTk1NTAsImV4cCI6MTcxODk2MTM1MCwiaWF0IjoxNzE4OTU5NTUwLCJpc3MiOiJodHRwczovL215YXBwLmNvbSIsImF1ZCI6Imh0dHBzOi8vbXlhcHAuY29tIn0.OIW9-b6BkT055EDwIV9rsMCC_GROxcJWGwuhSEqYyJI
+PUT {{CQRSApplication_HostAddress}}/ChangeToVendor
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "Id":"59379335-7f9d-4c69-ad47-01188ae90530"
+}

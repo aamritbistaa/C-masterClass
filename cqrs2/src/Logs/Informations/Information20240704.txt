@@ -1,0 +1,3 @@
+2024-07-04 21:42:30.141 +05:45 [INF] User {@response.Id} created Successfully
+2024-07-04 21:42:55.503 +05:45 [INF] Token Generated for "b8611a7e-bc8a-4c75-bcc5-d385ab5a8b57" with eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFhbXJ0YmlzdGFhIiwiVXNlcklkIjoiYjg2MTFhN2UtYmM4YS00Yzc1LWJjYzUtZDM4NWFiNWE4YjU3Iiwicm9sZSI6IkN1c3RvbWVyIiwibmJmIjoxNzIwMTA4Njc1LCJleHAiOjE3MjAxMTA0NzUsImlhdCI6MTcyMDEwODY3NSwiaXNzIjoiaHR0cHM6Ly9teWFwcC5jb20iLCJhdWQiOiJodHRwczovL215YXBwLmNvbSJ9.T3YV9d3z1TELPpoagjqusiF8jyBso3E3WrP-YlEASZM 
+2024-07-04 21:42:55.521 +05:45 [INF] User logged in Successfully with Id: "b8611a7e-bc8a-4c75-bcc5-d385ab5a8b57"

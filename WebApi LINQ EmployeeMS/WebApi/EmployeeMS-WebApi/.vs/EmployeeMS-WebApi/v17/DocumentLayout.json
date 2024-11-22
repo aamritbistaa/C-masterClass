@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AddressRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Request\\AddressRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AttendanceRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dto\\Request\\AttendanceRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomPhoneNumberValidationAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validation\\CustomPhoneNumberValidationAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomNameValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validation\\CustomNameValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomFutureDateValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validation\\CustomFutureDateValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomTimeValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validation\\CustomTimeValidatorAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Model\\Attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Model\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,24 +74,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomTimeValidatorAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomTimeValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "Validation\\CustomTimeValidatorAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomTimeValidatorAttribute.cs",
+              "RelativeToolTip": "Validation\\CustomTimeValidatorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:00:10.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomFutureDateValidatorAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomFutureDateValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "Validation\\CustomFutureDateValidatorAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomFutureDateValidatorAttribute.cs",
+              "RelativeToolTip": "Validation\\CustomFutureDateValidatorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:16:46.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomNameValidatorAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomNameValidatorAttribute.cs",
+              "RelativeDocumentMoniker": "Validation\\CustomNameValidatorAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomNameValidatorAttribute.cs",
+              "RelativeToolTip": "Validation\\CustomNameValidatorAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:16:44.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomPhoneNumberValidationAttribute.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "RelativeDocumentMoniker": "Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "RelativeToolTip": "Validation\\CustomPhoneNumberValidationAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:16:41.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceRequest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AttendanceRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\Request\\AttendanceRequest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AttendanceRequest.cs",
+              "RelativeToolTip": "Dto\\Request\\AttendanceRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:00:04.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressRequest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AddressRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\Request\\AddressRequest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\AddressRequest.cs",
+              "RelativeToolTip": "Dto\\Request\\AddressRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:00:01.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CheckIfUserIsEligibleToVoteRequest.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs",
+              "RelativeToolTip": "Dto\\Request\\Helpers\\CheckIfUserIsEligibleToVoteRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:59:58.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "Model\\Attendance.cs",
+              "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Attendance.cs",
+              "RelativeToolTip": "Model\\Attendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:59:45.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Department.cs",
               "RelativeDocumentMoniker": "Model\\Department.cs",
               "ToolTip": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Department.cs",
               "RelativeToolTip": "Model\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T05:49:00.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -67,12 +203,11 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T04:53:08.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T04:53:08.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Model\\Employee.cs",
               "RelativeDocumentMoniker": "Model\\Employee.cs",
@@ -80,12 +215,11 @@
               "RelativeToolTip": "Model\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T04:52:55.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T04:52:55.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -93,12 +227,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T09:21:17.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T09:21:17.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "ViewController.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Controllers\\ViewController.cs",
               "RelativeDocumentMoniker": "Controllers\\ViewController.cs",
@@ -110,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\AppDbContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AppDbContext\\ApplicationDbContext.cs",
@@ -122,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -134,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\WebApi LINQ EmployeeMS\\WebApi\\EmployeeMS-WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
