@@ -1,36 +1,31 @@
 using System;
 using ErrorOr;
-using GymManagement.Application.Common.Interfaces;
+using GymManagement.Application.Common.Interface;
 using GymManagement.Domain.Subscriptions;
 using MediatR;
 
 namespace GymManagement.Application.Subscriptions.Commands.CreateSubscription;
 
-public class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscriptionCommand, ErrorOr<Subscription>>
+public class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscriptionCommand, ErrorOr<ESubscriptions>>
 {
     private readonly ISubscriptionRepository _subscriptionRepository;
-    private readonly IUnitOfWork _unitOfWork;
-    public CreateSubscriptionCommandHandler(ISubscriptionRepository subscriptionRepository, IUnitOfWork unitOfWork)
+    // private readonly IUnitOfWork _unitOfWork;
+
+    public CreateSubscriptionCommandHandler(ISubscriptionRepository subscriptionRepository)
     {
         _subscriptionRepository = subscriptionRepository;
-        _unitOfWork = unitOfWork;
+        // _unitOfWork = unitOfWork;
     }
 
-    public async Task<ErrorOr<Subscription>> Handle(CreateSubscriptionCommand request, CancellationToken cancellationToken)
+    public async Task<ErrorOr<ESubscriptions>> Handle(CreateSubscriptionCommand request, CancellationToken cancellationToken)
     {
-        // Create a subscription
-        var subscription = new Subscription(
-            subscriptionType: request.SubscriptionType,
-            adminId: request.AdminId
-        );
+        //Create subscription
+        var subscription = new ESubscriptions(subscriptionType: request.SubscriptionType, adminId:request.AdminId);
 
-
-        // Add it to the database
-        await _subscriptionRepository.AddSubscriptionAsync(subscription);
-
-        await _unitOfWork.CommitChangesAsync();
-
-        // Return subscription
+        //Add to database
+        await _subscriptionRepository.AddSubscription(subscription);
+        // await _unitOfWork.ComitChangesAsync();
+        //return subscription
         return subscription;
     }
 }

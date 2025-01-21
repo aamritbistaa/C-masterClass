@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Ardalis.SmartEnum/8.1.0": {
+      "Ardalis.SmartEnum/8.2.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Ardalis.SmartEnum.dll": {
@@ -18,15 +18,15 @@
     }
   },
   "libraries": {
-    "Ardalis.SmartEnum/8.1.0": {
-      "sha512": "+OpcDNwgfwdKEhEwq6U5lrXiBpdA3LxfZR7nTtF6vzbkXc1hKa2Uv/rHduzxwNLYrzOfR/7QUVyjWTliSS7pOA==",
+    "Ardalis.SmartEnum/8.2.0": {
+      "sha512": "P1CLI2okpzHjOJnZMYLnzcyu1/fUJEYK1X4JSnal2TPmovrUTtXK6Sn78D2JgKUdwjSeWddnRveMj+BEZoksvg==",
       "type": "package",
-      "path": "ardalis.smartenum/8.1.0",
+      "path": "ardalis.smartenum/8.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "ardalis.smartenum.8.1.0.nupkg.sha512",
+        "ardalis.smartenum.8.2.0.nupkg.sha512",
         "ardalis.smartenum.nuspec",
         "icon.png",
         "lib/net6.0/Ardalis.SmartEnum.dll",
@@ -42,31 +42,28 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Ardalis.SmartEnum >= 8.1.0"
+      "Ardalis.SmartEnum >= 8.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AmritBista\\.nuget\\packages\\": {}
+    "C:\\Users\\amritbista\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+      "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
       "projectName": "GymManagement.Domain",
-      "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
-      "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\obj\\",
+      "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+      "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -92,7 +89,7 @@
         "dependencies": {
           "Ardalis.SmartEnum": {
             "target": "Package",
-            "version": "[8.1.0, )"
+            "version": "[8.2.0, )"
           }
         },
         "imports": [
@@ -111,7 +108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

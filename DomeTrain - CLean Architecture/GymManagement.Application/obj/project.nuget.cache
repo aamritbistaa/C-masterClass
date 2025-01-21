@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "eiIc6xbIG9c=",
+  "dgSpecHash": "9T7ydA80DiI=",
   "success": true,
-  "projectFilePath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
+  "projectFilePath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\AmritBista\\.nuget\\packages\\ardalis.smartenum\\8.1.0\\ardalis.smartenum.8.1.0.nupkg.sha512",
-    "C:\\Users\\AmritBista\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
-    "C:\\Users\\AmritBista\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\AmritBista\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\AmritBista\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    "C:\\Users\\amritbista\\.nuget\\packages\\ardalis.smartenum\\8.2.0\\ardalis.smartenum.8.2.0.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

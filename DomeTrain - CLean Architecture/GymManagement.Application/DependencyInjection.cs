@@ -1,21 +1,16 @@
 using System;
-using System.ComponentModel.Design;
-using System.Net.NetworkInformation;
 using Microsoft.Extensions.DependencyInjection;
-
 
 namespace GymManagement.Application;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApplication(this IServiceCollection services)
+    public static IServiceCollection AddApplication(this IServiceCollection service)
     {
-
-        services.AddMediatR(options =>
+        service.AddMediatR(opt =>
         {
-            options.RegisterServicesFromAssemblyContaining(typeof(DependencyInjection));
+            opt.RegisterServicesFromAssemblyContaining(typeof(DependencyInjection));
         });
-
-        return services;
+        return service;
     }
 }

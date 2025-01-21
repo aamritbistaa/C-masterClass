@@ -1,31 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <PackageReference Include="ErrorOr" Version="2.0.1" />
-    <PackageReference Include="MediatR" Version="12.4.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GymManagement.Domain\GymManagement.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Gyms\Commands\AddTrainer\" />
-    <Folder Include="Gyms\Commands\CreateGym\" />
-    <Folder Include="Gyms\Commands\DeleteGym\" />
-    <Folder Include="Gyms\Queries\" />
-    <Folder Include="Gyms\Queries\GetGym\" />
-    <Folder Include="Gyms\Queries\ListGyms\" />
-    <Folder Include="Rooms\Commands\CreateRoom\" />
-    <Folder Include="Rooms\Commands\DeleteRoom\" />
-    <Folder Include="Subscriptions\Commands\DeleteSubscription\" />
+    <PackageReference Include="ErrorOr" Version="2.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.1" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
 
 </Project>

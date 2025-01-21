@@ -1,0 +1,23 @@
+@host = "http://localhost:5236"
+
+@adminId = "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+
+POST {{host}}/api/Subscriptions/CreateSubscription
+Content-Type: application/json
+
+{
+  "SubscriptionType": 0,
+  "AdminId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+}
+
+
+
+
+###
+POST http://localhost:5236/api/Subscriptions/CreateSubscription
+Content-Type: application/json
+
+{
+  "SubscriptionType": 0,
+  "AdminId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+}

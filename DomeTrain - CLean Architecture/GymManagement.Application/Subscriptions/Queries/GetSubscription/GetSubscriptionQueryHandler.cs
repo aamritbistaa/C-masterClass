@@ -1,12 +1,12 @@
 using System;
 using ErrorOr;
-using GymManagement.Application.Common.Interfaces;
+using GymManagement.Application.Common.Interface;
 using GymManagement.Domain.Subscriptions;
 using MediatR;
 
 namespace GymManagement.Application.Subscriptions.Queries.GetSubscription;
 
-public class GetSubscriptionQueryHandler : IRequestHandler<GetSubscriptionQuery, ErrorOr<Subscription>>
+public class GetSubscriptionQueryHandler : IRequestHandler<GetSubscriptionQuery, ErrorOr<ESubscriptions>>
 {
     private readonly ISubscriptionRepository _subscriptionRepository;
 
@@ -15,12 +15,10 @@ public class GetSubscriptionQueryHandler : IRequestHandler<GetSubscriptionQuery,
         _subscriptionRepository = subscriptionRepository;
     }
 
-    public async Task<ErrorOr<Subscription>> Handle(GetSubscriptionQuery request, CancellationToken cancellationToken)
+    public async Task<ErrorOr<ESubscriptions>> Handle(GetSubscriptionQuery request, CancellationToken cancellationToken)
     {
-        var subscription = await _subscriptionRepository.GetSubscriptionNyIdAsync(request.SubscriptionId);
 
-        return subscription is null ?
-            Error.NotFound(description: "Subscription is not found")
-            : subscription;
+        var data = await _subscriptionRepository.GetSubscription(request.Id);
+        return data is null ? Error.NotFound(description: "No data found") : data;
     }
 }

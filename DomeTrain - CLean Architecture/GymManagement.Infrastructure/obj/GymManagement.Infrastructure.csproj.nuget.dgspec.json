@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {}
+    "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
         "projectName": "GymManagement.Application",
-        "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
-                "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj"
+              "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj"
               }
             }
           }
@@ -60,7 +57,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -79,29 +76,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
         "projectName": "GymManagement.Domain",
-        "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,7 +121,7 @@
           "dependencies": {
             "Ardalis.SmartEnum": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.2.0, )"
             }
           },
           "imports": [
@@ -146,37 +140,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
         "projectName": "GymManagement.Infrastructure",
-        "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\AmritBista\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\GymManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AmritBista\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj": {
-                "projectPath": "D:\\source\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj"
+              "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\DomeTrain - CLean Architecture\\GymManagement.Application\\GymManagement.Application.csproj"
               }
             }
           }
@@ -198,11 +189,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -221,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

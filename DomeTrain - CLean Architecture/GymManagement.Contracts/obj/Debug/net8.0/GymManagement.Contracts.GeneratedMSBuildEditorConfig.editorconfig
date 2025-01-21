@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GymManagement.Contracts
-build_property.ProjectDir = D:\source\repos\C-masterClass\DomeTrain - CLean Architecture\GymManagement.Contracts\
+build_property.ProjectDir = D:\Code\repos\C-masterClass\DomeTrain - CLean Architecture\GymManagement.Contracts\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
