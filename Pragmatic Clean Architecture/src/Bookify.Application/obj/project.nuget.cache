@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "seg/BhGuNoo=",
+  "success": true,
+  "projectFilePath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amritbista\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.1\\microsoft.extensions.dependencyinjection.9.0.1.nupkg.sha512",
+    "C:\\Users\\amritbista\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
