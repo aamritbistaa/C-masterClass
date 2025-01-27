@@ -48,7 +48,7 @@ internal sealed class ReserveBookingCommandHandler : ICommandHandler<ReserveBook
             return Result.Failure<Guid>(BookingErrors.Overlap);
         }
         var booking = Booking.Reserve(apartment, user.Id, duration, _dateTimeProvider.UtcNow, _pricingService.CalculatePrice(apartment, duration));
-
+ 
         _bookingRepository.Add(booking);
 
         await _unitOfWork.SaveChangesAsync(cancellationToken);
