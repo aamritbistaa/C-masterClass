@@ -36,3 +36,12 @@ Presentation layer
 - RestApi
 - Middleware
 - DI setup
+
+
+Things done in this project 
+- CQRS pattern and MediatR
+- Rich domain model and domain driven design
+- Dapper to query data 
+- Logging by injecting it to request pipeline with MediatR pipeline behaviour
+- Fluent validation for validating dtos with 
+- 

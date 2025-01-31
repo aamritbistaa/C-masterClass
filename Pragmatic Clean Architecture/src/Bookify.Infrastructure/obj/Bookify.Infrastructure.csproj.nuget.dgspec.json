@@ -1,0 +1,224 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
+        "projectName": "Bookify.Application",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "projectName": "Bookify.Domain",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+        "projectName": "Bookify.Infrastructure",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
