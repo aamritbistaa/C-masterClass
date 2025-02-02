@@ -3,6 +3,7 @@ using Bookify.Application.Abstractions.Clock;
 using Bookify.Application.Abstractions.Email;
 using Bookify.Infrastructure.Clock;
 using Bookify.Infrastructure.Email;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,6 +15,11 @@ public static class DependencyInjection
     {
         services.AddTransient<IDateTimeProvider, DateTimeProvider>();
         services.AddTransient<IEmailService, EmailService>();
+        var connectionString = configuration.GetConnectionString("dev") ?? throw new ArgumentNullException(nameof(configuration));
+        services.AddDbContext<ApplicationDbContext>(opt =>
+        {
+            opt.UseNpgsql(connectionString).UseSnakeCaseNamingConvention();
+        });
         return services;
     }
 }
