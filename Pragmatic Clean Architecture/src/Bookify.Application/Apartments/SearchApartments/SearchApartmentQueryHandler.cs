@@ -45,7 +45,7 @@ internal sealed class SearchApartmentQueryHandler : IQueryHandler<SearchApartmen
                 a.address_city AS City,
                 a.address_street AS Street
             FROM apartments AS a
-            WHERE NOT EXIST
+            WHERE NOT EXISTS
             (
                 SELECT 1
                 FROM bookings AS b
