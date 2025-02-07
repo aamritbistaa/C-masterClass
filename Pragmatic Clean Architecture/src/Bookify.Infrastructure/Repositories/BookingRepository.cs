@@ -1,5 +1,6 @@
 ﻿using Bookify.Domain.Apartments;
 using Bookify.Domain.Bookings;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,19 +15,27 @@ namespace Bookify.Infrastructure.Repositories
         {
         }
 
-        public Task<bool> IsOverlappingAsync(Apartment apartment, DateRange duration)
+        private static readonly BookingStatus[] ActiveBookingStatus = {
+        BookingStatus.Reserved,
+        BookingStatus.Confirmed,
+        BookingStatus.Completed
+    };
+
+        public async Task<bool> IsOverlappingAsync(Apartment apartment, DateRange duration)
         {
-            throw new NotImplementedException();
+            return await _context.Set<Booking>()
+                .AnyAsync(booking => booking.ApartmentId == apartment.Id && booking.Duration.StartDate <= duration.EndDate && booking.Duration.EndDate >= duration.StartDate && ActiveBookingStatus.Contains(booking.Status));
         }
 
-        Task IBookingRepository.Add(Booking booking)
+        async Task IBookingRepository.Add(Booking booking)
         {
-            throw new NotImplementedException();
+            await base.Add(booking);
         }
 
-        Task<Booking> IBookingRepository.GetByIdAsync(Guid id)
+        async Task<Booking> IBookingRepository.GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await base.GetByIdAsync(id);
         }
+
     }
 }
