@@ -39,32 +39,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell 2\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\amritbista\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\CLeanArchitecture\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+      "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
       "projectName": "Bookify.Domain",
-      "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\CLeanArchitecture\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
-      "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\CLeanArchitecture\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\obj\\",
+      "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+      "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -80,9 +73,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -109,7 +101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

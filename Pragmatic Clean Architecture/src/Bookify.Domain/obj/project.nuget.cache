@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Yp+ttUBFXP0=",
+  "dgSpecHash": "8V0lUcLQc2g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\CLeanArchitecture\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+  "projectFilePath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dell 2\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+    "C:\\Users\\amritbista\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }
