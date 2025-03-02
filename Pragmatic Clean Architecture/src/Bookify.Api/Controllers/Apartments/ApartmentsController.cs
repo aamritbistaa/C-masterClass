@@ -3,7 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Bookify.Api.Controllers
+namespace Bookify.Api.Controllers.Apartments
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -20,7 +20,7 @@ namespace Bookify.Api.Controllers
         public async Task<IActionResult> SearchApartments(DateOnly startDate, DateOnly endDate)
         {
 
-            var query = new SearchApartmentQuery (startDate,endDate);
+            var query = new SearchApartmentQuery(startDate, endDate);
             var result = await _sender.Send(query);
             return Ok(result.Value);
         }
