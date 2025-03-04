@@ -4,6 +4,10 @@ namespace Bookify.Domain.Abstractions;
 
 public abstract class Entity
 {
+    protected Entity()
+    {
+
+    }
     protected Entity(Guid id)
     {
         Id = id;
