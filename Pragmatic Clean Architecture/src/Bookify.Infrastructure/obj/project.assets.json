@@ -15,12 +15,12 @@
           }
         }
       },
-      "EntityFrameworkCore.NamingConventions/8.0.0": {
+      "EFCore.NamingConventions/9.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "8.0.0",
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Microsoft.EntityFrameworkCore": "[9.0.0, 10.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[9.0.0, 10.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
         },
         "compile": {
           "lib/net8.0/EFCore.NamingConventions.dll": {}
@@ -188,10 +188,30 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.1": {
+      "Microsoft.Extensions.Configuration/9.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.1"
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Primitives": "9.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.2"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
@@ -303,7 +323,7 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.1": {
+      "Microsoft.Extensions.Primitives/9.0.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
@@ -431,16 +451,15 @@
         "readme.md"
       ]
     },
-    "EntityFrameworkCore.NamingConventions/8.0.0": {
-      "sha512": "VWL8W2C+sWEvr1bu3reHcvxwSUfUDrRb5ZUaSSPSgT4JZ5rtlWVtyp0oQSSoMVByChZ2Q5NVkQ6n9hQDw5Rf4g==",
+    "EFCore.NamingConventions/9.0.0": {
+      "sha512": "heKIYzPdEWx+Ba4xuG6jfEssW9rEi7I0lX38eoN7wo7qgg9uw7nn8UEmDQfwGEYPzSDpetCVANnDr5tqt2Asjg==",
       "type": "package",
-      "path": "entityframeworkcore.namingconventions/8.0.0",
+      "path": "efcore.namingconventions/9.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "entityframeworkcore.namingconventions.8.0.0.nupkg.sha512",
-        "entityframeworkcore.namingconventions.nuspec",
+        "efcore.namingconventions.9.0.0.nupkg.sha512",
+        "efcore.namingconventions.nuspec",
         "lib/net8.0/EFCore.NamingConventions.dll"
       ]
     },
@@ -633,10 +652,38 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.1": {
-      "sha512": "+4hfFIY1UjBCXFTTOd+ojlDPq6mep3h5Vq5SYE3Pjucr7dNXmq4S/6P/LoVnZFz2e/5gWp/om4svUFgznfULcA==",
+    "Microsoft.Extensions.Configuration/9.0.2": {
+      "sha512": "EBZW+u96tApIvNtjymXEIS44tH0I/jNwABHo4c33AchWOiDWCq2rL3klpnIo+xGrxoVGJzPDISV6hZ+a9C9SzQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.1",
+      "path": "microsoft.extensions.configuration/9.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net8.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net8.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net9.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net9.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.9.0.2.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+      "sha512": "I0O/270E/lUNqbBxlRVjxKOMZyYjP88dpEgQTveml+h2lTzAP4vbawLVwjS9SC7lKaU893bwyyNz0IVJYsm9EA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -656,7 +703,7 @@
         "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.9.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -867,10 +914,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Primitives/9.0.1": {
-      "sha512": "bHtTesA4lrSGD1ZUaMIx6frU3wyy0vYtTa/hM6gGQu5QNrydObv8T5COiGUWsisflAfmsaFOe9Xvw5NSO99z0g==",
+    "Microsoft.Extensions.Primitives/9.0.2": {
+      "sha512": "puBMtKe/wLuYa7H6docBkLlfec+h8L35DXqsDKKJgW0WY5oCwJ3cBJKcDaZchv6knAyqOMfsl6VUbaR++E5LXA==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/9.0.1",
+      "path": "microsoft.extensions.primitives/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -890,7 +937,7 @@
         "lib/net9.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+        "microsoft.extensions.primitives.9.0.2.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -973,39 +1020,45 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Bookify.Application >= 1.0.0",
-      "EntityFrameworkCore.NamingConventions >= 8.0.0",
-      "Microsoft.EntityFrameworkCore >= 9.0.1",
-      "Microsoft.Extensions.Configuration.Abstractions >= 9.0.1",
+      "EFCore.NamingConventions >= 9.0.0",
+      "Microsoft.Extensions.Configuration >= 9.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amritbista\\.nuget\\packages\\": {}
+    "C:\\Users\\Dell 2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
       "projectName": "Bookify.Infrastructure",
-      "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
-              "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
+            "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+              "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
             }
           }
         }
@@ -1018,24 +1071,21 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "EntityFrameworkCore.NamingConventions": {
+          "EFCore.NamingConventions": {
             "target": "Package",
-            "version": "[8.0.0, )"
+            "version": "[9.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore": {
+          "Microsoft.Extensions.Configuration": {
             "target": "Package",
-            "version": "[9.0.1, )"
-          },
-          "Microsoft.Extensions.Configuration.Abstractions": {
-            "target": "Package",
-            "version": "[9.0.1, )"
+            "version": "[9.0.2, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
@@ -1058,7 +1108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
