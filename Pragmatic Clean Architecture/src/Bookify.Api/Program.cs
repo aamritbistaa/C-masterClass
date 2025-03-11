@@ -18,7 +18,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     await app.ApplyMigrations();
 }
-
 app.UseHttpsRedirection();
+app.UseCustomExceptionHandler();
 app.MapControllers();
 app.Run();

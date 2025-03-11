@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj": {}
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj",
         "projectName": "Bookify.Api",
-        "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj",
-        "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Api\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Api\\Bookify.Api.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
-                "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
               },
-              "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj"
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj"
               }
             }
           }
@@ -49,9 +43,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -66,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -91,40 +88,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
         "projectName": "Bookify.Application",
-        "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
-        "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj"
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj"
               }
             }
           }
@@ -137,9 +128,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -182,33 +172,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
         "projectName": "Bookify.Domain",
-        "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\Bookify.Domain.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -224,9 +208,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -253,40 +236,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {
+    "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
         "projectName": "Bookify.Infrastructure",
-        "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\obj\\",
+        "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\Bookify.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amritbista\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\amritbista\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
-                "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
+              "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj": {
+                "projectPath": "D:\\Code\\repos\\C-masterClass\\Pragmatic Clean Architecture\\src\\Bookify.Application\\Bookify.Application.csproj"
               }
             }
           }
@@ -299,9 +276,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -336,7 +312,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
