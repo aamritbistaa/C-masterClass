@@ -15,7 +15,18 @@ public static class ApplicationBuilderExtensions
 
         using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
-        await dbContext.Database.MigrateAsync();
+
+        try
+        {
+
+            // dbContext.Database.Migrate();
+
+            await dbContext.Database.MigrateAsync();
+        }
+        catch (Exception ex)
+        {
+            throw;
+        }
     }
     public static void UseCustomExceptionHandler(this IApplicationBuilder app)
     {

@@ -31,10 +31,10 @@ internal sealed class GetBookingQueryHandler : IQueryHandler<GetBookingQuery, Bo
                 cleaning_fee_currency AS CleaningFeeCurrency,
                 amenities_up_charge_amount AS AmenitiesUpChargeAmount,
                 amenities_up_charge_currency AS AmenitiesUpChargeCurrency,
-                duration_start AS DurationStart,
-                duration_end AS DurationEnd,
+                duration_start_date AS DurationStart,
+                duration_end_date AS DurationEnd,
                 created_on_utc AS CreatedOnUtc
-            FROM bokings
+            FROM bookings
             WHERE id = @BookingId
         """;
 
