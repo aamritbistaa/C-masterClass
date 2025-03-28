@@ -113,6 +113,45 @@ namespace Bookify.Infrastructure.Migrations
                     b.ToTable("bookings", (string)null);
                 });
 
+            modelBuilder.Entity("Bookify.Domain.Review.Review", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<Guid>("ApartmentId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("apartment_id");
+
+                    b.Property<Guid>("BookingId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("booking_id");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("character varying(200)")
+                        .HasColumnName("comment");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("integer")
+                        .HasColumnName("rating");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_review");
+
+                    b.ToTable("review", (string)null);
+                });
+
             modelBuilder.Entity("Bookify.Domain.Users.User", b =>
                 {
                     b.Property<Guid>("Id")

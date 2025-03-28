@@ -5,17 +5,24 @@ services:
       context: .
       dockerfile: src/Bookify.Api/Dockerfile
     depends_on:
-     - bookify-db
+      - bookify-db
+    ports:
+      - "80:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    command: >
+      bash -c "dotnet ef database update --project src/Bookify.Api/Bookify.Api.csproj &&
+               dotnet Bookify.Api.dll"
 
   bookify-db:
     image: postgres:latest
     container_name: Bookify.Db
     environment:
-     - POSTGRES_DB=bookify
-     - POSTGRES_USER=postgres
-     - POSTGRES_PASSWORD=P@ssw0rd
+      - POSTGRES_DB=Bookify
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=P@ssw0rd
     volumes:
-     - ./.containers/database:/var/lib/postgresql/data
+      - ./.containers/database:/var/lib/postgresql/data
     ports:
-     - 5432:5432
-  
+      - 5432:5432
