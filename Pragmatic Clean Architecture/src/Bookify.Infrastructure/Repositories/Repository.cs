@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Bookify.Infrastructure.Repositories
 {
-    public abstract class Repository<T> where T:Entity
+    public abstract class Repository<T> where T : Entity
     {
         protected readonly ApplicationDbContext _context;
 
@@ -19,11 +19,19 @@ namespace Bookify.Infrastructure.Repositories
         }
         protected async Task<T?> GetByIdAsync(Guid id)
         {
-            return await _context.Set<T>().FirstOrDefaultAsync(x=>x.Id ==id);
+            return await _context.Set<T>().FirstOrDefaultAsync(x => x.Id == id);
         }
         protected async Task Add(T entity)
         {
             await _context.Set<T>().AddAsync(entity);
+        }
+        protected async Task<T?> GetFirstAsync(Guid id)
+        {
+            return await _context.Set<T>().FirstOrDefaultAsync(x => x.Id == id);
+        }
+        protected async Task<T?> GetLastAsync(Guid id)
+        {
+            return await _context.Set<T>().LastOrDefaultAsync(x => x.Id == id);
         }
     }
 }
