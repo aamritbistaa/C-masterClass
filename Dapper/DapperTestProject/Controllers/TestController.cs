@@ -125,3 +125,23 @@ namespace DapperTestProject.Controllers
         }
     }
 }
+
+
+/* Trigger to check username
+
+CREATE OR REPLACE FUNCTION check_unique_username()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF EXISTS (SELECT 1 FROM "Users" WHERE "UserName" = NEW."UserName") THEN
+        RAISE EXCEPTION 'Username exist.';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER prevent_duplicate_username
+BEFORE INSERT OR UPDATE ON "Users"
+FOR EACH ROW
+EXECUTE FUNCTION check_unique_username();
+
+*/
