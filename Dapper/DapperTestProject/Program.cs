@@ -10,7 +10,7 @@ var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
         {
             opt.UseNpgsql(connectionString);
-        }); ;
+        });
 builder.Services.AddSingleton<ISqlConnectionFactory>(sp =>
     new SqlConnectionFactory(connectionString));
 

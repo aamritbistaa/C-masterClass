@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using DapperTestProject.Data;
 using DapperTestProject.Entity;
 using Microsoft.AspNetCore.Mvc;
