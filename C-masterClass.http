@@ -1,6 +1,0 @@
-@C_masterClass_HostAddress = http://localhost:5115
-
-GET {{C_masterClass_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

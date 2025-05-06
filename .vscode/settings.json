@@ -1,3 +1,4 @@
 {
-  "dotnet.defaultSolution": "Image Upload.sln"
+  "dotnet.defaultSolution": "Image Upload.sln",
+  "dotnet.preferCSharpExtension": true
 }
