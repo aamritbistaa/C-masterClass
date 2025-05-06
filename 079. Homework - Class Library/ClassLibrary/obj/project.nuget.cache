@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IXjjDXCi9HU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\079. Homework - Class Library\\ClassLibrary\\ClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell 2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Dell 2\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Dell 2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

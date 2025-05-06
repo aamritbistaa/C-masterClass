@@ -1,0 +1,129 @@
+name: dockercompose11411877365027625186
+services:
+  bookify-db:
+    container_name: Bookify.Db
+    environment:
+      POSTGRES_DB: Bookify
+      POSTGRES_PASSWORD: P@ssw0rd
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Pragmatic Clean
+        Architecture\.containers\database
+      target: /var/lib/postgresql/data
+      bind:
+        create_host_path: true
+  bookify-idp:
+    command:
+    - start-dev
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    image: quay.io/keycloak/keycloak:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 8080
+      published: "8080"
+      protocol: tcp
+  bookify.api:
+    build:
+      context: C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Pragmatic Clean
+        Architecture
+      dockerfile: src/Bookify.Api/Dockerfile
+      args:
+        BUILD_CONFIGURATION: Debug
+        LAUNCHING_FROM_VS: "true"
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Bookify.Api
+    command:
+    - bash
+    - -c
+    - |-
+      dotnet ef database update --project src/Bookify.Api/Bookify.Api.csproj &&
+               dotnet Bookify.Api.dll
+    container_name: Bookify.Api
+    depends_on:
+      bookify-db:
+        condition: service_started
+    entrypoint:
+    - dotnet
+    - --roll-forward
+    - Major
+    - /VSTools/DistrolessHelper/DistrolessHelper.dll
+    - --wait
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+    image: bookifyapi
+    labels:
+      com.microsoft.visual-studio.project-name: Bookify.Api
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages
+        --additionalProbingPath /.nuget/fallbackpackages  "/app/Bookify.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: dotnet --roll-forward Major
+        /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "80"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\Dell 2\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Dell 2\AppData\Roaming\ASP.NET\Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Dell 2\AppData\Roaming\ASP.NET\Https
+      target: /home/app/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Dell 2\AppData\Roaming\Microsoft\UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Dell 2\AppData\Roaming\Microsoft\UserSecrets
+      target: /home/app/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0
+      target: /VSTools
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\HotReload
+      target: /HotReloadAgent
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose11411877365027625186_default

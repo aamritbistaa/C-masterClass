@@ -1,18 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B156DFD6-C02F-498E-B464-1B62BF0D41F4}|UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\calculator\\unittestproject1\\inputconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B156DFD6-C02F-498E-B464-1B62BF0D41F4}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\inputconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\InputConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B156DFD6-C02F-498E-B464-1B62BF0D41F4}|UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\calculator\\unittestproject1\\calculatorenginetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B156DFD6-C02F-498E-B464-1B62BF0D41F4}|UnitTestProject1\\UnitTestProject1.csproj|solutionrelative:unittestproject1\\calculatorenginetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\Calculator4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{926558CB-A68B-4752-B632-668B7B47576A}|Calculator4\\Calculator4.csproj|c:\\users\\aamritbistaa\\source\\repos\\c-masterclass\\calculator\\calculator4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{926558CB-A68B-4752-B632-668B7B47576A}|Calculator4\\Calculator4.csproj|solutionrelative:calculator4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\CalculatorEngineTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +19,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\Calculator4\\Program.cs",
-              "RelativeDocumentMoniker": "Calculator4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\Calculator4\\Program.cs",
               "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\Calculator4\\Program.cs",
-              "RelativeToolTip": "Calculator4\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\Calculator4\\Program.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:17:37.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T16:17:37.156Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "InputConverter.cs",
               "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\InputConverter.cs",
-              "RelativeDocumentMoniker": "UnitTestProject1\\InputConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\InputConverter.cs",
               "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\InputConverter.cs",
-              "RelativeToolTip": "UnitTestProject1\\InputConverter.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAjAAAA",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\InputConverter.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:05:20.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T16:05:20.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CalculatorEngineTest.cs",
               "DocumentMoniker": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\CalculatorEngineTest.cs",
-              "RelativeDocumentMoniker": "UnitTestProject1\\CalculatorEngineTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\CalculatorEngineTest.cs",
               "ToolTip": "C:\\Users\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\CalculatorEngineTest.cs",
-              "RelativeToolTip": "UnitTestProject1\\CalculatorEngineTest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\aamritbistaa\\source\\repos\\C-masterClass\\Calculator\\UnitTestProject1\\CalculatorEngineTest.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAA+wBkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:01:25.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T16:01:25.453Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }

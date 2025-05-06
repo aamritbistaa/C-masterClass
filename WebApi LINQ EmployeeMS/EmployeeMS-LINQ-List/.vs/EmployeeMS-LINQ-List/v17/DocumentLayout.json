@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\newclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\newclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:newclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\models\\positions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\models\\positions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:models\\positions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|d:\\source\\repos\\c-masterclass\\employeems\\employeems-linq-list\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\webapi linq employeems\\employeems-linq-list\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F29BDDF-C480-484D-8A8B-4ED3E382933D}|EmployeeMS-LINQ-List.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,41 +38,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Address.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Address.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Address.cs",
               "RelativeDocumentMoniker": "Models\\Address.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Address.cs",
               "RelativeToolTip": "Models\\Address.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T03:30:39.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T03:30:39.8Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Attendance.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Attendance.cs",
               "RelativeDocumentMoniker": "Models\\Attendance.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Attendance.cs",
               "RelativeToolTip": "Models\\Attendance.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T03:30:32.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T03:30:32.528Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Positions.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Positions.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Positions.cs",
               "RelativeDocumentMoniker": "Models\\Positions.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Positions.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Models\\Positions.cs",
               "RelativeToolTip": "Models\\Positions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,9 +108,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Helpers.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Helpers.cs",
               "RelativeDocumentMoniker": "Helpers.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Helpers.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Helpers.cs",
               "RelativeToolTip": "Helpers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,11 +120,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NewClass.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\NewClass.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\NewClass.cs",
               "RelativeDocumentMoniker": "NewClass.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\NewClass.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\NewClass.cs",
               "RelativeToolTip": "NewClass.cs",
-              "ViewState": "AQIAAA4DAAAAAAAAAAAAACIDAAApAAAA",
+              "ViewState": "AgIAAHsCAAAAAAAAAAAAACIDAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T12:09:26.004Z",
               "EditorCaption": ""
@@ -107,9 +133,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Startup.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
               "ViewState": "AQIAACoAAAAAAAAAAADwvz0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,14 +145,45 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\EmployeeMS\\EmployeeMS-LINQ-List\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\WebApi LINQ EmployeeMS\\EmployeeMS-LINQ-List\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:09:20.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T12:09:20.941Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }

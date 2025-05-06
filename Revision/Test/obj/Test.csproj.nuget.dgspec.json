@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\TechnofexTest\\Test\\Test.csproj": {}
+    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Revision\\Test\\Test.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\TechnofexTest\\Test\\Test.csproj": {
+    "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Revision\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\TechnofexTest\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Revision\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "D:\\source\\repos\\TechnofexTest\\Test\\Test.csproj",
-        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\TechnofexTest\\Test\\obj\\",
+        "projectPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Revision\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Dell 2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Revision\\Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/technofex/_packaging/AzureNugetFeed@Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -39,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

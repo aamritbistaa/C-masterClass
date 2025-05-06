@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|d:\\source\\repos\\c-masterclass\\crud with auth\\crud with auth\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\crud with auth\\crud with auth\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|solutionrelative:crud with auth\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|d:\\source\\repos\\c-masterclass\\crud with auth\\crud with auth\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\crud with auth\\crud with auth\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|solutionrelative:crud with auth\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|d:\\source\\repos\\c-masterclass\\crud with auth\\crud with auth\\models\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\crud with auth\\crud with auth\\models\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|solutionrelative:crud with auth\\models\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|d:\\source\\repos\\c-masterclass\\crud with auth\\crud with auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\crud with auth\\crud with auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|solutionrelative:crud with auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|d:\\source\\repos\\c-masterclass\\crud with auth\\crud with auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\crud with auth\\crud with auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DD4B361E-E71C-40D7-9E0B-F7FB115B5C58}|CRUD with auth\\CRUD with auth.csproj|solutionrelative:crud with auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -30,15 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserLoginRequestDto.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
               "RelativeDocumentMoniker": "CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
               "RelativeToolTip": "CRUD with auth\\Models\\Dtos\\UserLoginRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -48,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\appsettings.json",
               "RelativeDocumentMoniker": "CRUD with auth\\appsettings.json",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\appsettings.json",
               "RelativeToolTip": "CRUD with auth\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -60,9 +88,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Program.cs",
               "RelativeDocumentMoniker": "CRUD with auth\\Program.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Program.cs",
               "RelativeToolTip": "CRUD with auth\\Program.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAwCMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,11 +100,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DriversController.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Controllers\\DriversController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Controllers\\DriversController.cs",
               "RelativeDocumentMoniker": "CRUD with auth\\Controllers\\DriversController.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Controllers\\DriversController.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Controllers\\DriversController.cs",
               "RelativeToolTip": "CRUD with auth\\Controllers\\DriversController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowBEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T03:50:45.84Z",
               "EditorCaption": ""
@@ -85,13 +113,45 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "CRUD with auth\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CRUD with auth\\CRUD with auth\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CRUD with auth\\CRUD with auth\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "CRUD with auth\\Controllers\\AuthenticationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T11:54:58.134Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }

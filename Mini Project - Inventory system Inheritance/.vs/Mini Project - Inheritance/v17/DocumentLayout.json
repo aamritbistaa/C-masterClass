@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\Mini Project - Inheritance\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Mini Project - Inventory system Inheritance\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46D4142C-D34E-45B8-BDD6-62325D318B03}|Mini Project - Inheritance\\Mini Project - Inheritance.csproj|d:\\source\\repos\\c-masterclass\\mini project - inheritance\\mini project - inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46D4142C-D34E-45B8-BDD6-62325D318B03}|Mini Project - Inheritance\\Mini Project - Inheritance.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\mini project - inventory system inheritance\\mini project - inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46D4142C-D34E-45B8-BDD6-62325D318B03}|Mini Project - Inheritance\\Mini Project - Inheritance.csproj|solutionrelative:mini project - inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -13,21 +13,81 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 224,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\Mini Project - Inheritance\\Mini Project - Inheritance\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Mini Project - Inventory system Inheritance\\Mini Project - Inheritance\\Program.cs",
               "RelativeDocumentMoniker": "Mini Project - Inheritance\\Program.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\Mini Project - Inheritance\\Mini Project - Inheritance\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\Mini Project - Inventory system Inheritance\\Mini Project - Inheritance\\Program.cs",
               "RelativeToolTip": "Mini Project - Inheritance\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCcAAAAVAAAA",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T09:21:01.182Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }

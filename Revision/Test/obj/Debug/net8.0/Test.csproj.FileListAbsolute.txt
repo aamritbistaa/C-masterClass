@@ -26,3 +26,18 @@ D:\source\repos\TechnofexTest\Test\obj\Debug\net8.0\refint\Test.dll
 D:\source\repos\TechnofexTest\Test\obj\Debug\net8.0\Test.pdb
 D:\source\repos\TechnofexTest\Test\obj\Debug\net8.0\Test.genruntimeconfig.cache
 D:\source\repos\TechnofexTest\Test\obj\Debug\net8.0\ref\Test.dll
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\bin\Debug\net8.0\Test.exe
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\bin\Debug\net8.0\Test.deps.json
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\bin\Debug\net8.0\Test.runtimeconfig.json
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\bin\Debug\net8.0\Test.dll
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\bin\Debug\net8.0\Test.pdb
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.AssemblyInfoInputs.cache
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.AssemblyInfo.cs
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.sourcelink.json
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.dll
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\refint\Test.dll
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.pdb
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\Test.genruntimeconfig.cache
+C:\Users\Dell 2\OneDrive\Desktop\Amrit\C#Master class\Revision\Test\obj\Debug\net8.0\ref\Test.dll

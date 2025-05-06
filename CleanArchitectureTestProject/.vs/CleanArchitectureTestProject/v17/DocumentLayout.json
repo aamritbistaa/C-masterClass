@@ -1,53 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{598B93F7-09CF-42B6-839C-73A9D43D8CE4}|CleanArchitecture.API\\CleanArchitecture.API.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598B93F7-09CF-42B6-839C-73A9D43D8CE4}|CleanArchitecture.API\\CleanArchitecture.API.csproj|solutionrelative:cleanarchitecture.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE9BF43E-D5DC-4015-AFD2-3487D66F7FF0}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.domain\\validation\\customemailvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE9BF43E-D5DC-4015-AFD2-3487D66F7FF0}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\validation\\customemailvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.test\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\databasefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\addressmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mapperhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\mapperhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\mapperhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\usermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\applicationserviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\departmentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.application\\mapper\\departmentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B538F01A-9D7D-49EF-A66B-67A5B4FD5EC9}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\mapper\\departmentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{389ABE9D-E63B-434B-B085-B49BA70B51BF}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.infrastructure\\service\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{389ABE9D-E63B-434B-B085-B49BA70B51BF}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.infrastructure\\service\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{389ABE9D-E63B-434B-B085-B49BA70B51BF}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\service\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\servicetest\\addressservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.test\\servicetest\\addressservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\servicetest\\addressservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\data\\addressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.test\\data\\addressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\data\\addressinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\controller\\departmentcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.test\\controller\\departmentcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\controller\\departmentcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|d:\\source\\repos\\c-masterclass\\cleanarchitecturetestproject\\cleanarchitecture.test\\managertest\\departmentmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|c:\\users\\dell 2\\onedrive\\desktop\\amrit\\c#master class\\cleanarchitecturetestproject\\cleanarchitecture.test\\managertest\\departmentmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E67124B4-9307-42A5-B6AE-7FB1A03725AC}|CleanArchitecture.Test\\CleanArchitecture.Test.csproj|solutionrelative:cleanarchitecture.test\\managertest\\departmentmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -57,40 +65,70 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1391,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.API\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.API\\Program.cs",
+              "RelativeToolTip": "CleanArchitecture.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:07:59.154Z"
+              "WhenOpened": "2025-05-06T08:41:59.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddressMapper.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
-              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CustomEmailValidationAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\Validation\\CustomEmailValidationAttribute.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Validation\\CustomEmailValidationAttribute.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Domain\\Validation\\CustomEmailValidationAttribute.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Validation\\CustomEmailValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T09:12:57.909Z"
+              "WhenOpened": "2025-05-06T08:41:54.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DepartmentMapper.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
               "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\DepartmentMapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,11 +136,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserMapper.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\UserMapper.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\UserMapper.cs",
               "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\UserMapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,11 +148,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ApplicationServiceExtension.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Application\\ApplicationServiceExtension.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\ApplicationServiceExtension.cs",
               "RelativeToolTip": "CleanArchitecture.Application\\ApplicationServiceExtension.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,11 +160,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AddressService.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
               "RelativeToolTip": "CleanArchitecture.Infrastructure\\Service\\Implementation\\AddressService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,11 +172,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AddressInfo.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\Data\\AddressInfo.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\Data\\AddressInfo.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAmwE4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,11 +184,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AddressServiceTest.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\ServiceTest\\AddressServiceTest.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,13 +196,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DatabaseFixture.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\DatabaseFixture.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\DatabaseFixture.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\DatabaseFixture.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDAAAAAuAAAA",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T04:01:35.579Z",
               "EditorCaption": ""
@@ -172,10 +210,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AddressMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\AddressMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:12:57.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:07:59.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MapperHelper.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
               "RelativeToolTip": "CleanArchitecture.Application\\Mapper\\MapperHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,11 +245,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DepartmentManagerTest.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\ManagerTest\\DepartmentManagerTest.cs",
               "ViewState": "AQIAADYBAAAAAAAAAAAgwFEBAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,15 +257,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DepartmentControllerTest.cs",
-              "DocumentMoniker": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
               "RelativeDocumentMoniker": "CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
-              "ToolTip": "D:\\source\\repos\\C-masterClass\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
+              "ToolTip": "C:\\Users\\Dell 2\\OneDrive\\Desktop\\Amrit\\C#Master class\\CleanArchitectureTestProject\\CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
               "RelativeToolTip": "CleanArchitecture.Test\\Controller\\DepartmentControllerTest.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAgwEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T03:59:50.302Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD with auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3570572ae81b635c2d6f768d2a5669a7204774cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccfd7283ce368b7cfbbfd68e7fa3ca9384418ff9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD with auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD with auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
