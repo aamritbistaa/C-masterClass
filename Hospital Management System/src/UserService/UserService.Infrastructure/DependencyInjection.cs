@@ -6,7 +6,6 @@ using UserService.Domain.Abstraction;
 using UserService.Domain.Service.Interface;
 using UserService.Infrastructure.Clock;
 using UserService.Infrastructure.Data;
-using UserService.Infrastructure.Loger;
 using UserService.Infrastructure.Repository;
 
 namespace UserService.Infrastructure;
@@ -20,12 +19,13 @@ public static class DependencyInjection
         {
             config.UseNpgsql(connectionString);
         });
-        
-        Extension.LoggerMethod();
-        service.AddScoped<IUnitOfWork>(x => x.GetRequiredService<ApplicationDbContext>());
 
-        service.AddTransient<IDateTimeProvider, DateTimeProvider>();
-        service.AddTransient<IUserRepository, UserRepository>();
+        // Extension.LoggerMethod();
+        service.AddTransient<IUnitOfWork>(x => x.GetRequiredService<ApplicationDbContext>());
+
+        service.AddScoped<IDateTimeProvider, DateTimeProvider>();
+        service.AddScoped<IUserRepository, UserRepository>();
+        service.AddScoped<IOtpRepository, OtpRepository>();
 
         return service;
     }

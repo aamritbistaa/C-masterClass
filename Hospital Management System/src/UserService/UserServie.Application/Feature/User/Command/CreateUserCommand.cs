@@ -10,4 +10,5 @@ public class CreateUserCommand : IRequest<Guid>
     public string LastName { get; set; }
     public string MobileNumber { get; set; }
     public string Email { get; set; }
+    public int Role { get; set; }
 }

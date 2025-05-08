@@ -25,5 +25,7 @@ public class ApplicationDbContext : DbContext, IUnitOfWork
     }
 
     public DbSet<EUser> Users { get; set; }
+    public DbSet<EUserDocument> UserDocuments { get; set; }
+    public DbSet<EOTP> OTPs { get; set; }
 
 }
