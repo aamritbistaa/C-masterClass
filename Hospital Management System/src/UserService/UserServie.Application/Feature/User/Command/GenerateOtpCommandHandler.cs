@@ -6,21 +6,23 @@ using UserService.Domain.Service.Interface;
 
 namespace UserServie.Application.Feature.User.Command;
 
-public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand>
+public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, ServiceResult<string>>
 {
     private readonly IUserRepository _userRepo;
     private readonly IOtpRepository _otpRepo;
     private readonly IDateTimeProvider _dateTimeProvider;
     private readonly IUnitOfWork _unitOfWork;
-    public GenerateOtpCommandHandler(IUserRepository userRepo, IOtpRepository otpRepo, IDateTimeProvider dateTimeProvider, IUnitOfWork unitOfWork)
+    private readonly IMailService _mailService;
+    public GenerateOtpCommandHandler(IUserRepository userRepo, IOtpRepository otpRepo, IDateTimeProvider dateTimeProvider, IUnitOfWork unitOfWork, IMailService mmailService)
     {
         _userRepo = userRepo;
         _otpRepo = otpRepo;
         _dateTimeProvider = dateTimeProvider;
         _unitOfWork = unitOfWork;
+        _mailService = mmailService;
     }
 
-    public async Task Handle(GenerateOtpCommand request, CancellationToken cancellationToken)
+    public async Task<ServiceResult<string>> Handle(GenerateOtpCommand request, CancellationToken cancellationToken)
     {
         Guid userId;
         if (!string.IsNullOrEmpty(request.MobileNumber))
@@ -43,22 +45,34 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand>
                 OTPType = OTPType.Authentication,
                 AttemptCount = 0,
                 FailCount = 0,
-                ExpiryTime = _dateTimeProvider.CurrentDate.AddMinutes(5),
+                ExpiryTime = _dateTimeProvider.CurrentDate.AddMinutes(3),
                 OtpValue = "ABC2123"
             };
             await _otpRepo.CreateOtp(otp);
             await _unitOfWork.SaveChangesAsync();
-            //! Todo : send email
-            return;
+            // send email
+            await _mailService.SendMailAsync(request.Email, "Sign up Otp", otp.OtpValue);
+            return new ServiceResult<string>
+            {
+                Data = otp.OtpValue,
+                Message = "Otp generated successfully",
+                StatusCode = 201
+            };
         }
 
         //Check fail count
-        if (existingOtp.FailCount > 3)
+        if (existingOtp.AttemptCount > 5)
         {
             //Contact support
-
-            return;
+            return new ServiceResult<string>
+            {
+                Data = "",
+                Message = "Otp limit exceeds please contact support",
+                StatusCode = 201
+            };
         }
+
+        existingOtp.AttemptCount++;
 
 
         //Check if otp is expired or not
@@ -66,15 +80,19 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand>
 
         if (currentTime > existingOtp.ExpiryTime)
         {
-
+            return new ServiceResult<string>
+            {
+                Data = "",
+                Message = "Otp has not expired please wait",
+                StatusCode = 201
+            };
         }
 
-        existingOtp.AttemptCount++;
-        existingOtp.OtpValue = "ABC2123";
-
-
-
-
-        throw new NotImplementedException();
+        return new ServiceResult<string>
+        {
+            Data = "",
+            Message = "Otp sent",
+            StatusCode = 201
+        };
     }
 }

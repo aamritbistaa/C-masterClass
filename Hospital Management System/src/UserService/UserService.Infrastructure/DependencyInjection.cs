@@ -6,6 +6,7 @@ using UserService.Domain.Abstraction;
 using UserService.Domain.Service.Interface;
 using UserService.Infrastructure.Clock;
 using UserService.Infrastructure.Data;
+using UserService.Infrastructure.Mail;
 using UserService.Infrastructure.Repository;
 
 namespace UserService.Infrastructure;
@@ -26,6 +27,10 @@ public static class DependencyInjection
         service.AddScoped<IDateTimeProvider, DateTimeProvider>();
         service.AddScoped<IUserRepository, UserRepository>();
         service.AddScoped<IOtpRepository, OtpRepository>();
+
+
+
+        service.AddScoped<IMailService, MailService>();
 
         return service;
     }

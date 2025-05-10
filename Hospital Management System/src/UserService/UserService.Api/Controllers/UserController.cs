@@ -26,15 +26,5 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(requsest);
             return Ok(result);
         }
-        [HttpPost("/Otp/Generate")]
-        public async Task<IActionResult> GenerateOtp()
-        {
-
-        }
-        [HttpPost("/Validate")]
-        public async Task<IActionResult> ValidateOtp()
-        {
-
-        }
     }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace UserService.Domain.Service;
+namespace UserService.Domain.Exceptions;
 
 public class ConcurrencyException : Exception
 {

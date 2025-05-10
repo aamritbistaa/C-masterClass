@@ -9,23 +9,25 @@ using UserService.Domain.Service.Interface;
 
 namespace UserServie.Application.Feature.User.Command;
 
-public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
+public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, ServiceResult<string>>
 {
     private readonly IDateTimeProvider _dateTimeProvider;
     private readonly IUserRepository _userRepository;
     private readonly IUnitOfWork _unitOfWork;
     private readonly ILogger _logger;
     private readonly IOtpRepository _otpRepository;
-    public CreateUserCommandHandler(IDateTimeProvider dateTimeProvider, IUserRepository userRepository, IUnitOfWork unitOfWork, ILogger logger, IOtpRepository otpRepository)
+    private readonly IMailService _mailService;
+    public CreateUserCommandHandler(IDateTimeProvider dateTimeProvider, IUserRepository userRepository, IUnitOfWork unitOfWork, ILogger logger, IOtpRepository otpRepository, IMailService mailService)
     {
         _dateTimeProvider = dateTimeProvider;
         _userRepository = userRepository;
         _unitOfWork = unitOfWork;
         _logger = logger;
         _otpRepository = otpRepository;
+        _mailService = mailService;
     }
 
-    public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+    public async Task<ServiceResult<string>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         try
         {
@@ -48,7 +50,12 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
             {
                 _logger.Information("Registered successfully");
                 await GeneratePassCodeAndSendEmail(userModel.Id, userModel.Email);
-                return userModel.Id;
+                return new ServiceResult<string>
+                {
+                    Data = userModel.Id.ToString(),
+                    Message = "Regitered successfully",
+                    StatusCode = 201
+                };
             }
             else
             {
@@ -72,11 +79,13 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
             FailCount = 0,
             ExpiryTime = _dateTimeProvider.CurrentDate.AddMinutes(5),
             OTPType = OTPType.Authentication,
-            UserId = userId
+            UserId = userId,
+            OtpValue = "1111"
         };
         await _otpRepository.CreateOtp(otp);
         await _unitOfWork.SaveChangesAsync();
 
         //Send email
+        await _mailService.SendMailAsync(Email, "Sign in OTP", otp.OtpValue);
     }
 }

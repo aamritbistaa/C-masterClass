@@ -2,7 +2,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using UserService.Domain.Abstraction;
 using UserService.Domain.Entity;
-using UserService.Domain.Service;
+using UserService.Domain.Exceptions;
 
 namespace UserService.Infrastructure.Data;
 
