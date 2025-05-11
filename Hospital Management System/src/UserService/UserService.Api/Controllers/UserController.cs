@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
+using UserService.Domain.Abstraction;
 using UserServie.Application.Feature.User.Command;
 
 namespace UserService.Api.Controllers
@@ -20,11 +21,11 @@ namespace UserService.Api.Controllers
         }
 
         [HttpPost("/register")]
-        public async Task<IActionResult> Registration(CreateUserCommand requsest)
+        public async Task<ServiceResult<string>> Registration(CreateUserCommand requsest)
         {
             _logger.Verbose("Register initiated");
             var result = await _sender.Send(requsest);
-            return Ok(result);
+            return result;
         }
     }
 }

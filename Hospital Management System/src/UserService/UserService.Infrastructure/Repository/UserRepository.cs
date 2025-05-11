@@ -23,11 +23,10 @@ public class UserRepository : Repository<EUser>, IUserRepository
         return user.Id;
     }
 
-    public async Task<Guid> GetUserIdByMobileNo(string mobileNumber)
+    public async Task<(Guid, string)> GetUserIdAndEmailByMobileNo(string mobileNumber)
     {
-
         var data = await base.ListAsync();
         var user = data.FirstOrDefault(x => x.MobileNumber == mobileNumber && !x.IsDeleted);
-        return user.Id;
+        return (user.Id, user.Email);
     }
 }

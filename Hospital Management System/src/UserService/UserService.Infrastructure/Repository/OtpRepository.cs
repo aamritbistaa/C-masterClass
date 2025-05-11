@@ -16,10 +16,28 @@ public class OtpRepository : Repository<EOTP>, IOtpRepository
         await base.AddAsync(model);
     }
 
+    public async Task UpdateOtp(EOTP model)
+    {
+        await base.UpdateAsync(model);
+    }
+
     public async Task<EOTP> GetOtpByUserIdAndOtpType(Guid UserId, OTPType oTPType)
     {
         var allOtp = await base.ListAsync();
         var data = allOtp.First(x => x.UserId == UserId && x.OTPType == oTPType);
         return data;
+    }
+    public async Task<string> GenerateOtp(OTPType screenType)
+    {
+        string OtpValue = "";
+
+        var screenTypeString = Enum.GetName(typeof(OTPType), screenType);
+        var otpString = (screenTypeString == null) ? "DE" : screenTypeString.ToUpper().Substring(0, 2);
+
+        Random rnd = new Random();
+        var otpNumber = rnd.Next(100, 1000);
+
+        OtpValue = otpString + otpNumber;
+        return OtpValue;
     }
 }

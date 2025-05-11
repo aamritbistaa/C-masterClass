@@ -7,5 +7,5 @@ public interface IUserRepository
 {
     Task AddAsync(EUser user);
     Task<Guid> GetUserIdByEmail(string email);
-    Task<Guid> GetUserIdByMobileNo(string mobileNumber);
+    Task<(Guid, string)> GetUserIdAndEmailByMobileNo(string mobileNumber);
 }

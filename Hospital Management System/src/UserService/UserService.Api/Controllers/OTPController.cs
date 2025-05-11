@@ -1,6 +1,11 @@
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
+using UserService.Domain.Abstraction;
 using UserService.Domain.Entity;
+using UserServie.Application.Feature.OTP;
+using ILogger = Serilog.ILogger;
 
 namespace UserService.Api.Controllers
 {
@@ -8,11 +13,21 @@ namespace UserService.Api.Controllers
     [ApiController]
     public class OTPController : ControllerBase
     {
-        // [HttpPost("/Generate")]
-        // public async Task<IActionResult> GeneraxteOtp()
-        // {
+        private readonly ISender _sender;
+        private readonly ILogger _logger;
+        public OTPController(ISender sender, ILogger logger)
+        {
+            _sender = sender;
+            _logger = logger;
+        }
 
-        // }
+        [HttpPost("/Generate")]
+        public async Task<ServiceResult<string>> GenerateOtp(GenerateOtpCommand request)
+        {
+            _logger.Verbose("Generate Otp initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
         // [HttpPost("/Validate")]
         // public async Task<IActionResult> ValidateOtp()
         // {
@@ -20,6 +35,13 @@ namespace UserService.Api.Controllers
         // }
         // [HttpPost("/Delete")]
         // public async Task<IActionResult> DeleteOtp(Guid userId, OTPType oTPType)
+        // {
+
+        // }
+
+        // Support reset otp
+        // [HttpPost("/Reset")]
+        // public async Task<IActionResult> ResetOtp(Guid userId, OTPType oTPType)
         // {
 
         // }

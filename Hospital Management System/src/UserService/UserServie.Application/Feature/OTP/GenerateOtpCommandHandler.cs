@@ -4,7 +4,7 @@ using UserService.Domain.Abstraction;
 using UserService.Domain.Entity;
 using UserService.Domain.Service.Interface;
 
-namespace UserServie.Application.Feature.User.Command;
+namespace UserServie.Application.Feature.OTP;
 
 public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, ServiceResult<string>>
 {
@@ -27,7 +27,7 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, Ser
         Guid userId;
         if (!string.IsNullOrEmpty(request.MobileNumber))
         {
-            userId = await _userRepo.GetUserIdByMobileNo(request.MobileNumber);
+            (userId, request.Email) = await _userRepo.GetUserIdAndEmailByMobileNo(request.MobileNumber);
         }
         else
         {
@@ -46,7 +46,7 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, Ser
                 AttemptCount = 0,
                 FailCount = 0,
                 ExpiryTime = _dateTimeProvider.CurrentDate.AddMinutes(3),
-                OtpValue = "ABC2123"
+                OtpValue = await _otpRepo.GenerateOtp(OTPType.Authentication)
             };
             await _otpRepo.CreateOtp(otp);
             await _unitOfWork.SaveChangesAsync();
@@ -61,7 +61,7 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, Ser
         }
 
         //Check fail count
-        if (existingOtp.AttemptCount > 5)
+        if (existingOtp.AttemptCount > 5 || existingOtp.FailCount > 5)
         {
             //Contact support
             return new ServiceResult<string>
@@ -74,24 +74,47 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, Ser
 
         existingOtp.AttemptCount++;
 
-
         //Check if otp is expired or not
         var currentTime = _dateTimeProvider.CurrentDate;
-
-        if (currentTime > existingOtp.ExpiryTime)
+        if (existingOtp.ExpiryTime > currentTime)
+        {
+            await _otpRepo.UpdateOtp(existingOtp);
+            var result = await _unitOfWork.SaveChangesAsync();
+            if (result != 1)
+            {
+                return new ServiceResult<string>
+                {
+                    Data = "",
+                    Message = "Error saving Otp",
+                    StatusCode = 201
+                };
+            }
+            await _mailService.SendMailAsync(request.Email, "Sign up Otp", existingOtp.OtpValue);
+            return new ServiceResult<string>
+            {
+                Data = "",
+                Message = "Otp has been sent.",
+                StatusCode = 201
+            };
+        }
+        existingOtp.OtpValue = await _otpRepo.GenerateOtp(OTPType.Authentication);
+        await _otpRepo.UpdateOtp(existingOtp);
+        var result1 = await _unitOfWork.SaveChangesAsync();
+        if (result1 != 1)
         {
             return new ServiceResult<string>
             {
                 Data = "",
-                Message = "Otp has not expired please wait",
+                Message = "Error saving Otp",
                 StatusCode = 201
             };
         }
+        await _mailService.SendMailAsync(request.Email, "Sign up Otp", existingOtp.OtpValue);
 
         return new ServiceResult<string>
         {
             Data = "",
-            Message = "Otp sent",
+            Message = "New Otp has been sent.",
             StatusCode = 201
         };
     }

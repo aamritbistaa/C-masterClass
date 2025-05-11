@@ -17,6 +17,10 @@ public abstract class Repository<T> where T : class
     {
         await _dbContext.Set<T>().AddAsync(entity);
     }
+    protected async Task UpdateAsync(T entity)
+    {
+        _dbContext.Set<T>().Update(entity);
+    }
     protected async Task<List<T>> ListAsync()
     {
         return await _dbContext.Set<T>().ToListAsync();
