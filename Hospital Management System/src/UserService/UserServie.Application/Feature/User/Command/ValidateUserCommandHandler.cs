@@ -52,6 +52,9 @@ public class ValidateUserCommandHandler : IRequestHandler<ValidateUserCommand, S
         var currentDateTime = _dateTimeProvider.CurrentDate;
         if (existingOtp.ExpiryTime < currentDateTime)
         {
+            existingOtp.FailCount++;
+            await _otpRepository.UpdateOtp(existingOtp);
+            await _unitOfWork.SaveChangesAsync();
             return new ServiceResult<string>
             {
                 Message = "Expired Otp",
