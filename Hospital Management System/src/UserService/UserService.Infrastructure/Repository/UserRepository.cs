@@ -15,6 +15,10 @@ public class UserRepository : Repository<EUser>, IUserRepository
     {
         await base.AddAsync(user);
     }
+    public async Task UpdateAsync(EUser user)
+    {
+        await base.UpdateAsync(user);
+    }
 
     public async Task<Guid> GetUserIdByEmail(string email)
     {
@@ -28,5 +32,11 @@ public class UserRepository : Repository<EUser>, IUserRepository
         var data = await base.ListAsync();
         var user = data.FirstOrDefault(x => x.MobileNumber == mobileNumber && !x.IsDeleted);
         return (user.Id, user.Email);
+    }
+    public async Task<EUser> GetUserById(Guid id)
+    {
+        var data = await base.ListAsync();
+        var user = data.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
+        return user;
     }
 }

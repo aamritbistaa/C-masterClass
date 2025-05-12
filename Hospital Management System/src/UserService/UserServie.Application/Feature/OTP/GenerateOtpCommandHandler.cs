@@ -73,9 +73,9 @@ public class GenerateOtpCommandHandler : IRequestHandler<GenerateOtpCommand, Ser
         }
 
         existingOtp.AttemptCount++;
-
         //Check if otp is expired or not
         var currentTime = _dateTimeProvider.CurrentDate;
+        existingOtp.ExpiryTime = currentTime.AddMinutes(5);
         if (existingOtp.ExpiryTime > currentTime)
         {
             await _otpRepo.UpdateOtp(existingOtp);

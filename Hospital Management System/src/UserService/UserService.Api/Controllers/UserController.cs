@@ -21,10 +21,17 @@ namespace UserService.Api.Controllers
         }
 
         [HttpPost("/register")]
-        public async Task<ServiceResult<string>> Registration(CreateUserCommand requsest)
+        public async Task<ServiceResult<string>> Registration(CreateUserCommand request)
         {
             _logger.Verbose("Register initiated");
-            var result = await _sender.Send(requsest);
+            var result = await _sender.Send(request);
+            return result;
+        }
+        [HttpPost]
+        public async Task<ServiceResult<string>> Validate(ValidateUserCommand request)
+        {
+            _logger.Verbose("Validate initiated");
+            var result = await _sender.Send(request);
             return result;
         }
     }

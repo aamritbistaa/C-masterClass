@@ -28,16 +28,6 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
-        // [HttpPost("/Validate")]
-        // public async Task<IActionResult> ValidateOtp()
-        // {
-
-        // }
-        // [HttpPost("/Delete")]
-        // public async Task<IActionResult> DeleteOtp(Guid userId, OTPType oTPType)
-        // {
-
-        // }
 
         // Support reset otp
         // [HttpPost("/Reset")]

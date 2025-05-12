@@ -10,15 +10,17 @@ public class OtpRepository : Repository<EOTP>, IOtpRepository
     public OtpRepository(ApplicationDbContext dbContext) : base(dbContext)
     {
     }
-
     public async Task CreateOtp(EOTP model)
     {
         await base.AddAsync(model);
     }
-
     public async Task UpdateOtp(EOTP model)
     {
         await base.UpdateAsync(model);
+    }
+    public async Task DeleteOtp(EOTP model)
+    {
+        await base.DeleteAsync(model);
     }
 
     public async Task<EOTP> GetOtpByUserIdAndOtpType(Guid UserId, OTPType oTPType)

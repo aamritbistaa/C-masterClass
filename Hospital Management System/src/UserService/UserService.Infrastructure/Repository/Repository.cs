@@ -25,4 +25,8 @@ public abstract class Repository<T> where T : class
     {
         return await _dbContext.Set<T>().ToListAsync();
     }
+    protected async Task DeleteAsync(T entity)
+    {
+        _dbContext.Set<T>().Remove(entity);
+    }
 }

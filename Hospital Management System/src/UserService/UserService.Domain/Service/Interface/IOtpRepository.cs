@@ -8,6 +8,7 @@ public interface IOtpRepository
 {
     Task CreateOtp(EOTP model);
     Task UpdateOtp(EOTP model);
+    Task DeleteOtp(EOTP model);
     Task<EOTP> GetOtpByUserIdAndOtpType(Guid UserId, OTPType oTPType);
     Task<string> GenerateOtp(OTPType screenType);
 }
