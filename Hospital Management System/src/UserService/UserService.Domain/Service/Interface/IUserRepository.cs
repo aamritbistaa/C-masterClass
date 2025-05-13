@@ -10,4 +10,5 @@ public interface IUserRepository
     Task<Guid> GetUserIdByEmail(string email);
     Task<(Guid, string)> GetUserIdAndEmailByMobileNo(string mobileNumber);
     Task<EUser> GetUserById(Guid id);
+    Task<List<EUser>> GetAllUserByStatus(OnBoardingStatus status, int pageNo, int pageSize);
 }

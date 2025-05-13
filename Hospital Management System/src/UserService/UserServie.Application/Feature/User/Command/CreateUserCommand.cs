@@ -1,10 +1,11 @@
 using System;
 using MediatR;
 using UserService.Domain.Abstraction;
+using UserServie.Application.Common;
 
 namespace UserServie.Application.Feature.User.Command;
 
-public class CreateUserCommand : IRequest<ServiceResult<string>>
+public class CreateUserCommand : CommonCommandParameter, IRequest<ServiceResult<string>>
 {
     public string FirstName { get; set; }
     public string MiddleName { get; set; }

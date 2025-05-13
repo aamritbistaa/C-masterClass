@@ -1,6 +1,7 @@
 using System;
 using MediatR;
 using UserService.Domain.Abstraction;
+using UserServie.Application.Common;
 
 namespace UserServie.Application.Feature.User.Command;
 

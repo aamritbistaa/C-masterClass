@@ -38,7 +38,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Servi
                 LastName = request.LastName,
                 Email = request.Email,
                 CreatedDate = _dateTimeProvider.CurrentDate,
-                CreatedBy = Guid.Empty,
+                CreatedBy = request.ActionBy,
                 MobileNumber = request.MobileNumber,
                 Id = Guid.NewGuid(),
                 Role = (UserRole)request.Role,

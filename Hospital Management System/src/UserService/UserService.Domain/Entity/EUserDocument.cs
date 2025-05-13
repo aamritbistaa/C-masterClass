@@ -3,9 +3,8 @@ using UserService.Domain.Abstraction;
 
 namespace UserService.Domain.Entity;
 
-public class EUserDocument
+public class EUserDocument : BaseEntity
 {
-    public Guid Id { get; set; }
     public Guid UserId { get; set; }
     public DocumentType DocumentType { get; set; }
     public DocumentStatus DocumentStatus { get; set; }

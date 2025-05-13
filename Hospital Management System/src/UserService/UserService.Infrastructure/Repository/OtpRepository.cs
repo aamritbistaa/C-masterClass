@@ -1,4 +1,5 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 using UserService.Domain.Entity;
 using UserService.Domain.Service.Interface;
 using UserService.Infrastructure.Data;
@@ -25,8 +26,7 @@ public class OtpRepository : Repository<EOTP>, IOtpRepository
 
     public async Task<EOTP> GetOtpByUserIdAndOtpType(Guid UserId, OTPType oTPType)
     {
-        var allOtp = await base.ListAsync();
-        var data = allOtp.First(x => x.UserId == UserId && x.OTPType == oTPType);
+        var data = await base.AsQuerable().FirstOrDefaultAsync(x => x.UserId == UserId && x.OTPType == oTPType);
         return data;
     }
     public async Task<string> GenerateOtp(OTPType screenType)

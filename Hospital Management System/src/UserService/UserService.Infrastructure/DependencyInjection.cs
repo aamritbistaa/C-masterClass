@@ -1,4 +1,5 @@
 using System;
+using System.Security.AccessControl;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,6 +7,7 @@ using UserService.Domain.Abstraction;
 using UserService.Domain.Service.Interface;
 using UserService.Infrastructure.Clock;
 using UserService.Infrastructure.Data;
+using UserService.Infrastructure.File;
 using UserService.Infrastructure.Mail;
 using UserService.Infrastructure.Repository;
 
@@ -27,11 +29,11 @@ public static class DependencyInjection
         service.AddScoped<IDateTimeProvider, DateTimeProvider>();
         service.AddScoped<IUserRepository, UserRepository>();
         service.AddScoped<IOtpRepository, OtpRepository>();
-
+        service.AddScoped<IUserDocumentRepository, UserDocumentRepository>();
 
 
         service.AddScoped<IMailService, MailService>();
-
+        service.AddScoped<IFileService, FileService>();
         return service;
     }
 }

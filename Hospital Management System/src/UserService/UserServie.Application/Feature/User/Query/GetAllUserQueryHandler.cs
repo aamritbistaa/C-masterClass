@@ -1,12 +1,40 @@
 using System;
 using MediatR;
+using UserService.Domain.Abstraction;
+using UserService.Domain.Entity;
+using UserService.Domain.Enum;
+using UserService.Domain.Service.Interface;
+using UserServie.Application.Common;
 
 namespace UserServie.Application.Feature.User.Query;
 
-public class GetAllUserQueryHandler : IRequestHandler<GetAllUserQuery, List<GetAllUserResponse>>
+public class GetAllUserQueryHandler : IRequestHandler<GetAllUserQuery, ServiceResult<List<GetAllUserResponse>>>
 {
-    public Task<List<GetAllUserResponse>> Handle(GetAllUserQuery request, CancellationToken cancellationToken)
+    private readonly IUserRepository _userRepository;
+
+    public GetAllUserQueryHandler(IUserRepository userRepository)
     {
-        throw new NotImplementedException();
+        _userRepository = userRepository;
+    }
+
+    public async Task<ServiceResult<List<GetAllUserResponse>>> Handle(GetAllUserQuery request, CancellationToken cancellationToken)
+    {
+        var data = await _userRepository.GetAllUserByStatus(status: request.OnBoardingStatus, pageNo: request.PageNo, pageSize: request.PageSize);
+
+        var response = from item in data
+                       select new GetAllUserResponse
+                       {
+                           Id = item.Id,
+                           FullName = CommonClass.GetName(item.FirstName, item.MiddleName, item.LastName),
+                           Email = item.Email,
+                           MobileNumber = item.MobileNumber,
+                           Role = Enum.GetName<UserRole>(item.Role),
+                       };
+        return new ServiceResult<List<GetAllUserResponse>>
+        {
+            Data = response.ToList(),
+            Message = "Data fetched successfully",
+            StatusCode = 200
+        };
     }
 }

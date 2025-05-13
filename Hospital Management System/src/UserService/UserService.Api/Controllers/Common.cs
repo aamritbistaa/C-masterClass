@@ -1,6 +1,8 @@
 using System;
+using Microsoft.AspNetCore.Mvc;
 using UserService.Domain.Entity;
 using UserService.Domain.Enum;
+using UserService.Domain.Service.Interface;
 
 namespace UserService.Api.Controllers;
 
