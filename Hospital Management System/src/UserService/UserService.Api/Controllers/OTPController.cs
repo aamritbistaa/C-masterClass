@@ -29,11 +29,5 @@ namespace UserService.Api.Controllers
             return result;
         }
 
-        // Support reset otp
-        // [HttpPost("/Reset")]
-        // public async Task<IActionResult> ResetOtp(Guid userId, OTPType oTPType)
-        // {
-
-        // }
     }
 }

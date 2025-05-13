@@ -34,5 +34,6 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
+        
     }
 }

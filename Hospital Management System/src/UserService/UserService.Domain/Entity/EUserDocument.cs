@@ -16,7 +16,6 @@ public enum DocumentType
 {
     NationalID,
     Passport,
-    Photo,
     Liscence,
     Certificate,
     Other

@@ -1,6 +1,8 @@
 using UserServie.Application;
 using UserService.Infrastructure;
 using Serilog;
+using UserService.Domain.Entity;
+using UserService.Api.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
+app.Dropdown();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
