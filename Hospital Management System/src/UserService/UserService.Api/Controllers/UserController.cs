@@ -21,7 +21,11 @@ namespace UserService.Api.Controllers
             _sender = sender;
             _logger = logger;
         }
-
+        /// <summary>
+        /// This api is used to give basic information and register the user.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("/register")]
         public async Task<ServiceResult<string>> Registration(CreateUserCommand request)
         {
@@ -29,6 +33,11 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
+        /// <summary>
+        /// THis api is used to validate the user
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("/Validate")]
         public async Task<ServiceResult<string>> Validate(ValidateUserCommand request)
         {
@@ -36,6 +45,11 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
+        /// <summary>
+        /// This api is used to get all the user
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpGet("")]
         public async Task<ServiceResult<List<GetAllUserResponse>>> GetAllUser([FromQuery] GetAllUserQuery request)
         {
@@ -43,6 +57,7 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
+        //Get User by Id
 
     }
 }

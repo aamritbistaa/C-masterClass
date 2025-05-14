@@ -20,7 +20,11 @@ namespace UserService.Api.Controllers
             _sender = sender;
             _logger = logger;
         }
-
+        /// <summary>
+        /// This api is used to generate otp for user.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("/Generate")]
         public async Task<ServiceResult<string>> GenerateOtp(GenerateOtpCommand request)
         {
