@@ -6,19 +6,19 @@ using UserService.Domain.Service.Interface;
 
 namespace UserServie.Application.Feature.Document.Command;
 
-public class UploadDocumentCommandHandler : IRequestHandler<UploadDocumentCommand, ServiceResult<string>>
+public class AddOrUpdateDocumentCommandHandler : IRequestHandler<AddOrUpdateDocumentCommand, ServiceResult<string>>
 {
     private readonly IUserDocumentRepository _userDocumentRepository;
     private readonly IDateTimeProvider _dateTimeProvider;
     private readonly IUnitOfWork _unitOfWork;
-    public UploadDocumentCommandHandler(IUserDocumentRepository userDocumentRepository, IDateTimeProvider dateTimeProvider, IUnitOfWork unitOfWork)
+    public AddOrUpdateDocumentCommandHandler(IUserDocumentRepository userDocumentRepository, IDateTimeProvider dateTimeProvider, IUnitOfWork unitOfWork)
     {
         _userDocumentRepository = userDocumentRepository;
         _dateTimeProvider = dateTimeProvider;
         _unitOfWork = unitOfWork;
     }
 
-    public async Task<ServiceResult<string>> Handle(UploadDocumentCommand request, CancellationToken cancellationToken)
+    public async Task<ServiceResult<string>> Handle(AddOrUpdateDocumentCommand request, CancellationToken cancellationToken)
     {
         //get existing document by userId
         var existingDocument = await _userDocumentRepository.GetAllDocumentByUserId(request.UserId);

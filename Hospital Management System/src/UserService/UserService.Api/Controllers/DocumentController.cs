@@ -38,7 +38,7 @@ namespace UserService.Api.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpPost("Upload")]
-        public async Task<ServiceResult<string>> UploadDocument(UploadDocumentCommand request)
+        public async Task<ServiceResult<string>> UploadDocument(AddOrUpdateDocumentCommand request)
         {
             var response = await _sender.Send(request);
             return response;

@@ -2,7 +2,7 @@ using System;
 
 namespace UserServie.Application.Feature.User.Query;
 
-public class GetAllUserResponse
+public class GetUserResponse
 {
     public Guid Id { get; set; }
     public string FullName { get; set; }

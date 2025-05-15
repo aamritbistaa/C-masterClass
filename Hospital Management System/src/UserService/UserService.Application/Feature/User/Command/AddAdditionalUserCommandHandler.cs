@@ -20,6 +20,12 @@ public class AddAdditionalUserCommandHandler : IRequestHandler<AddAdditionalUser
 
     public async Task<ServiceResult<string>> Handle(AddAdditionalUserCommand request, CancellationToken cancellationToken)
     {
+        if (request.ActionBy == Guid.Empty)
+            return new ServiceResult<string>()
+            {
+                Message = "User not found",
+                StatusCode = 200
+            };
         var model = new EUserDetail
         {
             UserId = request.UserId,

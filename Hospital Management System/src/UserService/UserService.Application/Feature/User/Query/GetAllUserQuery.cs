@@ -6,7 +6,7 @@ using UserServie.Application.Common;
 
 namespace UserServie.Application.Feature.User.Query;
 
-public class GetAllUserQuery : CommonListFilterParameter, IRequest<ServiceResult<List<GetAllUserResponse>>>
+public class GetAllUserQuery : CommonListFilterParameter, IRequest<ServiceResult<List<GetUserResponse>>>
 {
     public OnBoardingStatus OnBoardingStatus { get; set; }
 }

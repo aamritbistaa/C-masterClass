@@ -7,7 +7,7 @@ using UserServie.Application.Common;
 
 namespace UserServie.Application.Feature.Document.Command;
 
-public class UploadDocumentCommand : CommonCommandParameter, IRequest<ServiceResult<string>>
+public class AddOrUpdateDocumentCommand : CommonCommandParameter, IRequest<ServiceResult<string>>
 {
     public Guid UserId { get; set; }
     public List<Document> Documents { get; set; } = new List<Document>();

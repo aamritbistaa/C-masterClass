@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 using UserService.Application.Feature.User.Command;
+using UserService.Application.Feature.User.Query;
 using UserService.Domain.Abstraction;
 using UserService.Domain.Entity;
 using UserServie.Application.Feature.User.Command;
@@ -46,13 +47,30 @@ namespace UserService.Api.Controllers
             var result = await _sender.Send(request);
             return result;
         }
+        [HttpPut("")]
+        public async Task<ServiceResult<string>> UpdateUser(UpdateUserCommand request)
+        {
+            _logger.Verbose("Update User Command initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
+
+        //Get User by Id
+        [HttpGet("/{id}")]
+        public async Task<ServiceResult<GetUserResponse>> GetUser([FromQuery] GetUserByIdQuery request)
+        {
+            _logger.Verbose("Get user by id query initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
+
         /// <summary>
         /// This api is used to get all the user
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpGet("")]
-        public async Task<ServiceResult<List<GetAllUserResponse>>> GetAllUser([FromQuery] GetAllUserQuery request)
+        public async Task<ServiceResult<List<GetUserResponse>>> GetAllUser([FromQuery] GetAllUserQuery request)
         {
             _logger.Verbose("Get all user initiated");
             var result = await _sender.Send(request);
@@ -61,13 +79,26 @@ namespace UserService.Api.Controllers
 
 
         [HttpPost("/AdditionalUserDetail")]
-        public async Task<ServiceResult<string>> AddUserDetail(AddAdditionalUserCommand request)
+        public async Task<ServiceResult<string>> AddAdditionalUserDetail(AddAdditionalUserCommand request)
         {
             _logger.Verbose("Add additional user ccommand initiated");
             var result = await _sender.Send(request);
             return result;
         }
-        //Get User by Id
 
+        [HttpPut("/AdditionalUserDetail")]
+        public async Task<ServiceResult<string>> UpdateAdditionalUserDetail(UpdateAdditionalUserCommand request)
+        {
+            _logger.Verbose("Update additional user ccommand initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
+        [HttpGet("/more/{id}")]
+        public async Task<ServiceResult<GetUserDetailResponse>> GetAdditionalUser([FromQuery] GetUserDetailQuery request)
+        {
+            _logger.Verbose("Get user detail query initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
     }
 }
