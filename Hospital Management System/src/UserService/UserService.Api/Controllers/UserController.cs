@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
+using UserService.Application.Feature.User.Command;
 using UserService.Domain.Abstraction;
 using UserService.Domain.Entity;
 using UserServie.Application.Feature.User.Command;
@@ -54,6 +55,15 @@ namespace UserService.Api.Controllers
         public async Task<ServiceResult<List<GetAllUserResponse>>> GetAllUser([FromQuery] GetAllUserQuery request)
         {
             _logger.Verbose("Get all user initiated");
+            var result = await _sender.Send(request);
+            return result;
+        }
+
+
+        [HttpPost("/AdditionalUserDetail")]
+        public async Task<ServiceResult<string>> AddUserDetail(AddAdditionalUserCommand request)
+        {
+            _logger.Verbose("Add additional user ccommand initiated");
             var result = await _sender.Send(request);
             return result;
         }

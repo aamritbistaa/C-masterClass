@@ -30,6 +30,7 @@ public static class DependencyInjection
         service.AddScoped<IUserRepository, UserRepository>();
         service.AddScoped<IOtpRepository, OtpRepository>();
         service.AddScoped<IUserDocumentRepository, UserDocumentRepository>();
+        service.AddScoped<IUserDetailRepository, UserDetailRepository>();
 
 
         service.AddScoped<IMailService, MailService>();
