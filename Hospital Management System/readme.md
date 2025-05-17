@@ -1,5 +1,11 @@
 
-2. Hospital Service
+
+// After doctors are verified, they request to be staff with available working hour shift and necessary information,
+// staff approves and a unique Employee no is generated, 
+
+
+
+1. Hospital Service
 Feature: Manages hospital data, including branches, departments, policies.
 
 Use: Enables admins to add new hospitals, update hospital information, and view structural data like department lists.
