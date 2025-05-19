@@ -1,5 +1,7 @@
 StaffManagement Service, where user will request for employee information, including their wanting to work time, year of experience and so on, attendance, leave, and according to his attendance leave and so on, no of patient per day should be allocated.
 
+BOOKING SYSTEN
+Based on availibility of doctors, the no of opd tickets will be alloted, 
 // After doctors and staffs are verified, they request to be staff with available working hour shift and necessary information,
 // staff approves and a unique Employee no is generated, 
 
