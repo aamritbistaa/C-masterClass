@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A9Q6vMzEeY4=",
+  "dgSpecHash": "o02I1PiGvXw=",
   "success": true,
-  "projectFilePath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+  "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",

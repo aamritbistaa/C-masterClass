@@ -35,3 +35,5 @@ Library:
     - Marten (for PSQL interaction Document DB. enhances JSON cability for storing managing and querying documents)
     - Mapster (for object mapping)
     - FluentValidation
+
+Carter -> wrap around minimal api

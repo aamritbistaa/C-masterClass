@@ -7,7 +7,7 @@ public record CreateProductCommand(string Name, List<string> Category, string De
 
 public record CreateProductResult(Guid Id);
 
-public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResult>
+public class CreateProductCommandHandler(IDocumentSession session) : ICommandHandler<CreateProductCommand, CreateProductResult>
 {
     public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
     {
@@ -22,9 +22,10 @@ public class CreateProductCommandHandler : ICommandHandler<CreateProductCommand,
         };
 
         //save to database
+        session.Store(product);
 
-
+        await session.SaveChangesAsync();
         //return result
-        return new CreateProductResult(Guid.NewGuid());
+        return new CreateProductResult(product.Id);
     }
 }
