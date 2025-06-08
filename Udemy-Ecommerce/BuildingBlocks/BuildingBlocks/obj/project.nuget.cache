@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/PVz4/8Y8MY=",
+  "dgSpecHash": "HGCvEvFifZU=",
   "success": true,
-  "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+  "projectFilePath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",

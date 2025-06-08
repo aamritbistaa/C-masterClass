@@ -5871,11 +5871,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+      "projectUniqueName": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
       "projectName": "Catalog.API",
-      "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+      "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
       "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\obj\\",
+      "outputPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5890,8 +5890,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-              "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+            "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+              "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
             }
           }
         }
