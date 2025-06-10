@@ -5,6 +5,14 @@ using Catalog.API.Models;
 namespace Catalog.API.Products.DeleteProduct;
 
 public record DeleteProductCommand(Guid id) : ICommand<string>;
+
+public class DeleteProductCommandValidator : AbstractValidator<DeleteProductCommand>
+{
+    public DeleteProductCommandValidator()
+    {
+        RuleFor(x => x.id).NotEmpty().WithMessage("Product ID is required");
+    }
+}
 public class DeleteProductCommandHandler : ICommandHandler<DeleteProductCommand, string>
 {
     private readonly IDocumentSession _session;
