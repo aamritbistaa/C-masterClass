@@ -13,6 +13,7 @@ builder.Services.AddMediatR(config =>
 {
     config.RegisterServicesFromAssemblies(typeof(Program).Assembly);
     config.AddOpenBehavior(typeof(ValidationBehaviour<,>));
+    config.AddOpenBehavior(typeof(RequestResponseLogging<,>));
 });
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 var connectionString = builder.Configuration.GetConnectionString("Default") ?? throw new Exception("Connection string not found");
