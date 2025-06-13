@@ -31,7 +31,7 @@ public class UpdateProductCommandHandler : ICommandHandler<UpdateProductCommand,
     public async Task<UpdateProductResult> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
     {
         var data = await _session.LoadAsync<EProduct>(request.id);
-        if (data == null) throw new ProductNotFoundException();
+        if (data == null) throw new ProductNotFoundException(request.id);
         data.Name = request.Name;
         data.Category = request.Category;
         data.Description = request.Description;

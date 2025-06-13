@@ -14,7 +14,7 @@ public class GetProductByIdQueryHandler(IDocumentSession session) : IQueryHandle
     {
         var data = await session.LoadAsync<EProduct>(request.Id);
 
-        if (data == null) throw new ProductNotFoundException();
+        if (data == null) throw new ProductNotFoundException(request.Id);
 
         var result = data.Adapt<GetProductByIdResult>();
         return result;
