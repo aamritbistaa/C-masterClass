@@ -28,6 +28,8 @@ builder.Services.AddMarten(config =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHealthChecks().AddNpgSql(connectionString);
+
 var app = builder.Build();
 
 app.UseSwagger();
@@ -63,4 +65,6 @@ app.UseExceptionHandler(exceptionHandler =>
         await context.Response.WriteAsJsonAsync(problem);
     });
 });
+
+app.UseHealthChecks("/health");
 app.Run();

@@ -11,7 +11,7 @@ public class GetAllProductEndpoint : ICarterModule
     {
         app.MapGet("/products", async ([AsParameters] GetProductsRequest request, ISender sender) =>
         {
-            var query = await sender.Send(new GetAllProductQuery());
+            var query = await sender.Send(new GetAllProductQuery(request.pageNumber, request.pageSize));
             var result = query.Adapt<IEnumerable<GetAllProductResponse>>();
             return Results.Ok(result);
         })
