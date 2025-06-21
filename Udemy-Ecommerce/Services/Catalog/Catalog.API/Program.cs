@@ -1,5 +1,5 @@
 using BuildingBlocks.Behaviours;
-using Catalog.API.Middleware;
+using BuildingBlocks.Middleware;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 

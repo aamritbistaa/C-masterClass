@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i/e3mjtWMIs=",
+  "dgSpecHash": "rzviZWqkXAs=",
   "success": true,
-  "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+  "projectFilePath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\8.0.2\\aspnetcore.healthchecks.npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",

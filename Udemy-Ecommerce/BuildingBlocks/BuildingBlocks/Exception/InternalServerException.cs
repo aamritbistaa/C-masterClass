@@ -1,7 +1,7 @@
 
 namespace BuildingBlocks.Exceptions;
 
-public class InternalServerException : Exception
+public class InternalServerException : System.Exception
 {
     public InternalServerException(string message) : base(message)
     {
