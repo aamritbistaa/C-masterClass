@@ -14,9 +14,6 @@ public class CustomExceptionHandler(ILogger<CustomExceptionHandler> logger) : IE
     {
         logger.LogError("Error: {exceptionMessage}, Time of occurrence: {time}", exception.Message, DateTime.UtcNow);
 
-        
-
-
         var problemDetails = new ProblemDetails
         {
             Title = exception.GetType().Name,
