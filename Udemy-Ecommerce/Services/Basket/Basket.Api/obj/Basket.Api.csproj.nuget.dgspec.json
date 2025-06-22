@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {}
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {}
   },
   "projects": {
-    "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "projectName": "BuildingBlocks",
-        "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\obj\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -88,14 +88,14 @@
         }
       }
     },
-    "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
         "projectName": "Basket.Api",
-        "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
         "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-        "outputPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\obj\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,8 +110,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-                "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
               }
             }
           }

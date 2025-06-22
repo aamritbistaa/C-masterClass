@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/HAA/mSIMBs=",
+  "dgSpecHash": "XBsaDP0MK8g=",
   "success": true,
-  "projectFilePath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+  "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter.analyzers\\8.2.1\\carter.analyzers.8.2.1.nupkg.sha512",
