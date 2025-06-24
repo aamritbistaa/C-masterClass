@@ -28,6 +28,12 @@ builder.Services.AddMarten(config =>
 }).UseLightweightSessions();
 
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.Decorate<IBasketRepository, CachedBasketRepository>();
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder
+    .Configuration.GetConnectionString("Redis");
+});
 
 //global exception handler
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
