@@ -14,8 +14,8 @@ public class StoreBasketEndpoints : ICarterModule
         {
             var command = new StoreBasketCommand(request.cart);
             var result = await sender.Send(command);
-            var response = result.Adapt<StoreBasketResponse>();
-            return Results.Created($"/basket/{response.username}", response);
+            // var response = result.Adapt<StoreBasketResponse>();
+            return Results.Created($"/basket/{result.username}", result);
         }).WithDescription("This api is used to store into shoppingcart")
         .WithName("CreateProduct")
         .Produces<StoreBasketResponse>(StatusCodes.Status200OK)

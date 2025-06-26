@@ -4,7 +4,7 @@ using Basket.Api.Data;
 namespace Basket.Api.Basket.DeleteBasket;
 
 public record DeleteBasketCommand(string username) : ICommand<DeleteBasketResult>;
-public record DeleteBasketResult(bool isSuccess);
+public record DeleteBasketResult(bool IsSuccess);
 
 public class DeleteBasketCommandValidator : AbstractValidator<DeleteBasketCommand>
 {

@@ -199,3 +199,8 @@ d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\
 d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.pdb
 d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.genruntimeconfig.cache
 d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\ref\Basket.Api.dll
+d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Scrutor.dll
+d:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\StackExchange.Redis.dll
