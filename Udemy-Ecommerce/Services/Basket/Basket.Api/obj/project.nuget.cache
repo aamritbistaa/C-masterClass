@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BLgdvaVe/9I=",
+  "dgSpecHash": "NengCoI1zu4=",
   "success": true,
-  "projectFilePath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
+  "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\aspnetcore.healthchecks.npgsql\\8.0.2\\aspnetcore.healthchecks.npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter.analyzers\\8.2.1\\carter.analyzers.8.2.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fastexpressioncompiler\\5.1.1\\fastexpressioncompiler.5.1.1.nupkg.sha512",
@@ -52,6 +53,8 @@
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.0\\microsoft.extensions.diagnostics.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",

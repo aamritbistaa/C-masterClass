@@ -38,6 +38,8 @@ builder.Services.AddStackExchangeRedisCache(options =>
 //global exception handler
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 
+builder.Services.AddHealthChecks().AddNpgSql(connectionString);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -47,6 +49,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.MapCarter();
+app.UseHealthChecks("/health");
 
 //global exception handler
 app.UseExceptionHandler(opt => { });
