@@ -14,10 +14,15 @@
     <PackageReference Include="Scrutor" Version="6.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="Marten" Version="8.0.1" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.49.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <Protobuf Include = "..\..\Discount\Discount.Grpc\Protos\discount.proto" GrpcServices = "Client">
+      <Link>Protos\discount.proto</Link>
+    </Protobuf>
+  </ItemGroup>
 </Project>

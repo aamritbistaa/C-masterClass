@@ -205,3 +205,10 @@ D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.pdb
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\Basket.Api.genruntimeconfig.cache
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\obj\Debug\net8.0\ref\Basket.Api.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Google.Protobuf.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Core.Api.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Client.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Basket\Basket.Api\bin\Debug\net8.0\Grpc.Net.Common.dll
