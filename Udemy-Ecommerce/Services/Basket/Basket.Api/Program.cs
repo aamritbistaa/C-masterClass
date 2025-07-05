@@ -1,6 +1,7 @@
 using Basket.Api.Data;
 using BuildingBlocks.Exception.Handler;
 using BuildingBlocks.Middleware;
+using Discount.Grpc;
 using Marten;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -33,6 +34,12 @@ builder.Services.AddStackExchangeRedisCache(options =>
 {
     options.Configuration = builder
     .Configuration.GetConnectionString("Redis");
+});
+
+//Grpc servie
+builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]);
 });
 
 //global exception handler
