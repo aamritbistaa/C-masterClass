@@ -3556,11 +3556,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "projectName": "Discount.Grpc",
-      "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+      "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
       "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
-      "outputPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\obj\\",
+      "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Discount\\Discount.Grpc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3575,8 +3575,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
-              "projectPath": "d:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+            "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+              "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
             }
           }
         }

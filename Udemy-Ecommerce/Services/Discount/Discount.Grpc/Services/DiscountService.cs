@@ -16,13 +16,20 @@ public class DiscountService(DiscountContext dbContext, ILogger<DiscountService>
         {
             coupon = new Models.Coupon
             {
+                Id = 0,
                 ProductName = "No Discount",
                 Amount = 0,
-                Description = null
+                Description = "No Description"
             };
         }
-        var couponModel = coupon.Adapt<CouponModel>();
-        return couponModel;
+        var couponModel = new CouponModel
+        {
+            Id = coupon.Id,
+            ProductName = coupon.ProductName,
+            Description = coupon.Description,
+            Amount = coupon.Amount
+        };
+        return couponModel; 
     }
     public override async Task<CouponModel> CreateDiscount(CreateDiscountRequest request, ServerCallContext context)
     {

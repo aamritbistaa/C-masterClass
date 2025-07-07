@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "projectName": "BuildingBlocks",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "projectName": "Ordering.API",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+              },
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+        "projectName": "Ordering.Application",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj"
+              },
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "projectName": "Ordering.Domain",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "projectName": "Ordering.Infrastructure",
+        "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aamritbistaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aamritbistaa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+                "projectPath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
