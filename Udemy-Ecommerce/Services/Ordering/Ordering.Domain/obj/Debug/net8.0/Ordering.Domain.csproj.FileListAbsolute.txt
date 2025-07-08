@@ -10,3 +10,4 @@ D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Domain\obj
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\refint\Ordering.Domain.dll
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache

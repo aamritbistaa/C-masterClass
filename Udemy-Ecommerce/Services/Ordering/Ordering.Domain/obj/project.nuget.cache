@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Lc9A3aIdQ1w=",
+  "dgSpecHash": "DUzlHKFo3eY=",
   "success": true,
   "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
