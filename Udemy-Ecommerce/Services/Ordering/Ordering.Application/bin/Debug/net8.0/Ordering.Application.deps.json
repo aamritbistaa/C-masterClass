@@ -748,6 +748,9 @@
         }
       },
       "Ordering.Domain/1.0.0": {
+        "dependencies": {
+          "MediatR": "12.5.0"
+        },
         "runtime": {
           "Ordering.Domain.dll": {
             "assemblyVersion": "1.0.0",

@@ -43,3 +43,17 @@ D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\obj\De
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\obj\Debug\net8.0\Ordering.API.pdb
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\obj\Debug\net8.0\Ordering.API.genruntimeconfig.cache
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\obj\Debug\net8.0\ref\Ordering.API.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
