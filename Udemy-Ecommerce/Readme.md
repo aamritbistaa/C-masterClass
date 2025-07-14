@@ -37,3 +37,9 @@ Library:
     - FluentValidation
 
 Carter -> wrap around minimal api
+
+
+
+dotnet ef migrations add InitialCreate --output-dir Data/Migrations --project Ordering.Infrastructure --startup-project Ordering.API
+
+$ dotnet ef database update --project Ordering.Infrastructure/ --startup-project Ordering.API/
