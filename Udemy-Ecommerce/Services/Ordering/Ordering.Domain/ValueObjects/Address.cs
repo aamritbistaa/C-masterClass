@@ -1,3 +1,4 @@
+
 namespace Ordering.Domain.ValueObjects;
 
 public record Address
@@ -22,5 +23,15 @@ public record Address
             State = state,
             ZipCode = zipcode
         };
+    }
+
+    public static Address Of(string firstName, string lastName, string emailAddress, object addressLine, object country, object state, object zipCode)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static Address Of(string firstName, string lastName, string emailAddress, string addressLine, string country, object state, object zipCode)
+    {
+        throw new NotImplementedException();
     }
 }

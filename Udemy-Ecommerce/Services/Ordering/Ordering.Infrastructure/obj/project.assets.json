@@ -1083,6 +1083,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "BuildingBlocks": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.7",
           "Ordering.Domain": "1.0.0"
         },
         "compile": {
