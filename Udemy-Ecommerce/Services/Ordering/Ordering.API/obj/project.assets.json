@@ -2,6 +2,43 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Carter/8.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Carter.Analyzers": "8.2.1",
+          "FluentValidation": "11.8.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Carter.Analyzers/8.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Carter.Analyzers.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carter.Analyzers.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
@@ -170,7 +207,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/Microsoft.CodeAnalysis.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -227,7 +264,7 @@
           "Microsoft.CodeAnalysis.Common": "[4.8.0]"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/Microsoft.CodeAnalysis.CSharp.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -654,7 +691,7 @@
           "System.Text.Json": "9.0.7"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
             "related": ".xml"
           }
         },
@@ -812,7 +849,7 @@
       "System.Collections.Immutable/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Collections.Immutable.dll": {
             "related": ".xml"
           }
         },
@@ -954,7 +991,7 @@
       "System.IO.Pipelines/9.0.7": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -973,7 +1010,7 @@
           "System.Collections.Immutable": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/_._": {
+          "lib/net7.0/System.Reflection.Metadata.dll": {
             "related": ".xml"
           }
         },
@@ -989,7 +1026,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
@@ -1005,7 +1042,7 @@
       "System.Text.Encodings.Web/9.0.7": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.Text.Encodings.Web.dll": {
             "related": ".xml"
           }
         },
@@ -1031,7 +1068,7 @@
           "System.Text.Encodings.Web": "9.0.7"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
           }
         },
@@ -1123,6 +1160,37 @@
     }
   },
   "libraries": {
+    "Carter/8.2.1": {
+      "sha512": "mNwRjxPyuBxF+U/ccHxWky/wqWn2RJz4hgQE2bAqx0kXCEMS2s7U4ciXCK9E1vDeNNvhEXUDLODN655H3RNrjg==",
+      "type": "package",
+      "path": "carter/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/dotnet/cs/Carter.Analyzers.dll",
+        "carter.8.2.1.nupkg.sha512",
+        "carter.nuspec",
+        "carterlogo.png",
+        "lib/net8.0/Carter.dll",
+        "lib/net8.0/Carter.pdb"
+      ]
+    },
+    "Carter.Analyzers/8.2.1": {
+      "sha512": "l+AWiGhHdCoIkBh76xmw5900u1tco6l4Ex6hPzLjUCz6yg7+etxtE1KKtJQRGZ9K1lHDcDlgRukh87OI8eZ44Q==",
+      "type": "package",
+      "path": "carter.analyzers/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "carter.analyzers.8.2.1.nupkg.sha512",
+        "carter.analyzers.nuspec",
+        "carterlogo.png",
+        "lib/netstandard2.0/Carter.Analyzers.dll",
+        "lib/netstandard2.0/Carter.Analyzers.pdb"
+      ]
+    },
     "FluentValidation/11.11.0": {
       "sha512": "cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
       "type": "package",
@@ -3185,6 +3253,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Carter >= 8.2.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Ordering.Application >= 1.0.0",
       "Ordering.Infrastructure >= 1.0.0"
@@ -3239,6 +3308,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Carter": {
+            "target": "Package",
+            "version": "[8.2.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

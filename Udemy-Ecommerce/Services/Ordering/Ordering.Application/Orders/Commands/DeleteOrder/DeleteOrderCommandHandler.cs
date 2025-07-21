@@ -3,7 +3,7 @@ using Ordering.Application.Data;
 using Ordering.Application.Exception;
 using Ordering.Domain.ValueObjects;
 
-namespace Ordering.Application.Orders.Commands.UpdateOrder;
+namespace Ordering.Application.Orders.Commands.DeleteOrder;
 
 public class DeleteOrderCommandHandler(IApplicationDbContext dbContext) : ICommandHandler<DeleteOrderCommand, DeleteOrderResult>
 {

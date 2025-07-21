@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8PC90U/Csf4=",
+  "dgSpecHash": "QXc2D6VsRyQ=",
   "success": true,
   "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Ordering\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter\\8.2.1\\carter.8.2.1.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\carter.analyzers\\8.2.1\\carter.analyzers.8.2.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
