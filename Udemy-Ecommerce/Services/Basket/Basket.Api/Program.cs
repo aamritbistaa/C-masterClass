@@ -3,6 +3,7 @@ using BuildingBlocks.Exception.Handler;
 using BuildingBlocks.Middleware;
 using Discount.Grpc;
 using Marten;
+using BuildingBlocks.Messaging.MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,8 @@ builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(
 {
     options.Address = new Uri(builder.Configuration["GrpcSettings:DiscountUrl"]);
 });
+//Async Communication service
+builder.Services.AddMessageBroker(builder.Configuration);
 
 //global exception handler
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();

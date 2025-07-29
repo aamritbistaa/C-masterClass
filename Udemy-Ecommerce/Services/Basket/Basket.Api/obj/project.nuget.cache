@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6zCCcHdHWAI=",
+  "dgSpecHash": "0ooKxnQ/oz0=",
   "success": true,
   "projectFilePath": "D:\\Code\\Repo\\C-masterClass\\Udemy-Ecommerce\\Services\\Basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,9 @@
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\marten\\8.0.1\\marten.8.0.1.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\masstransit\\8.5.1\\masstransit.8.5.1.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\masstransit.abstractions\\8.5.1\\masstransit.abstractions.8.5.1.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\masstransit.rabbitmq\\8.5.1\\masstransit.rabbitmq.8.5.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.16\\microsoft.aspnetcore.openapi.8.0.16.nupkg.sha512",
@@ -90,6 +93,7 @@
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\npgsql.nettopologysuite\\9.0.2\\npgsql.nettopologysuite.9.0.2.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\polly.core\\8.5.2\\polly.core.8.5.2.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\scrutor\\6.0.1\\scrutor.6.0.1.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\spectre.console\\0.50.0\\spectre.console.0.50.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
@@ -116,6 +120,7 @@
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.threading.tasks.dataflow\\8.0.0\\system.threading.tasks.dataflow.8.0.0.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\aamritbistaa\\.nuget\\packages\\weasel.core\\8.0.0\\weasel.core.8.0.0.nupkg.sha512",
