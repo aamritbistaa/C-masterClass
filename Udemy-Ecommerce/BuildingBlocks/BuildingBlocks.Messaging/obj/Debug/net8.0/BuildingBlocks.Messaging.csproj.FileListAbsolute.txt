@@ -1,0 +1,13 @@
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net8.0\BuildingBlocks.Messaging.deps.json
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.csproj.AssemblyReference.cache
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.AssemblyInfoInputs.cache
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.AssemblyInfo.cs
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.csproj.CoreCompileInputs.cache
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.sourcelink.json
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\refint\BuildingBlocks.Messaging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\BuildingBlocks.Messaging.pdb
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net8.0\ref\BuildingBlocks.Messaging.dll

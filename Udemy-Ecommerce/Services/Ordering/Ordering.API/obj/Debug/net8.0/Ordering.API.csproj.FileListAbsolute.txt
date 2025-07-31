@@ -146,3 +146,10 @@ D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\De
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Carter.dll
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\Carter.Analyzers.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.API\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb

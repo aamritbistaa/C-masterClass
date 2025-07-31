@@ -16,3 +16,5 @@ D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Applicatio
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Application\obj\Debug\net8.0\refint\Ordering.Application.dll
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Application\obj\Debug\net8.0\Ordering.Application.pdb
 D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Application\obj\Debug\net8.0\ref\Ordering.Application.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlocks.Messaging.dll
+D:\Code\Repo\C-masterClass\Udemy-Ecommerce\Services\Ordering\Ordering.Application\bin\Debug\net8.0\BuildingBlocks.Messaging.pdb
